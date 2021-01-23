@@ -77,6 +77,15 @@ def razer_gold_login(driver, window_handle, credentials, transaction_url):
             time_zero = time.time()
         except:
             pass
+        try:#checking for invalid credentials
+            error_message = driver.find_element_by_id("errorMessageForLogin")
+            assert error_message.is_displayed()
+            assert error_message.text == "Invalid Username/account"
+            print(" -RGL: invalid credentials")
+            return None
+        except:
+            pass
+
 
     print(" -RGL: loggin in failed, restarting razer_gold_login() service")
     driver.execute_script('window.localStorage.clear();')

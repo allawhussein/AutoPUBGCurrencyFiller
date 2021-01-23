@@ -12,7 +12,8 @@ from services import alcaptain_services
 from services import midasbuy_services
 from services import razer_gold_services
 
-print("Mobile PUBG Bot v2.0.7.1")
+print("Mobile PUBG Bot v2.0.8")
+print("v2.0.8:   <RGL, MainCode> switch razer accoutn if credentials are invalid")
 print("v2.0.7.1: <MainCode> added restart feature for QAAEO in case of failure")
 print("v2.0.7:   <MRPI> new razer link parsing method")
 print("v2.0.6:   <GAMP> new logging-in and verification method")
@@ -110,6 +111,11 @@ try:
                             assert False
                     else:
                         print("Main Code: Logging in razer account failed, simply restarting")
+                        print("Main Code: changing account")
+                        if (counter > len(razer_accounts)):
+                            counter = 0
+                        credentials = razer_accounts[counter]
+                        print("Main Code: now using : " + credentials[0])
                 else:
                     print("Main Code: Razer URL is not obtained, simply restarting")
             elif order_name != None:
