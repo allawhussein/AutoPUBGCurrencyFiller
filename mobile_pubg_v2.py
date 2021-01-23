@@ -12,19 +12,20 @@ from services import alcaptain_services
 from services import midasbuy_services
 from services import razer_gold_services
 
-print("Mobile PUBG Bot")
-print("v2.0.7: <MRPI> new razer link parsing method")
-print("v2.0.6: <GAMP> new logging-in and verification method")
-print("      : <GAMP> new wrong password handling")
-print("v2.0.5: <RGPTC> new transaction id collection method")
-print("      : <MBAPMC> MBAPMC_OT is merged into MBAPMC")
-print("v2.0.4: <RGL> new razer login method")
-print("v2.0.3: <MainCode> added archiving ability with double order payment protection")
-print("v2.0.2: <MainCode> added ability to use chrome for better speed or firefox for better debugging and stability")
-print("v2.0.1: <MIDV> new waiting method for input field")
-print("        <MIDV> new ID verification method")
-print("        <MIDV> MIDV_OT is merged into MIDV")
-print("v2.0.0: <MainCode> Initial Refactor and Razer Account Switcher")
+print("Mobile PUBG Bot v2.0.7.1")
+print("v2.0.7.1: <MainCode> added restart feature for QAAEO in case of failure")
+print("v2.0.7:   <MRPI> new razer link parsing method")
+print("v2.0.6:   <GAMP> new logging-in and verification method")
+print("      :   <GAMP> new wrong password handling")
+print("v2.0.5:   <RGPTC> new transaction id collection method")
+print("      :   <MBAPMC> MBAPMC_OT is merged into MBAPMC")
+print("v2.0.4:   <RGL> new razer login method")
+print("v2.0.3:   <MainCode> added archiving ability with double order payment protection")
+print("v2.0.2:   <MainCode> added ability to use chrome for better speed or firefox for better debugging and stability")
+print("v2.0.1:   <MIDV> new waiting method for input field")
+print("          <MIDV> new ID verification method")
+print("          <MIDV> MIDV_OT is merged into MIDV")
+print("v2.0.0:   <MainCode> Initial Refactor and Razer Account Switcher")
 initialize_variables()
 
 if browser == "firefox":
@@ -57,7 +58,10 @@ try:
     while True:
         order_tuple = None
         alcaptain_services.get_alcaptain_main_page(driver, driver.window_handles[0])
-        order_clicked = alcaptain_services.quick_accept_all_eligible_orders(driver, driver.window_handles[0])
+        try:
+            order_clicked = alcaptain_services.quick_accept_all_eligible_orders(driver, driver.window_handles[0])
+        except:
+            pass
         order_tuple = alcaptain_services.select_order(driver, driver.window_handles[0])
         if order_tuple != None:
             country_code = order_tuple[4]
