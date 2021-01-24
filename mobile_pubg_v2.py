@@ -11,8 +11,11 @@ from variables import *
 from services import alcaptain_services
 from services import midasbuy_services
 from services import razer_gold_services
+from services import telegram_services
 
-print("Mobile PUBG Bot v2.0.8")
+print("Mobile PUBG Bot v2.1.1")
+print("v2.1.1:   <MainCode> added a non stopping condition")
+print("V2.1:     <MainCode, TSM> added telegram reporting ability")
 print("v2.0.8:   <RGL, MainCode> switch razer accoutn if credentials are invalid")
 print("v2.0.7.1: <MainCode> added restart feature for QAAEO in case of failure")
 print("v2.0.7:   <MRPI> new razer link parsing method")
@@ -123,9 +126,19 @@ try:
             else:
                 print("Main Code: Replying with Invalid Code")
                 alcaptain_services.failed_order_reply(driver, driver.window_handles[0], "Your PUBG ID: " + str(order_tuple[1]) + " is invalid")
+        elif order_tuple == None:
+            temp_sus_orders_list = alcaptain_services.get_list_of_active_archived_orders(driver, driver.current_window_handle)
+            for order in temp_sus_orders_list:
+                if order not in sus_orders_list:
+                    sus_orders_list.append(order)
+                    print(" -MainCode: sending sus order to telegram group")
+                    telegram_services.send_msg("AlCaptain ID:%20" + order[0].split("#")[1] + "%0D%0Ahis PUBG ID:+" + order[1] + "%0D%0Ais active and archived")
+                    telegram_services.send_msg_dev("AlCaptain ID:%20" + order[0].split("#")[1] + "%0D%0Ahis PUBG ID:+" + order[1] + "%0D%0Ais active and archived")
 except Exception as error_message:
     print("ERROR MESSAGE")
     print(error_message)
+    telegram_services.send_msg_dev(error_message)
+    telegram_services.send_msg(error_message)
 finally:
     x = input("bot is over, enter anything to exit")
     driver.quit()

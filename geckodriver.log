@@ -1,205 +1,152 @@
-1611425083439	geckodriver	INFO	Listening on 127.0.0.1:56595
-1611425086484	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileZ7kXE7"
+1611499674520	geckodriver	INFO	Listening on 127.0.0.1:62015
+1611499677580	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilepdF6J7"
 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
 Can't find symbol 'eglSetDamageRegionKHR'.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1611425092186	Marionette	INFO	Listening on port 56603
-1611425092238	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611499681971	Marionette	INFO	Listening on port 62026
+1611499682319	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default1611425298295	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1611425413358	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1611425432160	Marionette	INFO	Stopped listening on port 56647
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1611500415907	Marionette	INFO	Stopped listening on port 62026
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
- https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
+file exists, new profile?" (new Error("", "(unknown module)"))
+1611499692747	Marionette	INFO	Listening on port 62071
+1611499692907	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611500806257	Marionette	INFO	Stopped listening on port 62071
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileJW6gjS"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611500015390	Marionette	INFO	Listening on port 62509
+1611500015444	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
+console.warn: services.settings: blocklists/addons-bloomfilters sync interrupted by shutdown
+console.warn: services.settings: main/normandy-recipes-capabilities sync interrupted by shutdown
+console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+console.warn: services.settings: main/fxmonitor-breaches sync interrupted by shutdown
+console.warn: services.settings: main/top-sites sync interrupted by shutdown
+console.warn: services.settings: main/cfr sync interrupted by shutdown
+console.warn: services.settings: main/search-config sync in1611500413641	Marionette	INFO	Stopped listening on port 62549
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+upted by shutdown
+console.warn: services.settings: main/pioneer-study-addons-v1 sync interrupted by shutdown
+console.warn: services.settings: main/url-classifier-skip-urls sync interrupted by shutdown
+console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
+console.warn: services.settings: main/hijack-blocklists sync interrupted by shutdown
+console.warn: services.settings: main/tippytop sync interrupted by shutdown
+console.warn: services.settings: blocklists/plugins sync interrupted by shutdown
+console.warn: services.settings: main/search-telemetry sync interrupted by shutdown
+console.warn: services.settings: main/password-recipes sync interrupted by shutdown
+console.warn: services.settings: main/message-groups sync interrupted by shutdown
+console.warn: services.settings: main/search-default-override-allowlist sync interrupted by shutdown
+console.waJavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/defaultJavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1611500804463	Marionette	INFO	Stopped listening on port 63060
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ypeError: e is undefined
+JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
 JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
 JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
 JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
 JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
 JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
 JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
+1611500796677	Marionette	INFO	Stopped listening on port 63012
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611500804285	geckodriver	INFO	Listening on 127.0.0.1:63316
+1611500807445	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilep11dp6"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611500815635	Marionette	INFO	Listening on port 63327
+1611500815806	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
+1611501953262	Marionette	INFO	Stopped listening on port 63327
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+e.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611500825660	Marionette	INFO	Listening on port 63370
+1611500825862	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611501953212	Marionette	INFO	Stopped listening on port 63370
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileBBsOQj"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611501636419	Marionette	INFO	Listening on port 63769
+1611501636784	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
 Can't find symbol 'eglSetDamageRegionKHR'.
-JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
-JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
-JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
-JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
-JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
 JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
 JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
 JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript err1611428315738	Marionette	INFO	Stopped listening on port 56979
+[Parent 17540, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1611501948210	Marionette	INFO	Stopped listening on port 63769
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
- https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
-[Parent 2440, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
-1611428310514	Marionette	INFO	Stopped listening on port 56603
+command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileVhddvU"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611501749431	Marionette	INFO	Listening on port 64032
+1611501749672	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611501777341	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1611501826115	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1611501948245	Marionette	INFO	Stopped listening on port 64032
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1611502788396	geckodriver	INFO	Listening on 127.0.0.1:64500
+1611502791478	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileo8UGQg"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611502801487	Marionette	INFO	Listening on port 64510
+1611502801949	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Ad1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC5, line 6: TypeError: e is undefined
+thDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611502921902	Marionette	INFO	Listening on port 64779
+1611502922374	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611502977826	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.

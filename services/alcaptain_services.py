@@ -304,6 +304,54 @@ def failed_order_reply(driver, window_handle, reply_message):
         reject_button = driver.find_element_by_xpath('//*[@id="btnreject"]')
         driver.execute_script("arguments[0].click();", reject_button)
 
+def get_list_of_active_archived_orders(driver, window_handle, order_phrase_list = target_order_list):
+    print(" -GLOAAO: get_list_of_active_archived_orders() service is initiated")
+    print(" -GLOAAO: opening dashboard window")
+    open_dashboard_window(driver, driver.current_window_handle)
+
+    print(" -GLOAAO: switching to iframe")
+    driver.switch_to.frame(driver.find_element_by_tag_name("iframe"))
+
+    print(" -GLOAAO: clicking server_orders->accepted_orders button")
+    accepted_server_order_xpath = "/html/body/div[4]/div[2]/div[2]/div/div/table/tbody/tr/td[3]/div/div[3]/a/h3"
+    orders_button = driver.find_element_by_xpath(accepted_server_order_xpath)
+    orders_button.click()
+    
+    driver.switch_to.default_content()
+
+    print(" -GLOAAO: switching to iframe")
+    driver.switch_to.frame(driver.find_element_by_tag_name("iframe"))
+
+    print(" -GLOAAO: waiting for table head to appear")
+    table_head_xpath = "/html/body/div[4]/div/div[2]/div/form[2]/div[1]/table/thead"
+    webdriver.support.ui.WebDriverWait(driver, time_of_waiting).until(EC.presence_of_element_located((By.XPATH, table_head_xpath)))
+
+    print(" -GLOAAO: starting to collect table rows")
+    list_of_orders = driver.find_elements_by_tag_name("tr")
+    list_of_orders.pop(0)
+    list_of_archived_orders = []
+
+    print(" -GLOAAO: " + str(len(list_of_orders)) + " orders are found")
+    print(" -GLOAAO: searching for archived PUBG Mobile Orders, country codes: ", end="")
+    print(country_code_list, sep = ", ")
+    if len(list_of_orders) > 0:
+        counter = 0
+        print(" -GLOAAO: clearing non " + ", ".join(country_code_list) + " RAZER GOLD orders")
+        for order in list_of_orders:
+            for order_phrase in order_phrase_list:
+                if order_phrase in order.find_elements_by_tag_name("td")[1].text:
+                    row_id = order.find_element_by_tag_name("td").text
+                    row_pubg_id = int(order.find_elements_by_tag_name("td")[4].text.split(">")[1])
+                    if (row_id, str(row_pubg_id)) in archive():
+                        list_of_archived_orders.append((row_id, str(row_pubg_id)))
+                        break
+    if len(list_of_archived_orders):
+        print(" -GLOAAO: " + str(len(list_of_archived_orders)) + " archived PUBG Mobile orders are found, sending new stall order to through telegram")
+    else:
+        print(" -GLOAAO: no duplicate archived orders are found")
+
+    return list_of_archived_orders
+
 if __name__ == "__main__":
     driver = webdriver.Firefox()
     get_alcaptain_main_page(driver, driver.window_handles[0])

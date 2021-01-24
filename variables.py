@@ -3,6 +3,8 @@ import os.path
 
 alcaptain_login_username = "Pubg_Auto_API"
 alcaptain_login_password = "112233jj"
+alcaptain_login_username = "hussein"
+alcaptain_login_password = "bakora12"
 alcaptain_prompt_username = "jamal"
 alcaptain_prompt_password = "Ad1212@"
 
@@ -29,6 +31,8 @@ browser = "firefox"
 account_pointer = 0
 
 verification_trails = 2
+
+sus_orders_list = []
 
 totp = pyotp.TOTP(razer_tfa)#we can get the one time code using int(totp.now())
 
