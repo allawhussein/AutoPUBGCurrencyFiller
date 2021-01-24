@@ -58,91 +58,85 @@ elif browser == "chrome":
 credentials = razer_accounts[0]
 counter = 0
 print("MainCode: using razer account: " + credentials[0])
-try:
-    while True:
-        order_tuple = None
-        alcaptain_services.get_alcaptain_main_page(driver, driver.window_handles[0])
-        try:
-            order_clicked = alcaptain_services.quick_accept_all_eligible_orders(driver, driver.window_handles[0])
-        except:
-            pass
-        order_tuple = alcaptain_services.select_order(driver, driver.window_handles[0])
-        if order_tuple != None:
-            country_code = order_tuple[4]
-            order_name = midasbuy_services.midas_id_verifier(driver, driver.window_handles[1], order_tuple[1], 2, country_code)
-            if order_name != "fail":
-                output = midasbuy_services.midas_bundle_and_payment_method_chooser(driver, driver.window_handles[1], order_tuple[2], order_tuple[3], "Razer Gold", country_code)
-                if output == None:
-                    print("Main Code: ")
-                    raise Exception
-                razer_url = midasbuy_services.midas_razer_payment_initializer(driver, driver.window_handles[1], country_code)
-                print("Main Code: razer url:" + str(razer_url))
-                if razer_url != None:
-                    login_success = razer_gold_services.razer_gold_login(razer_driver, razer_driver.window_handles[0], credentials, razer_url)
-                    if login_success != None:
-                        balance = razer_gold_services.razer_gold_check_balance(razer_driver, driver.window_handles[0], 1)
-                        if balance == "G":
-                            print("Main Code: archiving order")
-                            archive((str(order_tuple[0]), str(order_tuple[1])))
-                            transaction_id = razer_gold_services.razer_gold_proceed_to_check_out(razer_driver, razer_driver.window_handles[0], credentials)
-                            #transaction_id = "R"
-                            if transaction_id == None:
-                                print("Main Code: transaction id is not obtained, enter any thing to continue the bot")
-                                x = input()
-                                continue
-                            elif transaction_id == "R":
-                                print("Main Code: Simply Restarting")
-                            elif transaction_id == "S":
-                                print("Main Code: Bot will be Stoped")
-                                raise Exception
+while True:
+    try:
+        while True:
+            order_tuple = None
+            alcaptain_services.get_alcaptain_main_page(driver, driver.window_handles[0])
+            try:
+                order_clicked = alcaptain_services.quick_accept_all_eligible_orders(driver, driver.window_handles[0])
+            except:
+                pass
+            order_tuple = alcaptain_services.select_order(driver, driver.window_handles[0])
+            if order_tuple != None:
+                country_code = order_tuple[4]
+                order_name = midasbuy_services.midas_id_verifier(driver, driver.window_handles[1], order_tuple[1], 2, country_code)
+                if order_name != "fail":
+                    output = midasbuy_services.midas_bundle_and_payment_method_chooser(driver, driver.window_handles[1], order_tuple[2], order_tuple[3], "Razer Gold", country_code)
+                    if output == None:
+                        print("Main Code: ")
+                        raise Exception
+                    razer_url = midasbuy_services.midas_razer_payment_initializer(driver, driver.window_handles[1], country_code)
+                    print("Main Code: razer url:" + str(razer_url))
+                    if razer_url != None:
+                        login_success = razer_gold_services.razer_gold_login(razer_driver, razer_driver.window_handles[0], credentials, razer_url)
+                        if login_success != None:
+                            balance = razer_gold_services.razer_gold_check_balance(razer_driver, driver.window_handles[0], 1)
+                            if balance == "G":
+                                print("Main Code: archiving order")
+                                archive((str(order_tuple[0]), str(order_tuple[1])))
+                                transaction_id = razer_gold_services.razer_gold_proceed_to_check_out(razer_driver, razer_driver.window_handles[0], credentials)
+                                #transaction_id = "R"
+                                if transaction_id == None:
+                                    print("Main Code: transaction id is not obtained, enter any thing to continue the bot")
+                                    x = input()
+                                    continue
+                                elif transaction_id == "R":
+                                    print("Main Code: Simply Restarting")
+                                elif transaction_id == "S":
+                                    print("Main Code: Bot will be Stoped")
+                                    raise Exception
+                                else:
+                                    reply_message = "The PUBG ID: " + str(order_tuple[1]) + "\nof Name: " + order_name + "\nhas recharged: " + str(order_tuple[2]) + " UC\nThe Transaction ID: " + transaction_id
+                                    alcaptain_services.successful_order_reply(driver, driver.window_handles[0], reply_message)
+                            elif balance == "C":
+                                counter += 1
+                                print("Main Code: changing account")
+                                if (counter > len(razer_accounts)):
+                                    counter = 0
+                                credentials = razer_accounts[counter]
+                                print("Main Code: now using : " + credentials[0])
+                                razer_driver = razer_gold_services.razer_gold_sign_out(razer_driver, razer_driver.window_handles[0])
+                                print("insufficient funds, signing out, and restarting process")
+                            elif balance == "R":
+                                pass
                             else:
-                                reply_message = "The PUBG ID: " + str(order_tuple[1]) + "\nof Name: " + order_name + "\nhas recharged: " + str(order_tuple[2]) + " UC\nThe Transaction ID: " + transaction_id
-                                alcaptain_services.successful_order_reply(driver, driver.window_handles[0], reply_message)
-                        elif balance == "C":
-                            counter += 1
+                                print("Main Code: Unkown Choice Inputed in RGS.RGCB service")
+                                assert False
+                        else:
+                            print("Main Code: Logging in razer account failed, simply restarting")
                             print("Main Code: changing account")
                             if (counter > len(razer_accounts)):
                                 counter = 0
                             credentials = razer_accounts[counter]
                             print("Main Code: now using : " + credentials[0])
-                            razer_driver = razer_gold_services.razer_gold_sign_out(razer_driver, razer_driver.window_handles[0])
-                            print("insufficient funds, signing out, and restarting process")
-                        elif balance == "R":
-                            pass
-                        else:
-                            print("Main Code: Unkown Choice Inputed in RGS.RGCB service")
-                            assert False
                     else:
-                        print("Main Code: Logging in razer account failed, simply restarting")
-                        print("Main Code: changing account")
-                        if (counter > len(razer_accounts)):
-                            counter = 0
-                        credentials = razer_accounts[counter]
-                        print("Main Code: now using : " + credentials[0])
+                        print("Main Code: Razer URL is not obtained, simply restarting")
+                elif order_name != None:
+                    print("MainCode: some error with Midasbuy, skipping")
                 else:
-                    print("Main Code: Razer URL is not obtained, simply restarting")
-            elif order_name != None:
-                print("MainCode: some error with Midasbuy, skipping")
-            else:
-                print("Main Code: Replying with Invalid Code")
-                alcaptain_services.failed_order_reply(driver, driver.window_handles[0], "Your PUBG ID: " + str(order_tuple[1]) + " is invalid")
-        elif order_tuple == None:
-            temp_sus_orders_list = alcaptain_services.get_list_of_active_archived_orders(driver, driver.current_window_handle)
-            for order in temp_sus_orders_list:
-                if order not in sus_orders_list:
-                    sus_orders_list.append(order)
-                    print(" -MainCode: sending sus order to telegram group")
-                    telegram_services.send_msg("AlCaptain ID:%20" + order[0].split("#")[1] + "%0D%0Ahis PUBG ID:+" + order[1] + "%0D%0Ais active and archived")
-                    telegram_services.send_msg_dev("AlCaptain ID:%20" + order[0].split("#")[1] + "%0D%0Ahis PUBG ID:+" + order[1] + "%0D%0Ais active and archived")
-except Exception as error_message:
-    print("ERROR MESSAGE")
-    print(error_message)
-    telegram_services.send_msg_dev(error_message)
-    telegram_services.send_msg(error_message)
-finally:
-    x = input("bot is over, enter anything to exit")
-    driver.quit()
-    razer_driver.quit()
-    time.sleep(1)
-    if os.path.exists("geckodriver.log"):
-        os.remove("geckodriver.log") 
+                    print("Main Code: Replying with Invalid Code")
+                    alcaptain_services.failed_order_reply(driver, driver.window_handles[0], "Your PUBG ID: " + str(order_tuple[1]) + " is invalid")
+            elif order_tuple == None:
+                temp_sus_orders_list = alcaptain_services.get_list_of_active_archived_orders(driver, driver.current_window_handle)
+                for order in temp_sus_orders_list:
+                    if order not in sus_orders_list:
+                        sus_orders_list.append(order)
+                        print(" -MainCode: sending sus order to telegram group")
+                        telegram_services.send_msg("AlCaptain ID:%20" + order[0].split("#")[1] + "%0D%0Ahis PUBG ID:+" + order[1] + "%0D%0Ais active and archived")
+                        telegram_services.send_msg_dev("AlCaptain ID:%20" + order[0].split("#")[1] + "%0D%0Ahis PUBG ID:+" + order[1] + "%0D%0Ais active and archived")
+    except Exception as error_message:
+        print("sending error message to Hussein Allaw")
+        print(error_message)
+        telegram_services.send_msg_dev(error_message)
+        telegram_services.send_msg(error_message)
