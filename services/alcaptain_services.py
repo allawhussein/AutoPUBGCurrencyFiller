@@ -80,15 +80,8 @@ def quick_accept_all_eligible_orders(driver, window_handle, order_phrase_list = 
     print(" -QAAEO: searching for iframe")
     driver.switch_to.frame(driver.find_element_by_tag_name("iframe"))
     print(" -QAAEO: switching to iframe")
-    
-    """print(" -QAAEO: waiting for server order->accepted button to appear")
-    accepted_server_order_xpath = "/html/body/div[4]/div[2]/div[2]/div/div/table/tbody/tr/td[3]/div/div[3]/a/h3"
-    webdriver.support.ui.WebDriverWait(driver, time_of_waiting).until(EC.presence_of_element_located((By.XPATH, accepted_server_order_xpath)))
-    print(" -QAAEO: clicking server order->accepted button")
-    driver.find_element_by_xpath(accepted_server_order_xpath).click()"""#this was the old method
-
-    print(" -QAAEO: searching for table of buttons")
-    webdriver.support.ui.WebDriverWait(driver, time_of_waiting).until(EC.element_to_be_clickable((By.TAG_NAME, "table")))
+    while driver.execute_script("return document.readyState;") != "complete":
+        pass
     table = driver.find_element_by_tag_name("table")
     print(" -QAAEO: searching for table rows and choosing the third one")
     third_row = table.find_elements_by_tag_name("td")[2]
