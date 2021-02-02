@@ -72,7 +72,8 @@ def get_alcaptain_main_page(driver, window_handle, force_refresh = 0):#this func
     return get_alcaptain_main_page(driver, window_handle)
 
 def quick_accept_all_eligible_orders(driver, window_handle, order_phrase_list = target_order_list):
-    print(" -QAAEO: service quick_accept_all_eligible_orders() is initiated")
+    print(" -QAAEO: service quick_accept_all_eligible_orders() v1.0 is initiated, change log avilable in code")
+    #added version number to aviod confusion with constant updates
     driver.switch_to.window(window_handle)
 
     print(" -QAAEO: opening alcatain dashboard page")

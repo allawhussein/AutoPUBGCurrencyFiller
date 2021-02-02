@@ -7,7 +7,7 @@ from selenium.common.exceptions import TimeoutException
 import os
 import time
 
-from variables import *
+from services.variables import *
 from services import alcaptain_services
 from services import midasbuy_services
 from services import razer_gold_services
@@ -15,6 +15,7 @@ from services import telegram_services
 
 print("Mobile PUBG Bot v2.1.1.1")
 print("v2.1.1.1: <QAAEO> minor feature for waiting for server order button in alcaptain website")
+print("v2.1.1.1: <TGS> added imoji for telegram messages")
 print("          <MainCode> removed bugs notification on group")
 print("v2.1.1:   <MainCode> added a non stopping condition")
 print("V2.1:     <MainCode, TSM> added telegram reporting ability")
@@ -72,7 +73,7 @@ while True:
         if order_tuple != None:
             country_code = order_tuple[4]
             order_name = midasbuy_services.midas_id_verifier(driver, driver.window_handles[1], order_tuple[1], 2, country_code)
-            if order_name != "fail":
+            if order_name != None:
                 output = midasbuy_services.midas_bundle_and_payment_method_chooser(driver, driver.window_handles[1], order_tuple[2], order_tuple[3], "Razer Gold", country_code)
                 if output == None:
                     print("Main Code: ")
@@ -134,8 +135,11 @@ while True:
                 if order not in sus_orders_list:
                     sus_orders_list.append(order)
                     print(" -MainCode: sending sus order to telegram group")
-                    telegram_services.send_msg("AlCaptain ID:%20" + order[0].split("#")[1] + "%0D%0Ahis PUBG ID:+" + order[1] + "%0D%0Ais active and archived")
+                    telegram_services.send_msg("AlCaptain ID:%20" + order[0].split("#")[1] + "%0D%0Ahis PUBG ID:+" + order[1] + "%0D%0Ais sus, error ❌")
     except Exception as error_message:
-        print("sending error message to Hussein Allaw")
+        print("MainCode: sending error message to Hussein Allaw")
         print(error_message)
         telegram_services.send_msg_dev(repr(error_message))
+    except KeyboardInterrupt:
+        print("MainCode: program ended by user")
+        break
