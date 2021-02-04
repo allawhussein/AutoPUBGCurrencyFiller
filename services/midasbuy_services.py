@@ -57,9 +57,11 @@ def refresh_xpath_midas_razer_payment_initializer(country_code):
         submit_pay_now_button_xpath = "/html/body/div[1]/div[3]/div[3]/div[3]/div[3]/div/div[2]" 
         pay_button_class = "pay-btn"
         check_box_class = "checkbox"
-        date_of_birth_window_id = "confirmBirthdayTxt"
-        random_date_xpath = "/html/div/div[3]/ul/li[4]/span"
-        date_of_birth_confirmation = "confirmBirthdayBtn"
+        check_box_class_2 = "check-box"
+        date_of_birth_window_id = "birthdayLine"
+        random_date_xpath = "/html/body/div[1]/div[3]/div[16]/div/div[3]/div/div[3]/div[3]/ul/li[14]"
+        date_of_birth_confirmation = "btn-wrap"
+        continue_button_class = "btn"
     elif country_code == "ot":
         pay_now_button_xpath = "/html/body/div[1]/div[3]/div[3]/div[3]/div[3]/div/div[2]"
         check_boxes_title_xpath = "/html/body/div[1]/div[3]/div[3]/div[3]/div[1]/div/p"
@@ -70,9 +72,11 @@ def refresh_xpath_midas_razer_payment_initializer(country_code):
         submit_pay_now_button_xpath = "/html/body/div[1]/div[3]/div[3]/div[3]/div[3]/div/div[2]"
         pay_button_class = "pay-btn"
         check_box_class = "checkbox"
-        date_of_birth_window_id = "confirmBirthdayTxt"
-        random_date_xpath = "/html/div/div[3]/ul/li[4]/span"
-        date_of_birth_confirmation = "confirmBirthdayBtn"
+        check_box_class_2 = "check-box"
+        date_of_birth_window_id = "birthdayLine"
+        random_date_xpath = "/html/body/div[1]/div[3]/div[16]/div/div[3]/div/div[3]/div[3]/ul/li[14]"
+        date_of_birth_confirmation = "btn-wrap"
+        continue_button_class = "btn"
     else:
         print(" -RX-MRPI: country code is not recognized")
         return None
@@ -87,7 +91,9 @@ def refresh_xpath_midas_razer_payment_initializer(country_code):
             check_box_class,
             date_of_birth_window_id,
             random_date_xpath,
-            date_of_birth_confirmation]
+            date_of_birth_confirmation,
+            check_box_class_2,
+            continue_button_class]
 
 def midas_id_verifier(driver, window_handle, order_pubg_id, max_verification_trails, country_code):#function will return None if ID is rejected
     print(" -MIDV: midas_id_verifier() service is initiated for country: " + country_code)
@@ -126,7 +132,7 @@ def midas_id_verifier(driver, window_handle, order_pubg_id, max_verification_tra
     time_zero = time.time()
     print(" -MIDV: waiting for input field to appear")
     while not input_field_visible:
-        try:
+        try:#check for input filed
             driver.find_element_by_xpath(input_field_xpath)
         except:
             try:               
@@ -192,7 +198,7 @@ def midas_id_verifier(driver, window_handle, order_pubg_id, max_verification_tra
                     return "fail"
         else:
             pass
-
+        
         current_time = time.time()
         if current_time - time_zero > time_of_waiting:
             print(" -MIDV: Unkown Error, Send Photo to Hussein")
@@ -281,6 +287,8 @@ def midas_razer_payment_initializer(driver, window_handle, country_code):
     date_of_birth_window_id = variable[9]
     random_date_xpath = variable[10]
     date_of_birth_confirmation = variable [11]
+    check_box_class_2 = variable[12]
+    continue_button_class = variable[13]
     driver.switch_to.window(window_handle)
 
     initial_number_of_windows = len(driver.window_handles)
@@ -330,6 +338,13 @@ def midas_razer_payment_initializer(driver, window_handle, country_code):
             print(" -MRPI: clicking pay now")
             submit_pay_now_button = driver.find_element_by_xpath(submit_pay_now_button_xpath)
             submit_pay_now_button.click()
+        try:#clicking new checkbox
+            driver.find_element_by_class_name(check_box_class_2).click()
+            print(" -MRPI: clicked checkbox")
+            driver.find_element_by_class_name(check_box_class_2).find_element_by_xpath("..").find_element_by_class_name(continue_button_class).click()
+            print(" -MRPI: clicking continue button")
+        except:
+            pass
         try:#submitting date
             assert driver.find_element_by_id(date_of_birth_window_id).is_displayed()
             driver.find_element_by_id(date_of_birth_window_id).click()
@@ -337,7 +352,7 @@ def midas_razer_payment_initializer(driver, window_handle, country_code):
             driver.find_element_by_xpath(random_date_xpath).click()
             while not len(driver.find_element_by_id(date_of_birth_window_id).text):
                 pass
-            driver.find_element_by_id(date_of_birth_confirmation).find_element_by_tag_name("div").click()
+            driver.find_element_by_class_name(date_of_birth_confirmation).find_element_by_tag_name("div").click()
             print(" -MRPI: date is submitted")
         except:
             pass

@@ -309,3 +309,6 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1612267429834	Marionette	WARN	TLS certificate errors will be ignored for this session
 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
 Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+[Parent 20956, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1612362754428	Marionette	INFO	Stopped listening on port 60575
