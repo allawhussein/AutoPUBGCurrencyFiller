@@ -60,8 +60,9 @@ def refresh_xpath_midas_razer_payment_initializer(country_code):
         check_box_class_2 = "check-box"
         date_of_birth_window_id = "birthdayLine"
         random_date_xpath = "/html/body/div[1]/div[3]/div[16]/div/div[3]/div/div[3]/div[3]/ul/li[14]"
-        date_of_birth_confirmation = "btn-wrap"
+        date_of_birth_confirmation = "btn"
         continue_button_class = "btn"
+        birthday_popup_id = "birthday-pop"
     elif country_code == "ot":
         pay_now_button_xpath = "/html/body/div[1]/div[3]/div[3]/div[3]/div[3]/div/div[2]"
         check_boxes_title_xpath = "/html/body/div[1]/div[3]/div[3]/div[3]/div[1]/div/p"
@@ -75,8 +76,9 @@ def refresh_xpath_midas_razer_payment_initializer(country_code):
         check_box_class_2 = "check-box"
         date_of_birth_window_id = "birthdayLine"
         random_date_xpath = "/html/body/div[1]/div[3]/div[16]/div/div[3]/div/div[3]/div[3]/ul/li[14]"
-        date_of_birth_confirmation = "btn-wrap"
+        date_of_birth_confirmation = "btn"
         continue_button_class = "btn"
+        birthday_popup_id = "birthday-pop"
     else:
         print(" -RX-MRPI: country code is not recognized")
         return None
@@ -93,7 +95,8 @@ def refresh_xpath_midas_razer_payment_initializer(country_code):
             random_date_xpath,
             date_of_birth_confirmation,
             check_box_class_2,
-            continue_button_class]
+            continue_button_class,
+            birthday_popup_id]
 
 def midas_id_verifier(driver, window_handle, order_pubg_id, max_verification_trails, country_code):#function will return None if ID is rejected
     print(" -MIDV: midas_id_verifier() service is initiated for country: " + country_code)
@@ -255,12 +258,12 @@ def midas_bundle_and_payment_method_chooser(driver, window_handle, required_uc, 
                 bundle_card_total_uc_list.append(int(x))
             if bundle_card_total_uc == required_uc + offer_uc:
                 print(" -MBAPMC: total uc order match")
-                bundle.click()
+                driver.execute_script("arguments[0].click();", bundle)
                 bundle_choosen = 1
                 break
             elif bundle_card_total_uc_list[0] == required_uc:
                 print(" -MBAPMC: one time offer is not found, choosing base bundle")
-                bundle.click()
+                driver.execute_script("arguments[0].click();", bundle)
                 bundle_choosen = 1
                 break
 
@@ -289,6 +292,7 @@ def midas_razer_payment_initializer(driver, window_handle, country_code):
     date_of_birth_confirmation = variable [11]
     check_box_class_2 = variable[12]
     continue_button_class = variable[13]
+    birthday_popup_id = variable[14]
     driver.switch_to.window(window_handle)
 
     initial_number_of_windows = len(driver.window_handles)
@@ -347,16 +351,18 @@ def midas_razer_payment_initializer(driver, window_handle, country_code):
             pass
         try:#submitting date
             assert driver.find_element_by_id(date_of_birth_window_id).is_displayed()
+            print(" -MRPI: choosing date of birth")
             driver.find_element_by_id(date_of_birth_window_id).click()
             WebDriverWait(driver, time_of_waiting).until(EC.element_to_be_clickable((By.XPATH, random_date_xpath)))
             driver.find_element_by_xpath(random_date_xpath).click()
+            print(" -MRPI: random date is selected")
             while not len(driver.find_element_by_id(date_of_birth_window_id).text):
                 pass
-            driver.find_element_by_class_name(date_of_birth_confirmation).find_element_by_tag_name("div").click()
+            driver.find_element_by_id(birthday_popup_id).find_element_by_class_name(date_of_birth_confirmation).click()
             print(" -MRPI: date is submitted")
         except:
             pass
-        if time.time() - time_zero > 5:
+        if time.time() - time_zero > time_of_waiting:
             print("Razer Window didn't open in time")
             return None
     
@@ -394,6 +400,6 @@ if __name__ == "__main__":
     driver = webdriver.Firefox()
     country_code = "ot"
 
-    if midas_id_verifier(driver, driver.window_handles[0], 5474774295, 1, "my"):
-        print(midas_bundle_and_payment_method_chooser(driver, driver.window_handles[0], 65, 0,"Razer Gold", "my"))
-        print(midas_razer_payment_initializer(driver, driver.window_handles[0], "my"))
+    if midas_id_verifier(driver, driver.window_handles[0], 5474774295, 1, "ot"):
+        print(midas_bundle_and_payment_method_chooser(driver, driver.window_handles[0], 600, 0,"Razer Gold", "ot"))
+        print(midas_razer_payment_initializer(driver, driver.window_handles[0], "ot"))

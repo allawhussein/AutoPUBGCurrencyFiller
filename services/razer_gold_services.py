@@ -4,7 +4,7 @@ from selenium.webdriver.support import expected_conditions as EC #this is used t
 from selenium.webdriver.common.by import By #this used for element finding method
 from selenium.webdriver.common.keys import Keys #this is used to simiulate keyboard keys
 from selenium.common.exceptions import TimeoutException
-from variables import *
+from services.variables import *
 import time
 
 def razer_gold_login(driver, window_handle, credentials, transaction_url):

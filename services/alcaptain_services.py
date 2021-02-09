@@ -3,7 +3,7 @@ from selenium.webdriver import ActionChains #this used to open some hover menus
 from selenium.webdriver.support import expected_conditions as EC #this is used to prevent the driver form clicking unloaded elements
 from selenium.webdriver.common.by import By #this used for element finding method
 from selenium.webdriver.common.keys import Keys #this is used to simiulate keyboard keys
-from variables import *
+from services.variables import *
 import time
 
 def open_dashboard_window(driver, window_handle):
