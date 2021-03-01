@@ -21,13 +21,13 @@ def refresh_xpath_midas_id_verifier(country_code):
         payment_completed_button_2_xpath = '//*[@id="backBtn"]'
         return [input_field_xpath, payment_completed_button_xpath, payment_completed_ok_button_xpath, edit_button_class, submit_button_xpath, pubg_name_holder, rejection_div_xpath, payment_completed_button_2_xpath]
     elif country_code == "ot":
-        input_field_xpath = "/html/body/div[1]/div[3]/div[3]/div[1]/div[2]/div/div/div/div[1]/input"
+        input_field_xpath = "/html/body/div[1]/div[3]/div[3]/div[1]/div[1]/div/div/div/div[1]/input"
         payment_completed_button_xpath = "/html/body/div[1]/div[3]/div[13]/div[1]/div[2]/div[2]"
         payment_completed_ok_button_xpath = "/html/body/div[1]/div[3]/div[13]/div[2]/div[3]/div"
         edit_button_class = "edit-btn"
-        submit_button_xpath = "/html/body/div[1]/div[3]/div[3]/div[1]/div[2]/div/div/div/div[2]"
-        pubg_name_holder = "/html/body/div[1]/div[3]/div[3]/div[1]/div[2]/div/div/div/div[2]/div[2]"
-        rejection_div_xpath = "/html/body/div[1]/div[3]/div[3]/div[1]/div[2]/div/div/div/div[1]/i"
+        submit_button_xpath = "/html/body/div[1]/div[3]/div[3]/div[1]/div[1]/div/div/div/div[2]"
+        pubg_name_holder = "/html/body/div[1]/div[3]/div[3]/div[1]/div[1]/div/div/div/div[2]/div[2]"
+        rejection_div_xpath = "/html/body/div[1]/div[3]/div[3]/div[1]/div[1]/div/div/div/div[1]/i"
         payment_completed_button_2_xpath = '//*[@id="backBtn"]'
         return [input_field_xpath, payment_completed_button_xpath, payment_completed_ok_button_xpath, edit_button_class, submit_button_xpath, pubg_name_holder, rejection_div_xpath, payment_completed_button_2_xpath]
     else:
@@ -40,8 +40,8 @@ def refersh_xpath_midas_bundle_and_payment_method_chooser(country_code):
         bundle_list_xpath = "/html/body/div[1]/div[3]/div[3]/div[1]/div[4]/ul"
         return [payment_options_list_xpath, bundle_list_xpath]
     elif country_code == "ot":
-        payment_options_list_xpath = "/html/body/div[1]/div[3]/div[3]/div[1]/div[3]/div[2]/ul"
-        bundle_list_xpath = "/html/body/div[1]/div[3]/div[3]/div[1]/div[4]/ul"
+        payment_options_list_xpath = "/html/body/div[1]/div[3]/div[3]/div[1]/div[2]/div[2]/ul"
+        bundle_list_xpath = "/html/body/div[1]/div[3]/div[3]/div[1]/div[3]/ul"
         return [payment_options_list_xpath, bundle_list_xpath]
     else:
         print(" -RX-MBAPMC: country code is not recognized")
@@ -167,9 +167,8 @@ def midas_id_verifier(driver, window_handle, order_pubg_id, max_verification_tra
         current_time = time.time()
         if current_time - time_zero > time_of_waiting:
             print(" -MIDV: the input field is not showing up, MIDV is over")
-            return None
+            return -1
 
-    
     print(" -MIDV: entering the player PUBG ID")
     driver.find_element_by_xpath(input_field_xpath).send_keys(Keys.CONTROL + "a")
     driver.find_element_by_xpath(input_field_xpath).send_keys(Keys.DELETE)
@@ -185,8 +184,7 @@ def midas_id_verifier(driver, window_handle, order_pubg_id, max_verification_tra
     while True:
         try:
             return driver.find_element_by_xpath(pubg_name_holder).text
-        except:
-            
+        except:    
             try:
                 driver.find_element_by_xpath(rejection_div_xpath).click()
             except:
@@ -198,7 +196,7 @@ def midas_id_verifier(driver, window_handle, order_pubg_id, max_verification_tra
                     return midas_id_verifier(driver, window_handle, order_pubg_id, max_verification_trails - 1, country_code)
                 else:
                     print(" -MIDV: ID is rejected, number of trails are exhausted midasbuy_id_verification() service is over")
-                    return "fail"
+                    return 0
         else:
             pass
         

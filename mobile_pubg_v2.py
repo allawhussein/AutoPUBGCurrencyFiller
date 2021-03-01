@@ -13,7 +13,8 @@ from services import midasbuy_services
 from services import razer_gold_services
 from services import telegram_services
 
-print("Mobile PUBG Bot v2.1.1.4")
+print("Mobile PUBG Bot v2.1.1.5")
+print("v2.1.1.5: <midasuby_services> updated buttons")
 print("v2.1.1.4: <midasbuy_services> updated buttons, updated clicking method for bundle")
 print("v2.1.1.3: <midasbuy_services> updated new razer gold gate")
 print("v2.1.1.2: <midasbuy_services> updated buttons")
@@ -127,11 +128,19 @@ while True:
                         print("Main Code: now using : " + credentials[0])
                 else:
                     print("Main Code: Razer URL is not obtained, simply restarting")
-            elif order_name != None:
+
                 print("MainCode: some error with Midasbuy, skipping")
             else:
-                print("Main Code: Replying with Invalid Code")
-                alcaptain_services.failed_order_reply(driver, driver.window_handles[0], "Your PUBG ID: " + str(order_tuple[1]) + " is invalid")
+                if type(order_name) == int:
+                    if order_name == -1:
+                        print("Main Code: probably buttons' xpath changed CONTACT HUSSEIN ALLAW")
+                    elif order_name == 0:
+                        print("Main Code: Replying with Invalid Code")
+                        alcaptain_services.failed_order_reply(driver, driver.window_handles[0], "Your PUBG ID: " + str(order_tuple[1]) + " is invalid")
+                    else:
+                        print("Main Code: some unknown error")
+                else:
+                    print("Main Code: some unknown None error")
         elif order_tuple == None:
             temp_sus_orders_list = alcaptain_services.get_list_of_active_archived_orders(driver, driver.current_window_handle)
             for order in temp_sus_orders_list:
