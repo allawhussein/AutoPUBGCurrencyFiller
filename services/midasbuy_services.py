@@ -11,13 +11,13 @@ from variables import *
 
 def refresh_xpath_midas_id_verifier(country_code):
     if country_code == "my":
-        input_field_xpath = "/html/body/div[1]/div[3]/div[3]/div[1]/div[2]/div/div/div/div[1]/input"
+        input_field_xpath = "/html/body/div[1]/div[3]/div[3]/div[1]/div[1]/div/div/div/div[1]/input"
         payment_completed_button_xpath = "/html/body/div[1]/div[3]/div[13]/div[1]/div[2]/div[1]"
         payment_completed_ok_button_xpath = "/html/body/div[1]/div[3]/div[13]/div[2]/div[3]/div"
         edit_button_class = "edit-btn"
-        submit_button_xpath = "/html/body/div[1]/div[3]/div[3]/div[1]/div[2]/div/div/div/div[2]"
-        pubg_name_holder = "/html/body/div[1]/div[3]/div[3]/div[1]/div[2]/div/div/div/div[2]/div[2]"
-        rejection_div_xpath = "/html/body/div[1]/div[3]/div[3]/div[1]/div[2]/div/div/div/div[1]/i"
+        submit_button_xpath = "/html/body/div[1]/div[3]/div[3]/div[1]/div[1]/div/div/div/div[2]"
+        pubg_name_holder = "/html/body/div[1]/div[3]/div[3]/div[1]/div[1]/div/div/div/div[2]/div[2]"
+        rejection_div_xpath = "/html/body/div[1]/div[3]/div[3]/div[1]/div[1]/div/div/div/div[1]/i"
         payment_completed_button_2_xpath = '//*[@id="backBtn"]'
         return [input_field_xpath, payment_completed_button_xpath, payment_completed_ok_button_xpath, edit_button_class, submit_button_xpath, pubg_name_holder, rejection_div_xpath, payment_completed_button_2_xpath]
     elif country_code == "ot":
@@ -36,8 +36,8 @@ def refresh_xpath_midas_id_verifier(country_code):
 
 def refersh_xpath_midas_bundle_and_payment_method_chooser(country_code):
     if country_code == "my":
-        payment_options_list_xpath = "/html/body/div[1]/div[3]/div[3]/div[1]/div[3]/div[2]/ul"
-        bundle_list_xpath = "/html/body/div[1]/div[3]/div[3]/div[1]/div[4]/ul"
+        payment_options_list_xpath = "/html/body/div[1]/div[3]/div[3]/div[1]/div[2]/div[2]/ul"
+        bundle_list_xpath = "/html/body/div[1]/div[3]/div[3]/div[1]/div[3]/ul"
         return [payment_options_list_xpath, bundle_list_xpath]
     elif country_code == "ot":
         payment_options_list_xpath = "/html/body/div[1]/div[3]/div[3]/div[1]/div[2]/div[2]/ul"

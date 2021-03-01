@@ -13,7 +13,8 @@ from services import midasbuy_services
 from services import razer_gold_services
 from services import telegram_services
 
-print("Mobile PUBG Bot v2.1.1.5")
+print("Mobile PUBG Bot v2.1.1.6")
+print("v2.1.1.6: <midasuby_services> updated buttons")
 print("v2.1.1.5: <midasuby_services> updated buttons")
 print("v2.1.1.4: <midasbuy_services> updated buttons, updated clicking method for bundle")
 print("v2.1.1.3: <midasbuy_services> updated new razer gold gate")
