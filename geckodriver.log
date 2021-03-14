@@ -1035,3 +1035,63 @@ Can't find symbol 'eglSetDamageRegionKHR'.
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1615738939160	geckodriver	INFO	Listening on 127.0.0.1:54848
+1615738942445	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofile96VHhj"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615738966929	Marionette	INFO	Listening on port 54857
+1615738968588	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+1615739066563	Marionette	INFO	Stopped listening on port 54857
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615739290930	geckodriver	INFO	Listening on 127.0.0.1:55167
+1615739293954	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilenPfAa7"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615739301623	Marionette	INFO	Listening on port 55178
+1615739301814	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default1615739634969	Marionette	INFO	Stopped listening on port 55223
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+s/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+1615739634327	Marionette	INFO	Stopped listening on port 55178
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615739635840	geckodriver	INFO	Listening on 127.0.0.1:55521
+1615739639116	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilerb1dCK"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0147,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+1615739652352	Marionette	INFO	Listening on port 55532
+1615739652798	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Erro1615739656146	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEIJavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/1615739817163	Marionette	INFO	Stopped listening on port 55595
+ is undefined
+[Parent 17392, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1615739815263	Marionette	INFO	Stopped listening on port 55532
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
