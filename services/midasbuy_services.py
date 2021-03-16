@@ -183,6 +183,8 @@ def midas_id_verifier(driver, window_handle, order_pubg_id, max_verification_tra
     print(" -MIDV: verifying player ID")
     while True:
         try:
+            driver.find_element_by_xpath(pubg_name_holder).text
+            print(" -MIDV: ID is verified")
             return driver.find_element_by_xpath(pubg_name_holder).text
         except:    
             try:

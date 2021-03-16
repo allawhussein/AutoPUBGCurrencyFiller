@@ -1095,3 +1095,185 @@ JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templat
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1615840779278	geckodriver	INFO	Listening on 127.0.0.1:63907
+1615840782773	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilehHwrpY"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 376))
+1615840821962	Marionette	INFO	Listening on port 63915
+1615840823133	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615840863445	Marionette	INFO	Stopped listening on port 63915
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615840865488	geckodriver	INFO	Listening on 127.0.0.1:64165
+1615840868660	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofile8EJLA7"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615840880230	Marionette	INFO	Listening on port 64187
+1615840880349	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+1615840963311	Marionette	INFO	Stopped listening on port 64187
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615840963978	geckodriver	INFO	Listening on 127.0.0.1:64339
+1615840967044	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilegr28r8"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615840974321	Marionette	INFO	Listening on port 64348
+1615840974474	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+1615841032565	Marionette	INFO	Stopped listening on port 64348
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615841037543	geckodriver	INFO	Listening on 127.0.0.1:64473
+1615841040578	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileQEUEp1"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615841049594	Marionette	INFO	Listening on port 64481
+1615841049621	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+1615841541224	Marionette	INFO	Stopped listening on port 64481
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615916587812	geckodriver	INFO	Listening on 127.0.0.1:63890
+1615916592389	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileawMc4r"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615916616624	Marionette	INFO	Listening on port 63902
+1615916616963	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+Javconsole.log: WebExtensions: reset-default-search: No addons in our list are installed.
+[Parent 16628, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1615918637675	Marionette	INFO	Stopped listening on port 63965
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ons in our list are installed.
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+1615918636979	Marionette	INFO	Stopped listening on port 63902
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x380004,name=PCompositorManager::Msg_RemoveSharedSurface) Channel error: cannot send/recv
+
+1615918642800	geckodriver	INFO	Listening on 127.0.0.1:65103
+1615918645849	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilecZYkHD"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615918658674	Marionette	INFO	Listening on port 65115
+1615918658998	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://jamal:Zx1212%40@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC6, line 6: TypeError: e is undefined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+[Parent 17624, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1615918807071	Marionette	INFO	Stopped listening on port 65115
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ew profile?" (new Error("", "(unknown module)"))
+1615918667863	Marionette	INFO	Listening on port 65168
+1615918667902	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615918768645	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1615918790115	Marionette	INFO	Stopped listening on port 65168
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615918793555	geckodriver	INFO	Listening on 127.0.0.1:65353
+1615918796664	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilepOQgU4"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615918803434	Marionette	INFO	Listening on port 65364
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 968: TypeError: this._storage is null
+console.error: services.settings: 
+  main/fxmonitor-breaches Signature failed  TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 196: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 198: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavHistoryService.addObserver]
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 122: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  AbortError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  AbortError
+1615918807940	Marionette	INFO	Stopped listening on port 65364
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 426: Error: OS.File has been shut down. Rejecting post to stat
