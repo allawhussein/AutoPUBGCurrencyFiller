@@ -11,23 +11,23 @@ from variables import *
 
 def refresh_xpath_midas_id_verifier(country_code):
     if country_code == "my":
-        input_field_xpath = "/html/body/div[1]/div[2]/div[2]/div[1]/div[1]/div/div/div/div/div[1]/input"
+        input_field_xpath = "/html/body/div[1]/div[2]/div[2]/div[1]/div[3]/div/div/div/div/div[1]/input"
         payment_completed_button_xpath = "/html/body/div[1]/div[3]/div[13]/div[1]/div[2]/div[1]"#these two buttons are for
         payment_completed_ok_button_xpath = "/html/body/div[1]/div[3]/div[13]/div[2]/div[3]/div"#previous opened payment windows
         edit_button_class = "link-mod-a"
-        submit_button_xpath = "/html/body/div[1]/div[2]/div[2]/div[1]/div[1]/div/div/div/div/div[2]"
-        pubg_name_holder = "/html/body/div[1]/div[2]/div[2]/div[1]/div[1]/div/div/div/div/div[1]/div[1]/p"
-        rejection_div_xpath = "/html/body/div[1]/div[2]/div[2]/div[1]/div[1]/div/div/div/p"
+        submit_button_xpath = "/html/body/div[1]/div[2]/div[2]/div[1]/div[3]/div/div/div/div/div[2]"
+        pubg_name_holder = "/html/body/div[1]/div[2]/div[2]/div[1]/div[3]/div/div/div/div/div[1]/div[1]/p"
+        rejection_div_xpath = "/html/body/div[1]/div[2]/div[2]/div[1]/div[3]/div/div/div/p"
         payment_completed_button_2_xpath = '//*[@id="backBtn"]'
         return [input_field_xpath, payment_completed_button_xpath, payment_completed_ok_button_xpath, edit_button_class, submit_button_xpath, pubg_name_holder, rejection_div_xpath, payment_completed_button_2_xpath]
     elif country_code == "ot":
-        input_field_xpath = "/html/body/div[1]/div[2]/div[2]/div[1]/div[1]/div/div/div/div/div[1]/input"
+        input_field_xpath = "/html/body/div[1]/div[2]/div[2]/div[1]/div[3]/div/div/div/div/div[1]/input"
         payment_completed_button_xpath = "/html/body/div[1]/div[3]/div[13]/div[1]/div[2]/div[2]"
         payment_completed_ok_button_xpath = "/html/body/div[1]/div[3]/div[13]/div[2]/div[3]/div"
         edit_button_class = "link-mod-a"
-        submit_button_xpath = "/html/body/div[1]/div[2]/div[2]/div[1]/div[1]/div/div/div/div/div[2]"
-        pubg_name_holder = "/html/body/div[1]/div[2]/div[2]/div[1]/div[1]/div/div/div/div/div[1]/div[1]/p"
-        rejection_div_xpath = "/html/body/div[1]/div[2]/div[2]/div[1]/div[1]/div/div/div/p"
+        submit_button_xpath = "/html/body/div[1]/div[2]/div[2]/div[1]/div[3]/div/div/div/div/div[2]"
+        pubg_name_holder = "/html/body/div[1]/div[2]/div[2]/div[1]/div[3]/div/div/div/div/div[1]/div[1]/p"
+        rejection_div_xpath = "/html/body/div[1]/div[2]/div[2]/div[1]/div[3]/div/div/div/p"
         payment_completed_button_2_xpath = '//*[@id="backBtn"]'
         return [input_field_xpath, payment_completed_button_xpath, payment_completed_ok_button_xpath, edit_button_class, submit_button_xpath, pubg_name_holder, rejection_div_xpath, payment_completed_button_2_xpath]
     else:
@@ -36,12 +36,12 @@ def refresh_xpath_midas_id_verifier(country_code):
 
 def refersh_xpath_midas_bundle_and_payment_method_chooser(country_code):
     if country_code == "my":
-        payment_options_list_xpath = "/html/body/div[1]/div[2]/div[2]/div[1]/div[2]/div[2]/ul/span"
-        bundle_list_xpath = "/html/body/div[1]/div[2]/div[2]/div[1]/div[3]/ul"
+        payment_options_list_xpath = "/html/body/div[1]/div[2]/div[2]/div[1]/div[4]/div[2]/ul/span"
+        bundle_list_xpath = "/html/body/div[1]/div[2]/div[2]/div[1]/div[5]/ul"
         return [payment_options_list_xpath, bundle_list_xpath]
     elif country_code == "ot":
-        payment_options_list_xpath = "/html/body/div[1]/div[2]/div[2]/div[1]/div[2]/div[2]/ul/span"
-        bundle_list_xpath = "/html/body/div[1]/div[2]/div[2]/div[1]/div[3]/ul"
+        payment_options_list_xpath = "/html/body/div[1]/div[2]/div[2]/div[1]/div[4]/div[2]/ul/span"
+        bundle_list_xpath = "/html/body/div[1]/div[2]/div[2]/div[1]/div[5]/ul"
         return [payment_options_list_xpath, bundle_list_xpath]
     else:
         print(" -RX-MBAPMC: country code is not recognized")
@@ -218,6 +218,7 @@ def midas_bundle_and_payment_method_chooser(driver, window_handle, required_uc, 
     print(" -MBAPMC: collecting payment options")
     payment_options_list = driver.find_element_by_xpath(payment_options_list_xpath).find_elements_by_xpath("li")
     for li in payment_options_list:
+        print(li.text)
         if li.find_element_by_tag_name("p").text == payment_method:
             print(" -MBAPMC: choosen payment method: " + payment_method)
             payment_method_button = li

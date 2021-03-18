@@ -15,6 +15,6 @@ from services import telegram_services
 
 driver = webdriver.Firefox()
 
-print(midasbuy_services.midas_id_verifier(driver, driver.window_handles[0], 547, 1, "my"))
+print(midasbuy_services.midas_id_verifier(driver, driver.window_handles[0], 5474774295, 1, "my"))
 print(midasbuy_services.midas_bundle_and_payment_method_chooser(driver, driver.window_handles[0], 600, 0,"Razer Gold", "my"))
 print(midasbuy_services.midas_razer_payment_initializer(driver, driver.window_handles[0], "my"))
