@@ -1583,3 +1583,216 @@ JavaScript error: https://pay.gold.razer.com/order/aG45RzRtUVkra3J6SVNCVGVkdy9Ka
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 1616090109696	geckodriver	INFO	Listening on 127.0.0.1:56107
+1616517880274	geckodriver	INFO	Listening on 127.0.0.1:53504
+1616517883793	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileracAPT"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+[Parent 15332, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+[Parent 15332, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+[Parent 15332, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+1616517915039	Marionette	INFO	Listening on port 53513
+1616517915650	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+JavaScript error: https://www.midasbuy.com/midasbuy/my/buy/pubgm, line 292: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.midasbuy.com/midasbuy/my/buy/pubgm, line 87: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.midasbuy.com/midasbuy/my/buy/pubgm, line 87: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.midasbuy.com/midasbuy/my/buy/pubgm, line 87: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.midasbuy.com/midasbuy/my/buy/pubgm, line 87: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.midasbuy.com/midasbuy/my/buy/pubgm, line 87: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.midasbuy.com/midasbuy/my/buy/pubgm, line 87: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.midasbuy.com/midasbuy/my/buy/pubgm, line 87: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.midasbuy.com/midasbuy/my/buy/pubgm, line 87: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.midasbuy.com/midasbuy/my/buy/pubgm, line 87: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000E,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1616517977239	Marionette	INFO	Stopped listening on port 53513
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616517980268	geckodriver	INFO	Listening on 127.0.0.1:53648
+1616517983298	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofiled8KIHS"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616517989524	Marionette	INFO	Listening on port 53658
+1616517989722	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: resource://devtools/server/actors/inspector/event-collector.js, line 530: debuggee 'https://cdn.midasbuy.com/oversea_web/static/js/production.midas.runtime.js:3' would run
+JavaScript error: resource://devtools/client/framework/devtools.js, line 730: TypeError: inspector.inspectorFront is undefined
+JavaScript warning: resource://devtools/server/actors/utils/event-loop.js, line 79: debuggee 'https://cdn.midasbuy.com/oversea_web/static/js/production.midas.runtime.js:3' would run
+console.error: "Error writing response to: skipBreakpoints"
+console.error: "Error while calling actor 'thread's method 'skipBreakpoints'" "Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance."
+console.error: "write@resource://devtools/shared/protocol/Response.js:51:15\nsendReturn@resource://devtools/shared/protocol/Actor.js:195:38\nenter@resource://devtools/server/actors/utils/event-loop.js:79:18\n_pushThreadPause@resource://devtools/server/actors/thread.js:310:15\n_pauseAndRespond@resource://devtools/server/actors/thread.js:923:12\nonDebuggerStatement@resource://devtools/server/actors/thread.js:1909:17\n@https://www.midasbuy.com/midasbuy/ot/buy/pubgm line 117 > eval:1:1\n_0x17f16e/<@https://www.midasbuy.com/midasbuy/ot/buy/pubgm:117:1969\n@https://www.midasbuy.com/midasbuy/ot/buy/pubgm:117:1\n"
+console.error: "Error writing response to: skipBreakpoints"
+console.error: "Error while calling actor 'thread's method 'skipBreakpoints'" "Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance."
+console.error: "write@resource://devtools/shared/protocol/Response.js:51:15\nsendReturn@resource://devtools/shared/protocol/Actor.js:195:38\nenter@resource://devtools/server/actors/utils/event-loop.js:79:18\n_pushThreadPause@resource://devtools/server/actors/thread.js:310:15\n_pauseAndRespond@resource://devtools/server/actors/thread.js:923:12\nonDebuggerStatement@resource://devtools/server/actors/thread.js:1909:17\n@https://www.midasbuy.com/midasbuy/ot/buy/pubgm line 117 > eval:1:1\n_0x17f16e/<@https://www.midasbuy.com/midasbuy/ot/buy/pubgm:117:1969\n@https://www.midasbuy.com/midasbuy/ot/buy/pubgm:117:1\n"
+console.log: (new Error("Protocol error (Error): Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance. from: server0.conn0.child3/thread22 (resource://devtools/shared/protocol/Response.js:51:15)", "resource://devtools/shared/protocol/Front.js", 361))
+console.log: (new Error("Protocol error (Error): Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance. from: server0.conn0.child3/thread22 (resource://devtools/shared/protocol/Response.js:51:15)", "resource://devtools/shared/protocol/Front.js", 361))
+1616518359973	Marionette	INFO	Stopped listening on port 53658
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616518362571	geckodriver	INFO	Listening on 127.0.0.1:53118
+1616518365647	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileMhAAIR"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616518373721	Marionette	INFO	Listening on port 53127
+1616518374117	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+[Parent 14548, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1616518444390	Marionette	INFO	Stopped listening on port 53127
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616518462773	geckodriver	INFO	Listening on 127.0.0.1:53251
+1616518465832	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileUeffDS"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616518472099	Marionette	INFO	Listening on port 53259
+1616518472140	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1616519852855	Marionette	INFO	Stopped listening on port 53259
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616519923716	geckodriver	INFO	Listening on 127.0.0.1:55881
+1616519926742	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileWRPw50"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616519932436	Marionette	INFO	Listening on port 55892
+1616519932614	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1616521065921	Marionette	INFO	Stopped listening on port 55892
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616521066856	geckodriver	INFO	Listening on 127.0.0.1:56400
+1616521070010	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileedD4eX"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616521077595	Marionette	INFO	Listening on port 56409
+1616521077954	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: resource://devtools/server/actors/inspector/event-collector.js, line 530: debuggee 'https://cdn.midasbuy.com/oversea_web/static/js/production.midas.runtime.js:3' would run
+JavaScript error: resource://devtools/client/framework/devtools.js, line 730: TypeError: inspector.inspectorFront is undefined
+console.error: "Error writing response to: skipBreakpoints"
+console.error: "Error while calling actor 'thread's method 'skipBreakpoints'" "Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance."
+console.error: "write@resource://devtools/shared/protocol/Response.js:51:15\nsendReturn@resource://devtools/shared/protocol/Actor.js:195:38\nenter@resource://devtools/server/actors/utils/event-loop.js:79:18\n_pushThreadPause@resource://devtools/server/actors/thread.js:310:15\n_pauseAndRespond@resource://devtools/server/actors/thread.js:923:12\nonDebuggerStatement@resource://devtools/server/actors/thread.js:1909:17\n@https://www.midasbuy.com/midasbuy/ot/buy/pubgm line 117 > eval:1:1\n_0x17f16e/<@https://www.midasbuy.com/midasbuy/ot/buy/pubgm:117:1969\n@https://www.midasbuy.com/midasbuy/ot/buy/pubgm:117:1\n"
+console.error: "Error writing response to: skipBreakpoints"
+console.error: "Error while calling actor 'thread's method 'skipBreakpoints'" "Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance."
+console.error: "write@resource://devtools/shared/protocol/Response.js:51:15\nsendReturn@resource://devtools/shared/protocol/Actor.js:195:38\nenter@resource://devtools/server/actors/utils/event-loop.js:79:18\n_pushThreadPause@resource://devtools/server/actors/thread.js:310:15\n_pauseAndRespond@resource://devtools/server/actors/thread.js:923:12\nonDebuggerStatement@resource://devtools/server/actors/thread.js:1909:17\n@https://www.midasbuy.com/midasbuy/ot/buy/pubgm line 117 > eval:1:1\n_0x17f16e/<@https://www.midasbuy.com/midasbuy/ot/buy/pubgm:117:1969\n@https://www.midasbuy.com/midasbuy/ot/buy/pubgm:117:1\n"
+console.log: (new Error("Protocol error (Error): Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance. from: server0.conn0.child3/thread22 (resource://devtools/shared/protocol/Response.js:51:15)", "resource://devtools/shared/protocol/Front.js", 361))
+console.log: (new Error("Protocol error (Error): Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance. from: server0.conn0.child3/thread22 (resource://devtools/shared/protocol/Response.js:51:15)", "resource://devtools/shared/protocol/Front.js", 361))
+1616521198738	Marionette	INFO	Stopped listening on port 56401616521201729	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilew2kytJ"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616521208200	Marionette	INFO	Listening on port 56537
+1616521208867	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1616521274161	Marionette	INFO	Stopped listening on port 56531616521276469	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileJBS0gA"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616521282696	Marionette	INFO	Listening on port 56638
+1616521282799	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+[Parent 5628, Gecko_IOThread] WARNING: file /builds/worker/c1616521330896	mozrunner::runner	INFO	Running command: "C:\\Pro1616521332619	Marionette	INFO	Stopped listening on port 56638
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+n't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616521336455	Marionette	INFO	Listening on port 56741
+1616521336753	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+1616521418164	Marionette	INFO	Stopped listening on port 56741
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616521422677	geckodriver	INFO	Listening on 127.0.0.1:56846
+1616521425723	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileLPBou8"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616521432145	Marionette	INFO	Listening on port 56856
+1616521432678	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: resource://devtools/server/actors/inspector/event-collector.js, line 530: debuggee 'https://cdn.midasbuy.com/oversea_web/static/js/production.midas.runtime.js:3' would run
+JavaScript error: resource://devtools/client/framework/devtools.js, line 730: TypeError: inspector is undefined
+console.error: "Error writing response to: skipBreakpoints"
+console.error: "Error while calling actor 'thread's method 'skipBreakpoints'" "Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance."
+console.error: "write@resource://devtools/shared/protocol/Response.js:51:15\nsendReturn@resource://devtools/shared/protocol/Actor.js:195:38\nenter@resource://devtools/server/actors/utils/event-loop.js:79:18\n_pushThreadPause@resource://devtools/server/actors/thread.js:310:15\n_pauseAndRespond@resource://devtools/server/actors/thread.js:923:12\nonDebuggerStatement@resource://devtools/server/actors/thread.js:1909:17\n@https://www.midasbuy.com/midasbuy/ot/buy/pubgm line 117 > eval:1:1\n_0x17f16e/<@https://www.midasbuy.com/midasbuy/ot/buy/pubgm:117:1969\n@https://www.midasbuy.com/midasbuy/ot/buy/pubgm:117:1\n"
+console.error: "Error writing response to: skipBreakpoints"
+console.error: "Error while calling actor 'thread's method 'skipBreakpoints'" "Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance."
+console.error: "write@resource://devtools/shared/protocol/Response.js:51:15\nsendReturn@resource://devtools/shared/protocol/Actor.js:195:38\nenter@resource://devtools/server/actors/utils/event-loop.js:79:18\n_pushThreadPause@resource://devtools/server/actors/thread.js:310:15\n_pauseAndRespond@resource://devtools/server/actors/thread.js:923:12\nonDebuggerStatement@resource://devtools/server/actors/thread.js:1909:17\n@https://www.midasbuy.com/midasbuy/ot/buy/pubgm line 117 > eval:1:1\n_0x17f16e/<@https://www.midasbuy.com/midasbuy/ot/buy/pubgm:117:1969\n@https://www.midasbuy.com/midasbuy/ot/buy/pubgm:117:1\n"
+console.log: (new Error("Protocol error (Error): Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance. from: server0.conn0.child3/thread22 (resource://devtools/shared/protocol/Response.js:51:15)", "resource://devtools/shared/protocol/Front.js", 361))
+console.log: (new Error("Protocol error (Error): Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance. from: server0.conn0.child3/thread22 (resource://devtools/shared/protocol/Response.js:51:15)", "resource://devtools/shared/protocol/Front.js", 361))
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+[Parent 12076, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1616521778070	Marionette	INFO	Stopped listening on port 56856
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616521789522	geckodriver	INFO	Listening on 127.0.0.1:57056
+1616521792566	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileNUi5BZ"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616521799464	Marionette	INFO	Listening on port 57065
+1616521800085	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+1616521879089	Marionette	INFO	Stopped listening on port 57061616521881950	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileG0sifU"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616521888868	Marionette	INFO	Listening on port 57205
+1616521889381	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+[Parent 3632, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1616522078890	Marionette	INFO	Stopped listening on port 57205
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

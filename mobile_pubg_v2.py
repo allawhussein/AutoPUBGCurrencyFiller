@@ -13,8 +13,9 @@ from services import midasbuy_services
 from services import razer_gold_services
 from services import telegram_services
 
-print("Mobile PUBG Bot v2.1.1.10")
-print("v2.1.1.10: <midasuby_services> updated buttons")
+print("Mobile PUBG Bot v2.1.2")
+print("v2.1.2:   <midasbuy_services> date picking is now by css selector not xpath")
+print("v2.1.1.10:<midasuby_services> updated buttons")
 print("v2.1.1.8: <MainCode> fixed minor bug, order processing was placed under strictly int condition")
 print("v2.1.1.8: <MainCode> fixed minor bug, order rejection was place under None condition of the MIDV output")
 print("v2.1.1.7: <midasuby_services> updated buttons")

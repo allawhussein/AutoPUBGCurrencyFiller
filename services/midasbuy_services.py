@@ -63,6 +63,8 @@ def refresh_xpath_midas_razer_payment_initializer(country_code):
         date_of_birth_confirmation = "btn"
         continue_button_class = "btn"
         birthday_popup_id = "birthday-pop"
+        birthday_day_div = "time-picker-box"
+        date_of_birth_css_selector = "div.bd:nth-child(3) > ul:nth-child(1) > li:nth-child(16) > span:nth-child(1)"
     elif country_code == "ot":
         pay_now_button_xpath = "/html/body/div[1]/div[3]/div[3]/div[3]/div[3]/div/div[2]"
         check_boxes_title_xpath = "/html/body/div[1]/div[3]/div[3]/div[3]/div[1]/div/p"
@@ -79,6 +81,8 @@ def refresh_xpath_midas_razer_payment_initializer(country_code):
         date_of_birth_confirmation = "btn"
         continue_button_class = "btn"
         birthday_popup_id = "birthday-pop"
+        birthday_day_div = "time-picker-box"
+        date_of_birth_css_selector = "div.bd:nth-child(3) > ul:nth-child(1) > li:nth-child(16) > span:nth-child(1)"
     else:
         print(" -RX-MRPI: country code is not recognized")
         return None
@@ -96,7 +100,9 @@ def refresh_xpath_midas_razer_payment_initializer(country_code):
             date_of_birth_confirmation,
             check_box_class_2,
             continue_button_class,
-            birthday_popup_id]
+            birthday_popup_id,
+            birthday_day_div,
+            date_of_birth_css_selector]
 
 def midas_id_verifier(driver, window_handle, order_pubg_id, max_verification_trails, country_code):#function will return None if ID is rejected
     print(" -MIDV: midas_id_verifier() service is initiated for country: " + country_code)
@@ -294,6 +300,8 @@ def midas_razer_payment_initializer(driver, window_handle, country_code):
     check_box_class_2 = variable[12]
     continue_button_class = variable[13]
     birthday_popup_id = variable[14]
+    birthday_day_div = variable[15]
+    date_of_birth_css_selector = variable[16]
     driver.switch_to.window(window_handle)
 
     initial_number_of_windows = len(driver.window_handles)
@@ -354,15 +362,17 @@ def midas_razer_payment_initializer(driver, window_handle, country_code):
             assert driver.find_element_by_id(date_of_birth_window_id).is_displayed()
             print(" -MRPI: choosing date of birth")
             driver.find_element_by_id(date_of_birth_window_id).click()
-            WebDriverWait(driver, time_of_waiting).until(EC.element_to_be_clickable((By.XPATH, random_date_xpath)))
-            driver.find_element_by_xpath(random_date_xpath).click()
+            while len(driver.find_element_by_css_selector(date_of_birth_css_selector).text) == 0:
+                pass
+            driver.find_element_by_css_selector(date_of_birth_css_selector).click()
+            #WebDriverWait(driver, time_of_waiting).until(EC.element_to_be_clickable((By.ID, birthday_day_div)))
             print(" -MRPI: random date is selected")
             while not len(driver.find_element_by_id(date_of_birth_window_id).text):
                 pass
             driver.find_element_by_id(birthday_popup_id).find_element_by_class_name(date_of_birth_confirmation).click()
             print(" -MRPI: date is submitted")
-        except:
-            pass
+        except Exception as error:
+            print(error)
         if time.time() - time_zero > time_of_waiting:
             print("Razer Window didn't open in time")
             return None
