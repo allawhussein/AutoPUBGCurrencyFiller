@@ -1,0 +1,1298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class="js"><head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>
+                    Home  - Fusion
+                </title>
+
+    
+    <title>
+                    &lt;link rel="icon" type="image/png" href="favicon-32x32.png?v=RC6" sizes="32x32" /&gt;
+            &lt;link rel="icon" type="image/png" href="favicon-16x16.png?v=RC6" sizes="16x16" /&gt;
+                </title>
+
+    <script src="Home%20-%20Fusion_files/jquery.js"></script>
+    <script src="Home%20-%20Fusion_files/bootstrap.js"></script>
+
+    <script src="Home%20-%20Fusion_files/custom.js" type="text/javascript"></script>
+    <script src="Home%20-%20Fusion_files/main.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="Home%20-%20Fusion_files/search.css" type="text/css">
+    <script src="Home%20-%20Fusion_files/search.js" type="text/javascript"></script>
+
+
+    <script src="Home%20-%20Fusion_files/menu.js" type="text/javascript"></script>
+    <link href="Home%20-%20Fusion_files/menu.css" media="screen" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="Home%20-%20Fusion_files/flexcroll.js">
+    </script><style type="text/css">.flexcroll-hide-default {overflow: hidden !important;}</style>
+    <link rel="stylesheet" href="Home%20-%20Fusion_files/menu-icon.css">
+    <link rel="stylesheet" href="Home%20-%20Fusion_files/font-awesome.css">
+    <link rel="stylesheet" href="Home%20-%20Fusion_files/flaticon.css">
+    <link href="Home%20-%20Fusion_files/typekit-offline.css" rel="stylesheet">
+    <link class="dropdown-item" href="Home%20-%20Fusion_files/bootstrap.css" rel="stylesheet">
+
+    <script>
+        var theme="";
+    </script>
+
+</head>
+
+<body class="desktop-screen">
+
+
+<div style="display: none;" class="c-loader"><div class="aProgress"><div class="aBar slow"></div></div></div>
+
+<div class="d-flex h-100 flex-column">
+    <div class="bg-dark w-100 main-menu" style="box-shadow: 0 0 8px rgba(0,0,0,0.4);z-index: 9;">
+        <div class="d-flex">
+
+
+            <div class="p-1 text-white logo  d-none d-md-block  border-right " style="border-color:transparent !important;" title="">
+                <div class=" d-flex align-items-center">
+                                            <img src="Home%20-%20Fusion_files/dhru-logo2.png" style="height:50px;">
+                                                <div style="cursor: pointer;font-weight:normal;font-size: 13px;font-weight:100;text-align:left;letter-spacing: 1px;padding: 6px;" onclick="requestdata('https://kb.dhru.com/api/v1/release/','#releasetext');" data-toggle="modal" data-target="#releasenotes">
+                            Fusion <br> <span class="version ">
+                            v 8.1 RC6</span>
+                        </div>
+                                        </div>
+            </div>
+
+            <div class="p-3 toggle-bar text-white d-block d-md-none " onclick="toggleSidebar()" style="font-size: 24px"><i class="fa fa-bars"></i></div>
+
+
+            <ul class="nav tabs-container w-100" id="tabs-group">
+
+                <ul id="rightClickMenu" class="dropdown-menu" style="display: none; position: absolute; left: 335px; top: 30px;">
+
+                    <a class="dropdown-item" href="#refresh">
+                        Refresh
+                    </a>
+
+                    <a class="dropdown-item" href="#close" style="">
+                        Close
+                    </a>
+
+                    <a class="dropdown-item" href="#closeothers">
+                        Close Others
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#closeall">
+                        Close All
+                    </a>
+
+                </ul>
+            <li class="nav-items" style=""><a class="nav-link pl-4 pr-4 pt-3 pb-3 text-white t_1010 show" title="Double click to refresh" ondblclick="refreshTab('main2.php?page=home','t_1010')" href="#t_1010" data-toggle="tab"><span class="close-tab" onclick="closeTab('t_1010')" title="Close">×</span><span class="refresh-tab" onclick="refreshTab('main2.php?page=home','t_1010')" title="Refresh"> <i class="flaticon-reload"></i> </span><span class="tab-title">Dashboard</span> </a></li><li class="nav-items"><a class="nav-link active pl-4 pr-4 pt-3 pb-3 text-white t_t_imeiorderquickreply-php" title="Double click to refresh" ondblclick="refreshTab('main2.php?page=imeiorder&amp;laoddefaultpage=quickreply.php&amp;stype=server','t_t_imeiorderquickreply-php')" href="#t_t_imeiorderquickreply-php" data-toggle="tab"><span class="close-tab" onclick="closeTab('t_t_imeiorderquickreply-php')" title="Close">×</span><span class="refresh-tab" onclick="refreshTab('main2.php?page=imeiorder&amp;laoddefaultpage=quickreply.php&amp;stype=server','t_t_imeiorderquickreply-php')" title="Refresh"> <i class="flaticon-reload"></i> </span><span class="tab-title">Server Accepted</span> </a></li></ul>
+
+            <div class="tab-ctrl d-none d-md-block" style="opacity: 0; display: none;">
+                <div class="d-flex ">
+                    <a href="#" onclick="scrolltoLeft('#tabs-group')" class="p-3 d-inline-block mt-1 text-white"> ⟨  </a>
+                    <a onclick="scrolltoRight('#tabs-group')" class="p-3 mt-1 d-inline-block text-white" href="#"> ⟩  </a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <div class="m-2" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <div class="rounded-circle   text-white text-uppercase" style="padding:10px;background: #ee6c22;cursor: pointer" onclick="$('.header-dropdown').toggle()">
+                            Pu                        </div>
+                                        </div>
+                <ul class="dropdown-menu  dropdown-menu-right mt-2">
+                    <div class="d-flex p-3" style="width: 340px">
+                        <div class="w-56 mr-3">
+                                                            <div style="text-transform: uppercase;font-size: 30px;padding:20px 20px;background:#ee6c22;color:white;border-radius:50%">Pu                                </div>
+                                                        </div>
+                        <div><span style="font-size:18px">Pubg_Auto_API</span> <br>  <small>(Read Only)</small> <br>
+                                                        <small>Last Login ip : 174.139.46.16</small>   <br>
+                            <small>Last Login Time : 15-03-2021 11:29</small>
+                            <div style="height: 1px;border-top: #ccc solid 1px;margin:10px 0"></div>
+                            <a href="https://alcaptainunlock.com/" target="_blank"><small>Client Area</small></a>
+                            <a href="javascript:load_page('editadmin&amp;admn=40','My Account','d8469845aa09ad24442cf3eaea70c62daf6067b1','373')"><small>My Account</small> </a>
+                            <a href="https://alcaptainunlock.com/Chadid2020/logout.php"><small>Logout</small></a>
+                        </div>
+                    </div>
+
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="d-flex h-100 flex-row main-content">
+        <div class="scrollable h-100 sidebar" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);z-index: 9;">
+            <div class="h-100">
+                <ul class="nav flex-column overflow" id="accordion2">
+                    <li class="p-3 search-box">
+                                                    <div class="row" style="align-items:center">
+                                <div class="col-10">
+                                    <input type="text" id="intellisearchval" class="form-control " name="globalsearch" placeholder="Intelligent Search...">
+
+                                    <button type="button" onclick="searchdata()" class="btn search-btn" style="position: absolute;right: 0px;top: 0px"> Search </button>
+                                </div>
+                                <span data-toggle="modal" style="cursor: pointer;text-align: center" class="col-2" data-target="#helpnotes"><i class="nav-icon flaticon-question-1"></i></span>
+
+                            </div>
+                                                    <span id="searchloader">
+                            <div class="aSpinner"><div class="spinner-icon"></div></div>
+                        </span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" data-toggle="collapse" href="#collapse0">
+                            <i class="nav-icon flaticon-speedometer-tool"></i><span class="nav-head">
+			Dashboard			</span>
+                        </a>
+                        <div class="collapse" data-parent="#accordion2" id="collapse0">
+
+                            <div class="float-left">
+                                <a class="dropdown-item" href="javascript:load_page('home','Dashboard','d8469845aa09ad24442cf3eaea70c62daf6067b1','1010')">
+                                    Dashboard                                </a>
+
+                                <a class="dropdown-item" href="javascript:load_page('todayscredit','Credit Summary','d8469845aa09ad24442cf3eaea70c62daf6067b1','439')">
+                                    Credit                                    Summary
+                                </a>
+
+                                <a class="dropdown-item" href="javascript:load_page('unpaidinvoice','Pending Collections','d8469845aa09ad24442cf3eaea70c62daf6067b1','775')">
+                                    Pending                                    Collections                                </a>
+
+                                <a class="dropdown-item" href="javascript:load_page('closeacrequest','Close Account Request','d8469845aa09ad24442cf3eaea70c62daf6067b1','701')">
+                                    Close                               
+     Account                                    Request                 
+               </a>
+                                                                    <a class="dropdown-item" href="javascript:load_page('utilities.systemsummarymain','System Summary','d8469845aa09ad24442cf3eaea70c62daf6067b1','169')">
+                                        System                          
+              Summary                                    </a>
+                                    
+                                <a class="dropdown-item" href="javascript:load_page('utilities.comments','Comments','d8469845aa09ad24442cf3eaea70c62daf6067b1','780')">
+                                    New                                 
+   Blog                                    Comments                     
+           </a>
+
+                                <a class="dropdown-item" href="javascript:load_page('utilities.review','Customer Review','d8469845aa09ad24442cf3eaea70c62daf6067b1','232')">
+                                    Customer                                    Review                                </a>
+
+                                <a class="dropdown-item" href="javascript:load_page('dashboard.testimonial','Testimonial','d8469845aa09ad24442cf3eaea70c62daf6067b1','214')">
+                                    New                                    Testimonial                                </a>
+
+                                <a class="dropdown-item" href="javascript:load_page('utilities.adminactivities','Login Log','d8469845aa09ad24442cf3eaea70c62daf6067b1','761')">
+                                    Login                                    Log                                </a>
+
+                                <a class="dropdown-item" href="javascript:load_page('utilities.userstatus','New Registered Users','d8469845aa09ad24442cf3eaea70c62daf6067b1','358')">
+                                    Users                               
+     Waiting                                    For                     
+               Activation                                </a>
+
+                                <a class="dropdown-item" href="javascript:load_page('idverification','ID  Verification','d8469845aa09ad24442cf3eaea70c62daf6067b1','557')">
+                                    ID (KYC)
+                                    For                                    Verification                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('quickcheckoutpending','Quick Checkout Pending                                Order','d8469845aa09ad24442cf3eaea70c62daf6067b1','782')">
+                                    Quick Checkout Pending Order                                </a>
+                            </div>
+                            <div class="float-left">
+                                <a class="dropdown-item" href="javascript:load_page('utilities.resellershop','Reseller Store','d8469845aa09ad24442cf3eaea70c62daf6067b1','795')">
+                                    Reseller                                    Store                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('incomesummary','Income Summary','d8469845aa09ad24442cf3eaea70c62daf6067b1','781')">
+                                    Income Summary
+                                                                    </a>
+                                                                    <a class="dropdown-item" href="javascript:load_page('utilities.discountcheck','Discount by Service','d8469845aa09ad24442cf3eaea70c62daf6067b1','732')">
+                                        Discount                        
+                by                                        Service       
+                             </a>
+                                    <a class="dropdown-item" href="javascript:load_page('utilities.pendingquick','Custom Gateway Pending Review','d8469845aa09ad24442cf3eaea70c62daf6067b1','315')">
+                                        Custom                          
+              Gateway                                        Pending    
+                                    Review                              
+      </a>
+                                    <a class="dropdown-item" href="javascript:load_page('utilities.pendingrefund','Quick Checkout Pending Refund','d8469845aa09ad24442cf3eaea70c62daf6067b1','943')">
+                                        Quick                           
+             Checkout                                        Pending    
+                                    Refund                              
+      </a>
+                                                                <a class="dropdown-item" href="javascript:load_page('unpaidoffline','Offline Gateway Unpaid Invoices','d8469845aa09ad24442cf3eaea70c62daf6067b1','583')">
+                                    Offline                             
+       Gateway                                    Unpaid                
+                    Invoices                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('utilities.withdrawal','User Withdrawal Request','d8469845aa09ad24442cf3eaea70c62daf6067b1','809')">
+                                    User                                
+    Withdrawal                                    Request               
+                 </a>
+                                <a class="dropdown-item" href="javascript:load_page('utilities.ccprocess','Credit Card Process Order','d8469845aa09ad24442cf3eaea70c62daf6067b1','305')">
+                                    Credit Card                         
+           Process                                    Order             
+                   </a>
+                                                                    <a class="dropdown-item" href="javascript:load_page('ebayorder','IMEI Direct Order','d8469845aa09ad24442cf3eaea70c62daf6067b1','966')">
+                                        IMEI                            
+            Direct                                        Order         
+                           </a>
+                                                                    <a class="dropdown-item" href="javascript:load_page('fraudunpaidinvoice','Fraud Protection Unpaid Invoices','d8469845aa09ad24442cf3eaea70c62daf6067b1','716')">
+                                    Fraud Protection
+                                    Unpaid                                    Invoices                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('ipsearch','IP Search','d8469845aa09ad24442cf3eaea70c62daf6067b1','451')">
+                                    IP
+                                    Search                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('pricetest','Price Check','d8469845aa09ad24442cf3eaea70c62daf6067b1','990')">
+                                    Price Check
+                                </a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#collapse1" class="nav-link collapsed" data-toggle="collapse">
+                            <i class="nav-icon flaticon-user"></i><span class="nav-head">
+			Clients/Suppliers			</span>
+                        </a>
+                        <div class="collapse" data-parent="#accordion2" id="collapse1">
+                            <h6 class="dropdown-header">Clients</h6>
+
+                            <a class="dropdown-item" id="clientlist" href="javascript:load_page('clientlist','Clients','d8469845aa09ad24442cf3eaea70c62daf6067b1','694')">
+                                View / Search Clients                            </a>
+                            <a class="dropdown-item" id="addnewclient" href="javascript:load_page('addnewclient','Add New Client','d8469845aa09ad24442cf3eaea70c62daf6067b1','398')">
+                                +
+                                Add New Client                            </a>
+                            <a class="dropdown-item" id="addnewclient" href="javascript:load_page('addbulkclient','Add Bulk Client','d8469845aa09ad24442cf3eaea70c62daf6067b1','295')">
+                                +
+                                Add Bulk Client
+                            </a>
+                            <a class="dropdown-item" id="clientgroup" href="javascript:load_page('clientgroup','Client Group','d8469845aa09ad24442cf3eaea70c62daf6067b1','686')">
+                                Client Group                            </a>
+                                                            <a class="dropdown-item" id="updatemultipalclient" href="javascript:load_page('updatemultipalclient&amp;clear=true','Update Multiple Account','d8469845aa09ad24442cf3eaea70c62daf6067b1','614')">
+                                    Update                              
+      Multiple                                    Account               
+                 </a>
+                                                        <a class="dropdown-item" id="updatemultipalclient" href="javascript:load_page('blockmultipleclient&amp;clear=true','Block Multiple Account','d8469845aa09ad24442cf3eaea70c62daf6067b1','570')">
+                                Block
+                                Multiple                                Account                            </a>
+                            <a class="dropdown-item" id="clientlist" href="javascript:load_page('guestlist','Checkout as Guest','d8469845aa09ad24442cf3eaea70c62daf6067b1','445')">
+                                Checkout                                as
+                                Guest                            </a>
+
+                            <h6 class="dropdown-header">Suppliers</h6>
+
+                            <a class="dropdown-item" id="supplierlist" href="javascript:load_page('supplierlist','Suppliers','d8469845aa09ad24442cf3eaea70c62daf6067b1','469')">
+                                View / Search Suppliers                            </a>
+                            <a class="dropdown-item" id="addnewsupplier" href="javascript:load_page('addnewsupplier','Add New Supplier','d8469845aa09ad24442cf3eaea70c62daf6067b1','227')">
+                                +
+                                Add New Supplier                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        
+                                <a href="#collapse2" class="nav-link collapsed" data-toggle="collapse">
+                                    <i class="nav-icon flaticon-network"></i><span class="nav-head">
+			Products/Services			</span>
+                                </a>
+                                <div class="collapse" data-parent="#accordion2" id="collapse2">
+                                    <a class="dropdown-item" href="javascript:load_page('imeiservice','IMEI Service','d8469845aa09ad24442cf3eaea70c62daf6067b1','190')">
+                                        IMEI                                        Service                                    </a>
+                                    <a class="dropdown-item" href="javascript:load_page('fileservice','File Service','d8469845aa09ad24442cf3eaea70c62daf6067b1','196')">
+                                        File Service                                    </a>
+                                    <a class="dropdown-item" href="javascript:load_page('imeiservice&amp;server=1','Server Service','d8469845aa09ad24442cf3eaea70c62daf6067b1','392')">
+                                        Server Service                                    </a>
+                                    <a class="dropdown-item" href="javascript:load_page('imeiservice&amp;server=2','Remote Service','d8469845aa09ad24442cf3eaea70c62daf6067b1','531')">
+                                        Remote Service                                    </a>
+                                    <a class="dropdown-item" href="javascript:load_page('catlog','Catalog Cart','d8469845aa09ad24442cf3eaea70c62daf6067b1','681')">
+                                        Catalog                                        /
+                                        Cart                                    </a>
+                                </div>
+
+                                                    </li>
+                                                                    <li class="nav-item">
+                                <a href="#collapse4" class="nav-link collapsed" data-toggle="collapse">
+                                    <i class="nav-icon flaticon-shopping-cart-2"></i><span class="nav-head">Orders</span>
+                                </a>
+                                <div class="collapse" data-parent="#accordion2" id="collapse4">
+                                    
+
+                                        <h6 class="dropdown-header" style="cursor: pointer" onclick="javascript:load_page('imeiorder','IMEI Orders','d8469845aa09ad24442cf3eaea70c62daf6067b1','230')" "="">    IMEI                                        /
+                                        Server                                        Order</h6>
+                                        <a class="dropdown-item" href="javascript:load_page('imeiorder&amp;laoddefaultpage=imeiorder.replied.php&amp;pg=acc','Reply Accepted IMEI Orders','d8469845aa09ad24442cf3eaea70c62daf6067b1','143')">
+                                            Accepted                    
+                        IMEI Orders                                     
+   </a>
+                                        <a class="dropdown-item" href="javascript:load_page('imeiorder&amp;laoddefaultpage=imeiorder.history.php&amp;pg=hst','IMEI Orders History ','d8469845aa09ad24442cf3eaea70c62daf6067b1','578')">
+                                            IMEI Orders                 
+                           History                                      
+  </a>
+                                        <h6 class="dropdown-header" style="cursor: pointer" onclick="javascript:load_page('fileorder','File Orders','d8469845aa09ad24442cf3eaea70c62daf6067b1','229')">File Orders</h6>
+                                        <a class="dropdown-item" href="javascript:load_page('fileorder&amp;laoddefaultpage=fileorder.repllied.php&amp;pg=acc','Reply Accepted File Orders','d8469845aa09ad24442cf3eaea70c62daf6067b1','900')">
+                                            Accepted                    
+                        File Orders                                     
+   </a>
+                                        <a class="dropdown-item" href="javascript:load_page('fileorder&amp;laoddefaultpage=fileorder.history.php&amp;pg=hst','File Orders History ','d8469845aa09ad24442cf3eaea70c62daf6067b1','577')">
+                                            File Orders                 
+                           History                                      
+  </a>
+
+                                        <h6 class="dropdown-header" style="cursor:pointer;" onclick="javascript:load_page('imeiorder&amp;stype=server','Server Orders','d8469845aa09ad24442cf3eaea70c62daf6067b1','916')">
+                                            Server Orders               
+                             With                                       
+     APi
+                                        </h6>
+
+
+                                        <a class="dropdown-item" href="javascript:load_page('imeiorder&amp;laoddefaultpage=imeiorder.replied.php&amp;pg=acc&amp;stype=server','Reply Accepted Server Orders','d8469845aa09ad24442cf3eaea70c62daf6067b1','477')">
+                                            Accepted                    
+                        Server Orders                                   
+     </a>
+                                        <a class="dropdown-item" href="javascript:load_page('imeiorder&amp;laoddefaultpage=imeiorder.history.php&amp;pg=hst&amp;stype=server','Server Orders History ','d8469845aa09ad24442cf3eaea70c62daf6067b1','672')">
+                                            Server Orders               
+                             History                                    
+    </a>
+
+                                        <h6 class="dropdown-header" style="cursor: pointer" onclick="javascript:load_page('serverorder','Server Orders','d8469845aa09ad24442cf3eaea70c62daf6067b1','432')">
+                                            Server Orders
+                                        </h6>
+
+                                        <a class="dropdown-item" href="javascript:load_page('serverorder&amp;laoddefaultpage=serverorder.replied.php&amp;pg=acc','Reply Accepted Server Orders','d8469845aa09ad24442cf3eaea70c62daf6067b1','913')">
+                                            Accepted                    
+                        Server Orders                                   
+     </a>
+                                        <a class="dropdown-item" href="javascript:load_page('serverorder&amp;laoddefaultpage=serverorder.history.php&amp;pg=hst','Server Orders History ','d8469845aa09ad24442cf3eaea70c62daf6067b1','120')">
+                                            Server Orders               
+                             History                                    
+    </a>
+
+
+                                        <h6 class="dropdown-header" style="cursor: pointer" onclick="javascript:load_page('serverorder','Server Orders','d8469845aa09ad24442cf3eaea70c62daf6067b1','322')">
+                                            Remote Service
+                                        </h6>
+
+                                        <a class="dropdown-item" href="javascript:load_page('imeiorder&amp;laoddefaultpage=imeiorder.replied.php&amp;pg=acc&amp;stype=remote','Reply Accepted Orders','d8469845aa09ad24442cf3eaea70c62daf6067b1','686')">
+                                            Accepted                    
+                        Remote Orders                                   
+     </a>
+                                        <a class="dropdown-item" href="javascript:load_page('imeiorder&amp;laoddefaultpage=imeiorder.history.php&amp;pg=hst&amp;stype=remote','Remote Order History ','d8469845aa09ad24442cf3eaea70c62daf6067b1','617')">
+                                            Remote Orders History                                        </a>
+
+
+                                                                        </div>
+                            </li>
+
+                                                    <li class="nav-item">
+                            <a href="javascript:load_page('productorders','Retail Orders','d8469845aa09ad24442cf3eaea70c62daf6067b1','845')" class="nav-link ">
+                                <i class="nav-icon flaticon-shopping-cart-2"></i><span class="nav-head">Retail Orders (Cart)</span>
+                            </a>
+                        </li>
+
+                                                <li class="nav-item">
+                            <a href="#collapse55" class="nav-link collapsed" data-toggle="collapse">
+                                <i class="nav-icon flaticon-shopping-cart-2"></i><span class="nav-head">Inventory</span>
+                            </a>
+                            <div class="collapse" data-parent="#accordion2" id="collapse55">
+
+
+
+                                <a class="dropdown-item" href="javascript:load_page('softwarekeymain','Digital Inventory','d8469845aa09ad24442cf3eaea70c62daf6067b1','125')">
+
+                                    Digital Inventory                                </a>
+
+
+                            </div>
+                        </li>
+                                            <li class="nav-item">
+                        <a href="#collapse8" class="nav-link collapsed" data-toggle="collapse">
+                            <i class="nav-icon flaticon-rounded-paper-with-text-lines-and-one-folded-corner"></i><span class="nav-head">
+			CMS                                / Blog</span>
+                        </a>
+                        <div class="collapse" data-parent="#accordion2" id="collapse8">
+                            <a class="dropdown-item" href="javascript:load_page('menumanager','Menu Manager','d8469845aa09ad24442cf3eaea70c62daf6067b1','787')">
+                                Menu Manager                            </a>
+                            <a class="dropdown-item" href="javascript:load_page('viewpage','Create New Pages','d8469845aa09ad24442cf3eaea70c62daf6067b1','818')">
+                                Custom Pages                            </a>
+                            <a class="dropdown-item" href="javascript:load_page('indexbanner','Index Banner','d8469845aa09ad24442cf3eaea70c62daf6067b1','722')">
+                                Index Banner                            </a>
+                            <a class="dropdown-item" href="javascript:load_page('indexcontent','Page Content','d8469845aa09ad24442cf3eaea70c62daf6067b1','630')">
+                                Page                                Content                            </a>
+                            <a class="dropdown-item" href="javascript:load_page('advertisement','Advertising','d8469845aa09ad24442cf3eaea70c62daf6067b1','999')">
+                                Advertising                            </a>
+                            <a class="dropdown-item" href="javascript:load_page('testimonial','Testimonial','d8469845aa09ad24442cf3eaea70c62daf6067b1','797')">
+                                Testimonial                            </a>
+                            <a class="dropdown-item" href="#" onclick="javascript: window.open('includes/gallery.php','windowname1','scrollbars=yes,resizable=no,width=550,height=400');">
+                                Gallery
+                            </a>
+                            <a class="dropdown-item" href="javascript:load_page('template.editor','Template Editor','d8469845aa09ad24442cf3eaea70c62daf6067b1','325')">
+                                Template                                Editor                            </a>
+                            <a class="dropdown-item" href="javascript:load_page('quicknews','Quick News','d8469845aa09ad24442cf3eaea70c62daf6067b1','650')">
+                                Announcements                            </a>
+                            <a class="dropdown-item" href="javascript:load_page('viewblog','View Post','d8469845aa09ad24442cf3eaea70c62daf6067b1','699')" id="">
+                                Blog                            </a>
+                            <a class="dropdown-item" href="javascript:load_page('flashpopup','Flash Popup','d8469845aa09ad24442cf3eaea70c62daf6067b1','746')" id="">
+                                Flash Popup
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#collapse5" class="nav-link collapsed" data-toggle="collapse">
+                            <i class="nav-icon flaticon-bar-chart-3"></i><span class="nav-head">
+		Reports/Graphs		</span>
+                        </a>
+                        <div class="collapse" data-parent="#accordion2" id="collapse5">
+
+                            <div class="float-left">
+                                                                    <a class="dropdown-item" href="javascript:load_page('userbyincome','Top User by Income','d8469845aa09ad24442cf3eaea70c62daf6067b1','513')">
+                                        Top User by Income                                    </a>
+                                                                <a class="dropdown-item" href="javascript:load_page('salesbyproduct','Sales by Services','d8469845aa09ad24442cf3eaea70c62daf6067b1','541')">
+                                    Sales by Services                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('monthlyorder','Monthly Orders','d8469845aa09ad24442cf3eaea70c62daf6067b1','857')">
+                                    Monthly Orders                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('ordersummery','Order Summary','d8469845aa09ad24442cf3eaea70c62daf6067b1','529')">
+                                    Order Summary                                    (
+                                    Retail                                    Shop                                    )
+                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('graph','Graph','d8469845aa09ad24442cf3eaea70c62daf6067b1','500')">
+                                    Graph                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('netprofit','Net Profit','d8469845aa09ad24442cf3eaea70c62daf6067b1','250')">
+                                    Net Profit                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('stockreport','Stock  Report','d8469845aa09ad24442cf3eaea70c62daf6067b1','730')">
+                                    Stock                                    Report                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('promotionalusage','Promotion  Usage','d8469845aa09ad24442cf3eaea70c62daf6067b1','239')">
+                                    Promotion                                    Usage                                </a>
+
+                                <a class="dropdown-item" href="javascript:load_page('userstatements','User  Statement','d8469845aa09ad24442cf3eaea70c62daf6067b1','882')">
+                                    User                                    Statement                                </a>
+
+                                <a class="dropdown-item" href="javascript:load_page('addfundreport','Add Fund Report','d8469845aa09ad24442cf3eaea70c62daf6067b1','819')">
+                                    Add Fund                                    Report                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('fundtransferreport','Fund Transfer Report','d8469845aa09ad24442cf3eaea70c62daf6067b1','910')">
+                                    Fund Transfer                                    Report                                </a>
+                            </div>
+                            <div class="float-left">
+                                <a class="dropdown-item" href="javascript:load_page('creditreport','Credit  Report','d8469845aa09ad24442cf3eaea70c62daf6067b1','551')">
+                                    Credit                                    Report                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('invoicereport','Invoice  Report','d8469845aa09ad24442cf3eaea70c62daf6067b1','260')">
+                                    Invoice                                    Report                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('servicestatus','Service  Status','d8469845aa09ad24442cf3eaea70c62daf6067b1','890')">
+                                    Service                                    Status                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('refundreport','Refund  Report','d8469845aa09ad24442cf3eaea70c62daf6067b1','403')">
+                                    Refund                                    Report                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('suppliersorder','Suppliers  Order','d8469845aa09ad24442cf3eaea70c62daf6067b1','496')">
+                                    Suppliers                                    Order                                </a>
+                                                                    <a class="dropdown-item" href="javascript:load_page('storeselling','Store Product Selling','d8469845aa09ad24442cf3eaea70c62daf6067b1','780')">
+                                        Store                           
+             Product                                        Selling     
+                               </a>
+                                                                <a class="dropdown-item" href="javascript:load_page('staffsummary','Staff Summary','d8469845aa09ad24442cf3eaea70c62daf6067b1','387')">
+                                    Staff                                    Summary                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('autoreplyreport','Auto Reply Report','d8469845aa09ad24442cf3eaea70c62daf6067b1','661')">
+                                    Auto                                
+    Reply                                    Report                     
+           </a>
+                                <a class="dropdown-item" href="javascript:load_page('transactionreport','Transaction Report','d8469845aa09ad24442cf3eaea70c62daf6067b1','259')">
+                                    Transaction                                    Report                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('clientcrdr','Client Credit/Debit','d8469845aa09ad24442cf3eaea70c62daf6067b1','178')">
+                                    Client                                    Credit/Debit                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('merchanttransaction','Merchant Orders','d8469845aa09ad24442cf3eaea70c62daf6067b1','182')">
+                                    Merchant                                    Orders                                </a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#collapse6" class="nav-link collapsed" data-toggle="collapse">
+                            <i class="nav-icon flaticon-focus"></i><span class="nav-head">
+			Utilities			</span>
+                        </a>
+                        <div class="collapse" data-parent="#accordion2" id="collapse6" style="margin-top: -120px">
+
+                            <div class="float-left">
+                                <a class="dropdown-item" href="javascript:load_page('campaignmain','Email Campaign','d8469845aa09ad24442cf3eaea70c62daf6067b1','697')" id="">Email Campaign <span class="badge" style="background: green;color:white;border-radius: 3px;font-size: 10px;display: inline-block;padding:2px 3px">NEW</span> </a>
+
+                                <a class="dropdown-item" href="javascript:load_page('massmailmain','Send Mass Mail','d8469845aa09ad24442cf3eaea70c62daf6067b1','884')">
+                                    Mass Mail                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('sendSMS','Mass SMS','d8469845aa09ad24442cf3eaea70c62daf6067b1','664')">
+                                    Mass                                    SMS                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('sendGCM','Mass GCM','d8469845aa09ad24442cf3eaea70c62daf6067b1','862')">
+                                    Mass                                    GCM
+                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('utilities.databasebackup','Database Backup','d8469845aa09ad24442cf3eaea70c62daf6067b1','317')">
+                                    Database Backup                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('utilities.databasestatus','Database Status','d8469845aa09ad24442cf3eaea70c62daf6067b1','689')">
+                                    Database Status                                </a>
+
+                                <a class="dropdown-item" href="javascript:load_page('utilities.systemcleanup','System Cleanup','d8469845aa09ad24442cf3eaea70c62daf6067b1','968')">
+                                    System Cleanup                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('utilities.onlineusers','Online User','d8469845aa09ad24442cf3eaea70c62daf6067b1','669')">
+                                    Online User                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('blockedipmain','IP Manager','d8469845aa09ad24442cf3eaea70c62daf6067b1','174')">
+                                    IP Manager                                </a>
+                                                                    <a class="dropdown-item" href="javascript:load_page('import','Import','d8469845aa09ad24442cf3eaea70c62daf6067b1','229')">
+                                        Import Script                                    </a>
+                                                                    <a class="dropdown-item" href="javascript:load_page('blackemail','E-mail Black List','d8469845aa09ad24442cf3eaea70c62daf6067b1','509')">
+                                    E-mail                                    Black List                                </a>
+
+                                                                    <a class="dropdown-item" href="javascript:load_page('apilog','Api Log','d8469845aa09ad24442cf3eaea70c62daf6067b1','396')">
+                                        Api Log                                    </a>
+                                    
+                                <a class="dropdown-item" href="javascript:load_page('gatewaylog','Gateway Log','d8469845aa09ad24442cf3eaea70c62daf6067b1','239')">
+                                    Gateway                                    Log                                </a>
+
+                            </div>
+                            <div class="float-left">
+                                                                <a class="dropdown-item" href="javascript:load_page('systemlog','System Log','d8469845aa09ad24442cf3eaea70c62daf6067b1','351')">
+                                    System                                    Log                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('smslog','SMS Log','d8469845aa09ad24442cf3eaea70c62daf6067b1','187')">
+                                    SMS                                    Log                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('downloadlog','Download Log','d8469845aa09ad24442cf3eaea70c62daf6067b1','442')">
+                                    Download                                    Log                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('activitylog&amp;reports=1','Activity Log','d8469845aa09ad24442cf3eaea70c62daf6067b1','683')">
+                                    Activity                                    Log                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('newsletter','Newsletter Subscriber','d8469845aa09ad24442cf3eaea70c62daf6067b1','648')">
+                                    Newsletter Subscriber                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('utilities.seo','SEO Functions','d8469845aa09ad24442cf3eaea70c62daf6067b1','976')">
+                                    SEO                                    Functions                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('utilities.language','Language Editor','d8469845aa09ad24442cf3eaea70c62daf6067b1','514')">
+                                    Language                                    Editor                                </a>
+                                                                    <a class="dropdown-item" href="javascript:load_page('apioptimise','Optimise API','d8469845aa09ad24442cf3eaea70c62daf6067b1','975')">
+                                        Optimise                                        API                                    </a>
+                                                                    <a class="dropdown-item" href="javascript:load_page('survey','Survey','d8469845aa09ad24442cf3eaea70c62daf6067b1','245')">
+                                    Survey                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('fraudcage','Fraud Cage','d8469845aa09ad24442cf3eaea70c62daf6067b1','931')">
+                                    Fraud Cage
+                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('affiliate','Affiliate System','d8469845aa09ad24442cf3eaea70c62daf6067b1','531')" id="">
+                                    Affiliate                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('slack','Messenger Notification','d8469845aa09ad24442cf3eaea70c62daf6067b1','736')" id="">Messenger Notification <span class="badge" style="background: green;color:white;border-radius: 3px;font-size: 10px;display: inline-block;padding:2px 3px">NEW</span> </a>
+
+
+                                <a class="dropdown-item" href="javascript:load_page('blacklistimei','Blacklist IMEI','d8469845aa09ad24442cf3eaea70c62daf6067b1','111')" id="">Blacklist IMEI <span class="badge" style="background: green;color:white;border-radius: 3px;font-size: 10px;display: inline-block;padding:2px 3px">NEW</span> </a>
+
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#collapse9" class="nav-link collapsed" data-toggle="collapse">
+                            <i class="nav-icon flaticon-wheel-outline"></i><span class="nav-head">
+					Support					</span>
+                        </a>
+                        <div class="collapse" data-parent="#accordion2" id="collapse9" style="margin-top: -100px">
+                            <h6 class="dropdown-header">
+                                Ticket                            </h6>
+                            <a class="dropdown-item" href="javascript:load_page('support.create','Create Ticket','d8469845aa09ad24442cf3eaea70c62daf6067b1','238')">
+                                Create                                Ticket                            </a>
+                            <a class="dropdown-item" href="javascript:load_page('support.open&amp;id=4','Waiting Ticket','d8469845aa09ad24442cf3eaea70c62daf6067b1','623')">
+                                Waiting                                Ticket                            </a>
+                            <a class="dropdown-item" href="javascript:load_page('support.open&amp;id=1','Ticket','d8469845aa09ad24442cf3eaea70c62daf6067b1','371')">
+                                Open                                Tickets                            </a>
+                            <a class="dropdown-item" href="javascript:load_page('support.open&amp;id=5','Customer-reply','d8469845aa09ad24442cf3eaea70c62daf6067b1','308')">
+                                Customer-reply
+                            </a>
+                            <a class="dropdown-item" href="javascript:load_page('support.open&amp;id=3','Answered Ticket','d8469845aa09ad24442cf3eaea70c62daf6067b1','670')">
+                                Answered                                Ticket                            </a>
+                            <a class="dropdown-item" href="javascript:load_page('support.open&amp;id=2','Closed Ticket','d8469845aa09ad24442cf3eaea70c62daf6067b1','178')">
+                                Closed                            </a>
+                                                        <a class="dropdown-item" href="javascript:load_page('support.settings','Settings','d8469845aa09ad24442cf3eaea70c62daf6067b1','333')">
+                                Ticket                                /
+                                Live Help                                Settings                            </a>
+                            <a class="dropdown-item" href="javascript:load_page('knowledgebasemain','Knowledge Base','d8469845aa09ad24442cf3eaea70c62daf6067b1','755')">
+                                Knowledge Base                            </a>
+                            <a class="dropdown-item" href="javascript:load_page('download','Downloads','d8469845aa09ad24442cf3eaea70c62daf6067b1','771')">
+                                Download                                s
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" data-toggle="collapse" target="_blank" href="javascript:void(0)" onclick="window.open('livechat.php', 'windowname1', 'width=1260, height=600'); return false;">
+                            <i class="nav-icon flaticon-speech-bubble-1"></i><span class="nav-head">
+					Online User                                /
+                                Live Chat					</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#collapse10" class="nav-link collapsed" data-toggle="collapse">
+                            <i class="nav-icon flaticon-settings"></i><span class="nav-head">
+					Settings					</span>
+                        </a>
+                        <div class="collapse" data-parent="#accordion2" id="collapse10" style="margin-top: -180px">
+
+                            <div class="float-left">
+                                <a class="dropdown-item" href="javascript:load_page('generalsettings','General Settings','d8469845aa09ad24442cf3eaea70c62daf6067b1','322')">
+                                    General Settings                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('mailsetting','E-Mail Settings','d8469845aa09ad24442cf3eaea70c62daf6067b1','179')">
+                                    E-Mail Settings                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('securitysettings','Security','d8469845aa09ad24442cf3eaea70c62daf6067b1','254')">
+                                    Security                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('settingautomation','Automation','d8469845aa09ad24442cf3eaea70c62daf6067b1','544')">
+                                    Automation                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('currencies','Currencies','d8469845aa09ad24442cf3eaea70c62daf6067b1','807')">
+                                    Currencies                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('paymentgateway','Payment Gateways','d8469845aa09ad24442cf3eaea70c62daf6067b1','578')">
+                                    Payment Gateways                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('shippingateway','Shipping Gateway','d8469845aa09ad24442cf3eaea70c62daf6067b1','584')">
+                                    Shipping                                    Gateway                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('smsgateway','SMS Gateway','d8469845aa09ad24442cf3eaea70c62daf6067b1','241')">
+                                    SMS Gateway
+                                </a>
+                                                                    <a class="dropdown-item" href="javascript:load_page('apisetting','API Settings','d8469845aa09ad24442cf3eaea70c62daf6067b1','939')">
+                                        API Settings                                    </a>
+                                                                    <a class="dropdown-item" href="javascript:load_page('administrator','System Administrator','d8469845aa09ad24442cf3eaea70c62daf6067b1','741')">
+                                    System Administrator                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('productfeature','Product Feature','d8469845aa09ad24442cf3eaea70c62daf6067b1','715')">
+                                    Product                                    Feature                                </a>
+
+                            </div>
+                            <div class="float-left">
+
+                                                                    <h6 class="dropdown-header">
+                                        Field Settings                                    </h6>
+                                    <a class="dropdown-item" id="countryprovider" href="javascript:load_page('countryprovider','Country - Provider','d8469845aa09ad24442cf3eaea70c62daf6067b1','966')">
+                                        Country - Provider                                    </a>
+                                    <a class="dropdown-item" id="brandmodel" href="javascript:load_page('brandmodel','Brand - Model','d8469845aa09ad24442cf3eaea70c62daf6067b1','916')">
+                                        Brand - Model                                    </a>
+                                    <a class="dropdown-item" id="mep" href="javascript:load_page('mep','MEP','d8469845aa09ad24442cf3eaea70c62daf6067b1','182')">
+                                        MEP                                    </a>
+                                    <a class="dropdown-item" id="manufacturewarehouse" href="javascript:load_page('manufacturewarehouse','Manufacture - Warehouse','d8469845aa09ad24442cf3eaea70c62daf6067b1','244')">
+                                        Manufacture                                        -
+                                        Warehouse                                    </a>
+                                    <a class="dropdown-item" id="providermodelmep" href="javascript:load_page('providermodelmep','Provider - Model - MEP','d8469845aa09ad24442cf3eaea70c62daf6067b1','454')">
+                                        Provider                                        -
+                                        Model                                        -
+                                        MEP                                    </a>
+                                    <a class="dropdown-item" id="prd" href="javascript:load_page('prd','PRD','d8469845aa09ad24442cf3eaea70c62daf6067b1','635')">
+                                        PRD
+                                    </a>
+
+
+                                                                    <a class="dropdown-item" href="javascript:load_page('rechargemain','Recharge Voucher','d8469845aa09ad24442cf3eaea70c62daf6067b1','781')">
+                                    Recharge Voucher                                </a>
+                                <a class="dropdown-item" href="javascript:load_page('promotionmain','Promotion','d8469845aa09ad24442cf3eaea70c62daf6067b1','207')">
+                                    Promotion                                    Codes                                </a>
+                                <!--
+                                <a class="dropdown-item"  href="javascript:load_page('softwarekeymain','Auto Reply','d8469845aa09ad24442cf3eaea70c62daf6067b1','231')">
+                                    Auto                                    Reply                                    (
+                                    Key                                    Selling                                    )
+                                </a>
+                                -->
+                                <a class="dropdown-item" href="javascript:load_page('sitemessages','Site Message','d8469845aa09ad24442cf3eaea70c62daf6067b1','429')">
+                                    Site                                    Notification                                </a>
+
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </li>
+                    <!--
+                    <li class="nav-item">
+                        <a class="nav-link collapsed"   href="javascript:load_page('store','Store','d8469845aa09ad24442cf3eaea70c62daf6067b1','665')">
+                            <i  class="nav-icon flaticon-shopping-cart-1"></i><span class='nav-head'>
+					Store                    					</span>
+                        </a>
+                    </li>
+                    -->
+                    <li class="nav-item">
+                        <a href="#collapse7" class="nav-link collapsed" data-toggle="collapse">
+                            <i class="nav-icon flaticon-info-1"></i><span class="nav-head">
+					Help					</span>
+                        </a>
+                        <div class="collapse" data-parent="#accordion2" id="collapse7" style="margin-top: -180px">
+                                                            <a class="dropdown-item" href="javascript:load_page('help.selfupdate','Self Update','d8469845aa09ad24442cf3eaea70c62daf6067b1','223')">
+                                    Self Update
+                                </a>
+                                                            <a class="dropdown-item" href="javascript:load_page('help.license','License Information','d8469845aa09ad24442cf3eaea70c62daf6067b1','613')">
+                                License Information                            </a>
+                            <a class="dropdown-item" href="javascript:load_page('help.keyboardshortcuts','Keyboard Shortcuts','d8469845aa09ad24442cf3eaea70c62daf6067b1','825')">
+                                Keyboard Shortcuts                            </a>
+                                                                <a class="dropdown-item" href="javascript:load_link('http://kb.dhru.com/','kb.dhru.com')">
+                                        General FAQ                                    </a>
+                                    <a class="dropdown-item" href="javascript:load_link('http://dhru.com/login','Dhru Customer Hub')">
+                                        Dhru Customer Hub
+                                    </a>
+                                                                                                        <a class="dropdown-item" href="javascript:load_page('help.supportrequest','Request For Support','d8469845aa09ad24442cf3eaea70c62daf6067b1','680')">
+                                        Request For Support                                    </a>
+                                                                <a class="dropdown-item" href="javascript:load_page('help.phpinfo','PHP Information','d8469845aa09ad24442cf3eaea70c62daf6067b1','409')">
+                                PHP Information
+                            </a>
+                        </div>
+                    </li>
+
+
+                    <li class="nav-item" id="onlinestaff"><strong>Critical Error</strong><br>Could not connect to the database</li>
+
+
+                    <!-- <li class="nav-item"><a class="nav-link collapsed" href="javascript:saveTheme('default')">  <span style="font-size: 20px"> &larr;</span>   <span class='nav-head'> Set Old Panel </span></a></li>-->
+
+                    <div class="position-absolute mt-auto" style="bottom: 0;">
+                        <li class="">
+                            <div class="p-3 d-none d-md-block" style="cursor:pointer;" onclick="changeTheme()"><span class="theme-square "></span>   <span id="" class="light">  </span>  </div>
+
+                            <div class="d-inline">
+                                <div class="p-3 toggle-bar  d-none d-lg-inline-block " onclick="toggleSidebar()" style="font-size: 14px;color:#888;cursor: pointer"><i class="fa fa-bars"></i></div>
+                                <div style="font-size: 12px" class="d-md-none d-lg-inline-block text-center bottom-link p-2">
+                                                                            <a class="text-muted" href="http://kb.dhru.com/#!/bugreport" target="_blank">Debug
+                                            Report</a>
+                                        <a class="text-muted ml-2" href="http://kb.dhru.com/#!/featurerequest" target="_blank">Feature Request</a>
+                                                                        </div>
+                            </div>
+
+
+                        </li>
+                    </div>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="w-100 content-bar" style="border-left:rgba(0,0,0,0.05) solid 1px">
+
+            <div class="tab-content h-100 w-100  position-relative" id="tabContent"><div class="tab-pane h-100 fade show active" id="t_t_imeiorderquickreply-php" role="tabpanel" aria-labelledby="profile-tab"> <iframe src="Home%20-%20Fusion_files/main2.html"></iframe></div><div class="tab-pane h-100 fade show" id="t_1010" role="tabpanel" aria-labelledby="profile-tab"> <iframe src="Home%20-%20Fusion_files/main2_002.html"></iframe></div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+<script>
+
+
+    function toggleSidebar(){
+        $('body').toggleClass('open-sidebar');
+    }
+    function screenSize(){
+        if ($(window).width() < 768) {
+            $('body').removeClass('desktop-screen').addClass('mobile-screen');
+        }
+        else{
+            $('body').addClass('desktop-screen').removeClass('mobile-screen');
+        }
+    }
+    $(document).ready(function(){
+        $('a[data-toggle="collapse"]').click(function(e){
+            if ($(window).width() >= 768) {
+                e.preventDefault();
+                e.stopPropagation();
+            }
+        });
+        $(window).resize(function(){
+            screenSize();
+        });
+        screenSize();
+    })
+
+    function callonlinestaff(){
+        $.post('includes/pages/onlinestaff2.php',function (data, textStatus) {
+            $('#onlinestaff').html(data);
+        });
+    }
+    $(document).ready(function(){
+        callonlinestaff();
+        var refreshId = setInterval(function() {
+            callonlinestaff();
+        },300000);
+    });
+</script>
+
+<script type="application/javascript">
+
+    // adds mobile browser class to html tag
+    var ua = navigator.userAgent.toLowerCase();
+    function removeSpaces(ua) {
+        return ua.split(' ').join('');
+    }
+    ua = removeSpaces(ua);
+    var iOS = ua.match(/(iphone|ipod|ipad)/);
+    if(iOS) {
+        $('html').addClass('ios');
+    }
+    var iPad = ua.match(/(ipad)/);
+    if(iPad) {
+        $('html').addClass('ipad');
+    }
+    var iPhone = ua.match(/(iphone|ipod)/);
+    if(iPhone) {
+        $('html').addClass('iphone');
+    }
+    var android = ua.indexOf("android") > -1;
+    if(android) {
+        $('html').addClass('android');
+    }
+    var android4 = ua.indexOf("android4") > -1;
+    if(android4) {
+        $('html').addClass('android4');
+    }
+    var android2 = ua.indexOf("android2") > -1;
+    if(android2) {
+        $('html').addClass('android2');
+    }
+</script>
+
+
+<div class="modal" id="releasenotes" tabindex="-1" role="dialog">
+    <div class="modal-dialog  modal-lg" role="document" style="max-width: 910px;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">You already have the latest version</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body p-4" style="height: 600px;overflow: auto;">
+                <div id="releasetext" class="releases">
+                    <div style="text-align: center" class="p-5">
+                        <svg class="lds-spinner" width="67px" height="67px" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" style="background: none;"><g transform="rotate(0 50 50)">
+                                <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#999790">
+                                    <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.9166666666666666s" repeatCount="indefinite"></animate>
+                                </rect>
+                            </g><g transform="rotate(30 50 50)">
+                                <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#999790">
+                                    <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.8333333333333334s" repeatCount="indefinite"></animate>
+                                </rect>
+                            </g><g transform="rotate(60 50 50)">
+                                <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#999790">
+                                    <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.75s" repeatCount="indefinite"></animate>
+                                </rect>
+                            </g><g transform="rotate(90 50 50)">
+                                <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#999790">
+                                    <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.6666666666666666s" repeatCount="indefinite"></animate>
+                                </rect>
+                            </g><g transform="rotate(120 50 50)">
+                                <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#999790">
+                                    <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.5833333333333334s" repeatCount="indefinite"></animate>
+                                </rect>
+                            </g><g transform="rotate(150 50 50)">
+                                <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#999790">
+                                    <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.5s" repeatCount="indefinite"></animate>
+                                </rect>
+                            </g><g transform="rotate(180 50 50)">
+                                <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#999790">
+                                    <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.4166666666666667s" repeatCount="indefinite"></animate>
+                                </rect>
+                            </g><g transform="rotate(210 50 50)">
+                                <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#999790">
+                                    <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.3333333333333333s" repeatCount="indefinite"></animate>
+                                </rect>
+                            </g><g transform="rotate(240 50 50)">
+                                <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#999790">
+                                    <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.25s" repeatCount="indefinite"></animate>
+                                </rect>
+                            </g><g transform="rotate(270 50 50)">
+                                <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#999790">
+                                    <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.16666666666666666s" repeatCount="indefinite"></animate>
+                                </rect>
+                            </g><g transform="rotate(300 50 50)">
+                                <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#999790">
+                                    <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.08333333333333333s" repeatCount="indefinite"></animate>
+                                </rect>
+                            </g><g transform="rotate(330 50 50)">
+                                <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#999790">
+                                    <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="0s" repeatCount="indefinite"></animate>
+                                </rect>
+                            </g></svg>
+                    </div>
+                </div>
+            </div>
+                    </div>
+    </div>
+</div>
+
+
+<div class="modal" id="helpnotes" tabindex="-1" role="dialog">
+    <div class="modal-dialog  modal-lg" role="document" style="max-width: 910px;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Intelligent Search Help</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body p-4" style="height: 600px;overflow: auto;">
+                <div id="releasetext" class="releases">
+                    <div style="text-align: center" class="p-5">
+                        <style>
+                            .searchby{
+                                width:200px;
+                                font-weight:bold;
+                            }
+                        </style>
+                        <table style="text-align: left">
+                            <tbody><tr>
+                                <td class="searchby">u:USERNAME</td><td>search user direct with username,first name, last name, email</td>
+                            </tr>
+                            <tr>
+                                <td class="searchby">stat:USERNAME</td><td>stat{Username} open user statement</td>
+                            </tr>
+                            <tr>
+                                <td class="searchby">credit:USERNAME</td><td>credit{Username} open Add fund in user</td>
+                            </tr>
+                            <tr>
+                                <td class="searchby">order:USERNAME</td><td>order{Username} list orders of User</td>
+                            </tr>
+                            <tr>
+                                <td class="searchby">inv:1299</td><td>search 1299 invoice number directly</td>
+                            </tr>
+                            <tr>
+                                <td class="searchby">p/2000</td><td>search proforma invoice 2000</td>
+                            </tr>
+                            <tr>
+                                <td class="searchby">i/2000</td><td>search invoice 2000</td>
+                            </tr>
+                            <tr>
+                                <td class="searchby">unpaid</td><td>List unpaid invoices</td>
+                            </tr>
+                            <tr>
+                                <td class="searchby">cancel</td><td>List cancel invoices</td>
+                            </tr>
+                            <tr>
+                                <td class="searchby">inactive</td><td>list inactive users</td>
+                            </tr>
+                            <tr>
+                                <td class="searchby">email@domain.com</td><td>search user and newsletter subscribers direct by email</td>
+                            </tr>
+                            <tr>
+                                <td class="searchby">edit:100</td><td>Edit/Reply order number 100</td>
+                            </tr>
+                        </tbody></table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<div id="subpage" class="" style="left: 130%;">
+    <div id="subpageheader" class="clearfix" style="padding: 12px 20px;border-bottom:#ddd solid 1px">
+        <div style="float: left;">
+            <h2>
+					<span id="subpageheader_txt" style="color:#777;font-weight:100;opacity: 1;font-size:25px">
+					Home					</span>
+            </h2>
+        </div>
+        <div id="subpageheader_txt_profile" style="float: right;">
+            <div class="close-subpage" id="closesubpage" style="cursor: pointer;">
+                x
+            </div>
+        </div>
+        <div style="clear: both;">
+        </div>
+    </div>
+    <iframe id="subpageiframe" src="" style="padding-bottom: 30px; top: 60px; height: 634px;" frameborder="0"></iframe>
+</div>
+<div id="subpage2" style=" -webkit-box-shadow: -5px 0px 15px 5px #d6d6d6;-moz-box-shadow: -5px 0px 15px 5px #d6d6d6;box-shadow: -5px 0px 15px 5px #d6d6d6;   display: none ; position: fixed; top: 0; right: 0; width: 350px;  background: white; z-index: 1002; border-left: 1px solid #ccc; ">
+    <div id="subpageheader2" class="clearfix" style="margin-left: 20px;">
+        <div style="float: left;">
+            <h2>
+					<span id="subpageheader_txt2">
+					Home					</span>
+            </h2>
+        </div>
+        <div id="subpageheader_txt_profile2" style="float: right; line-height: 50px !important; margin-right: 20px;">
+            <div class="close-subpage" id="closesubpage" style="cursor: pointer;">
+            </div>
+        </div>
+        <div style="clear: both;">
+        </div>
+    </div>
+    <iframe id="subpageiframe2" src="" frameborder="0"></iframe>
+</div>
+
+<div class="clearfix">
+    
+</div>
+
+
+
+ 
+    <script>
+        function toggleSidebar(){
+            $('body').toggleClass('open-sidebar');
+        }
+        function screenSize(){
+            if ($(window).width() < 768) {
+                   $('body').removeClass('desktop-screen').addClass('mobile-screen');      
+               }
+               else{
+                   $('body').addClass('desktop-screen').removeClass('mobile-screen');
+               }
+        }
+        $(document).ready(function(){              
+            $('a[data-toggle="collapse"]').click(function(e){
+              if ($(window).width() >= 768) {                 
+                e.preventDefault();
+                e.stopPropagation();
+              }    
+            });
+            $(window).resize(function(){
+               screenSize();
+            });            
+            screenSize();
+        });
+
+
+        (function ($, window) {
+
+            $.fn.contextMenu = function (settings) {
+
+                return this.each(function () {
+
+                    // Open context menu
+                    $(this).on("contextmenu", function (e) {
+                        // return native menu if pressing control
+                        if (e.ctrlKey) return;
+
+                        //open menu
+                        var $menu = $(settings.menuSelector)
+                            .data("invokedOn", $(e.target))
+                            .show()
+                            .css({
+                                position: "absolute",
+                                left: getMenuPosition(e.clientX, 'width', 'scrollLeft'),
+                                top: getMenuPosition(e.clientY, 'height', 'scrollTop')
+                            })
+                            .off('click')
+                            .on('click', 'a', function (e) {
+                                $menu.hide();
+
+                                var $invokedOn = $menu.data("invokedOn");
+                                var $selectedMenu = $(e.target);
+
+                                settings.menuSelected.call(this, $invokedOn, $selectedMenu);
+                            });
+
+                        return false;
+                    });
+
+                    //make sure menu closes on any click
+                    $('body').click(function () {
+                        $(settings.menuSelector).hide();
+                    });
+                });
+
+                function getMenuPosition(mouse, direction, scrollDir) {
+                    var win = $(window)[direction](),
+                        scroll = $(window)[scrollDir](),
+                        menu = $(settings.menuSelector)[direction](),
+                        position = mouse + scroll;
+
+                    // opening menu would pass the side of the page
+                    if (mouse + menu > win && menu < mouse)
+                        position -= menu;
+
+                    return position;
+                }
+
+            };
+        })(jQuery, window);
+
+        function setRightClick(obj) {
+            $(obj).contextMenu({
+                menuSelector: "#rightClickMenu",
+                menuSelected: function (invokedOn, selectedMenu) {
+                    var action=selectedMenu.text().trim();
+                    var element=$(invokedOn).parent();
+                    if(action=='Refresh'){
+                        $(element).find('.refresh-tab').click();
+                    }
+                    else if(action=='Close'){
+                        $(element).find('.close-tab').click();
+                    }
+                    else if(action=='Close Others'){
+                        $('#tabs-group li:not(:first)').each(function(){
+                            var tabtitle=$('a',this).attr('href');
+                            if(tabtitle!=element.attr('href')){
+                                $('#tabContent #'+tabtitle.replace('#','')).remove();
+                                $(this).remove();
+                            }
+                        });
+                       // $(element).find('.refresh-tab').click();
+                    }
+                    else if(action=='Close All'){
+                        $('#tabs-group li:not(:first)').each(function(){
+                            var tabtitle=$('a',this).attr('href');
+                            $('#tabContent #'+tabtitle.replace('#','')).remove();
+                            $(this).remove();
+                        });
+
+                        $('#tabs-group li:first a').click();
+                    }
+                }
+            });
+        }
+
+
+    </script>
+     
+<style>
+
+.newver:after {
+	border-bottom: 7px solid transparent;
+	border-right: 7px solid #F0C36D;
+	border-top: 7px solid transparent;
+	content: "";
+	display: inline-block;
+	left: -8px;
+	position: absolute;
+	top: 10px;
+}
+.newver {
+	background-color: #F9EDBE;
+	border-color: #F0C36D;
+	border-radius: 4px 4px 4px 4px;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+	color: #333333;
+	font-size: 15px;
+	left: 225px;
+	line-height: 15px;
+	padding:10px 15px;
+	position: absolute;
+	text-align: left;
+	top: 4px;
+	width: 190px;
+	z-index: 99;
+}
+.newclose {
+	position: absolute;
+	font-size:9px;
+	padding:2px 5px;
+	font-weight: bold;
+	color:#F0C36D;
+	cursor:pointer;
+	right:0;
+	top:8px
+}
+ 
+.fortab span {
+	margin:0 3%;
+	width:40px !important
+}
+#dashboardNav #mainNav a {
+	opacity:1
+}
+#dashboardNav {
+	width: 55px;
+}
+#dashboardNav.open {
+	width:210px;
+}
+.navselect {
+	width:45px !important;
+	overflow: hidden;
+	display: block;
+	height:42px;
+	float:left;
+	cursor: pointer;
+}
+.navselect select {
+	background: url('templates/default/images/menu_icon.png');
+	height:42px;
+	border:none;
+	text-indent: -99999px;
+	color:white
+}
+.quickmenuicon {
+	vertical-align: middle;
+	float:right;
+	margin-right:2px;
+	display: block;
+	height:42px;
+	width:34px !important;
+	cursor: pointer;
+	overflow: hidden;
+}
+.quickmenuicon select {
+	background: url('templates/default/images/quickaccessiocn.png') no-repeat;
+	height:42px;
+	border:none;
+	text-indent: -99999px;
+	color:white
+}
+.tabsearch {
+	float:right;
+	margin-right:2px;
+	display: block;
+	height:40px;
+	width:34px !important;
+	cursor: pointer;
+	background: url('templates/default/images/searchtabicon.png') no-repeat;
+}
+
+ 
+</style>
+
+
+
+ 
+
+
+<script>
+
+$(document).ready(function(){
+
+     document.onkeyup=function(ev) {
+       if(ev.which==113){
+         load_page('pos.sales','Sales [F2]','')
+       }
+}
+
+ $(function() {
+                var isCtrl = false;
+                var isShift =false;
+                $(document).keyup(function (e) {
+                        if(e.keyCode == 17){
+                                isCtrl = false;
+                        }
+
+
+                        if(e.keyCode == 16){
+                                isShift = false;
+                        }
+
+
+                        if(e.keyCode == 18){
+                                isAlt = false;
+                        }
+                }).keydown(function (e) {
+
+                        if(e.keyCode == 17){
+                                isCtrl = true;
+                        }
+
+
+                         if(e.keyCode == 16){
+                                isShift = true;
+                         }
+
+                        if(e.keyCode == 18){
+                                isAlt = true;
+                        }
+
+                        if(e.keyCode == 85 && isAlt && isCtrl == true) {
+                                load_page('addnewclient','Add New Client');
+                                return false;
+                        }else if(e.keyCode == 76 && isCtrl == true) {
+                                load_page('clientlist','Client List');
+                                return false;
+                        }else if(e.keyCode == 81 && isCtrl == true) {
+                                load_page('generalsettings','General Settings');
+                                return false;
+                        }else if(e.keyCode == 73 && isCtrl == true && isAlt == true) {
+                                load_page('imeiorder','New IMEI Orders');
+                                return false;
+                        }else if(e.keyCode == 70 && isCtrl == true && isAlt == true) {
+                                load_page('fileorder','New File Orders');
+                                return false;
+                        }else if(e.keyCode == 83 && isCtrl == true && isAlt == true) {
+                                load_page('serverorder','New Server Orders');
+                                return false;
+                        }else if(e.keyCode == 80 && isCtrl == true && isAlt == true) {
+                                load_page('productorder','New Product Orders');
+                                return false;
+                        }
+
+                });
+        });
+
+    //subdivtoggle();
+
+
+});
+</script>
+</body></html>

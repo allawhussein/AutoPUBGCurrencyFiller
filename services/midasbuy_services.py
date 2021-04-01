@@ -152,25 +152,32 @@ def midas_id_verifier(driver, window_handle, order_pubg_id, max_verification_tra
             else:
                 pass
             try:
-                driver.find_element_by_class_name("popa")
-                for element in driver.find_element_by_class_name("popa").find_element_by_class_name("pop-content"):
-                    element.find_element_by_class_name("close-btn").click()
-                print(" -MIDV: closing opened popup window")
-            except:
-                pass
-            try:
                 driver.find_element_by_xpath(payment_completed_button_xpath).click()
                 print(" -MIDV: closing payment window type I")
+                current_time = time.time()
             except:
                 pass
             try:
                 driver.find_element_by_xpath(payment_completed_ok_button_xpath).click()
                 print(" -MIDV: closing payment window type II")
+                current_time = time.time()
             except:
                 pass
         else:
             input_field_visible = 1
-        current_time = time.time()
+            current_time = time.time()
+        try:
+            driver.find_element_by_class_name("popa").find_element_by_class_name("close-btn").click()
+            print(" -MIDV: closing opened popup window")
+            current_time = time.time()
+        except:
+            pass
+        try:
+            driver.find_element_by_class_name("pop-content").find_element_by_class_name("close-btn").click()
+            print(" -MIDV: closing opened popup window")
+            current_time = time.time()
+        except:
+            pass
         if current_time - time_zero > time_of_waiting:
             print(" -MIDV: the input field is not showing up, MIDV is over")
             return -1
