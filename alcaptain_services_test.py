@@ -9,13 +9,10 @@ import time
 
 from services.variables import *
 from services import alcaptain_services
-from services import midasbuy_services
-from services import razer_gold_services
-from services import telegram_services
 
 driver = webdriver.Firefox()
 
-print(midasbuy_services.midas_id_verifier(driver, driver.window_handles[0], 5474774295, 1, "ot"))
-print(midasbuy_services.midas_bundle_and_payment_method_chooser(driver, driver.window_handles[0], 1500, 555,"Razer Gold", "ot"))
-x = input("input anything to continue")
-print(midasbuy_services.midas_razer_payment_initializer(driver, driver.window_handles[0], "ot"))
+alcaptain_services.get_alcaptain_main_page(driver, driver.current_window_handle)
+alcaptain_services.quick_accept_all_eligible_orders(driver, driver.current_window_handle)
+alcaptain_services.select_order(driver, driver.current_window_handle)
+alcaptain_services.get_list_of_active_archived_orders(driver, driver.current_window_handle)

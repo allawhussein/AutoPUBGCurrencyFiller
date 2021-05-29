@@ -3,8 +3,8 @@ import os.path
 
 alcaptain_login_username = "Pubg_Auto_API"
 alcaptain_login_password = "112233jj"
-alcaptain_prompt_username = "jamal"
-alcaptain_prompt_password = "Zx1212%40"
+alcaptain_prompt_username = "mohamad"
+alcaptain_prompt_password = "Aszx12@"
 
 country_code = "my"
 payment_method = "Razer Gold"
@@ -17,9 +17,9 @@ pubg_id_verifier_wait = 10 #number of seconds to wait for correct ID verificatio
 time_of_waiting = 15 #this number is based on internet speed, the lower the internet speed the higher the number
 razer_payment_wait = 5
 
-razer_email = "alcaptain.usa5@gmail.com"
-razer_password = "Au115533@"
-razer_tfa = "PJGUEMCXMZFGM2BXKVGUMS2LLJTGKVCQIV2FCMCUINBEC6KL"
+razer_email = "alcaptain.usa16@gmail.com"
+razer_password = "112233jj"
+razer_tfa = "JJUDKQRZJZYDO6CZGVYFGVCWJBBXC6TXNBAUY32FGJZUYWKP"
 
 sleeping_time = 1 #number of seconds before refreshing
 razer_payment_wait = 10

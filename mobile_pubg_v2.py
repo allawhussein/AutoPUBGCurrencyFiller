@@ -13,7 +13,8 @@ from services import midasbuy_services
 from services import razer_gold_services
 from services import telegram_services
 
-print("Mobile PUBG Bot v2.1.2.3")
+print("Mobile PUBG Bot v2.1.2.4")
+print("v2.1.2.4: <MainCode> fixed adding strings and integers in the reply message")
 print("v2.1.2.3: <midasbuy_serviecs> updated popup closing")
 print("v2.1.2:   <midasbuy_services> date picking is now by css selector not xpath")
 print("v2.1.1.10:<midasuby_services> updated buttons")
@@ -117,8 +118,9 @@ while True:
                                     print("Main Code: Bot will be Stoped")
                                     raise Exception
                                 else:
-                                    reply_message = "The PUBG ID: " + str(order_tuple[1]) + "\nof Name: " + order_name + "\nhas recharged: " + str(order_tuple[2]) + " UC\nThe Transaction ID: " + transaction_id
+                                    reply_message = "The PUBG ID: " + str(order_tuple[1]) + "\nof Name: " + str(order_name) + "\nThe Transaction ID: " + str(transaction_id)
                                     alcaptain_services.successful_order_reply(driver, driver.window_handles[0], reply_message)
+                                    telegram_services.send_msg("The PUBG ID: " + str(order_tuple[1]) + "\nof Name: " + str(order_name) + "\nThe Transaction ID: " + str(transaction_id) + "\nRefilled UC: " + str(output))
                             elif balance == "C":
                                 counter += 1
                                 print("Main Code: changing account")

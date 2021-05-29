@@ -139,6 +139,7 @@ def midas_id_verifier(driver, window_handle, order_pubg_id, max_verification_tra
 
     input_field_visible = 0
     time_zero = time.time()
+    current_time = time.time()
     print(" -MIDV: waiting for input field to appear")
     while not input_field_visible:
         try:#check for input filed

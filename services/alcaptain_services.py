@@ -206,19 +206,10 @@ def select_order(driver, window_handle, order_phrase_list = target_order_list):
                 break
         if "+" in order_uc:
             print(" -SO: new order UC style")
-            offer_uc = int(order_uc.split("+")[1])
-            order_uc = int(order_uc.split("+")[0]) + offer_uc
+            offer_uc = int(order_uc.split("+")[1].split(" ")[0])
+            order_uc = int(order_uc.split("+")[0])
         else:
-            try:
-                offer_uc = int(order.find_elements_by_tag_name("td")[1].text.split("(")[1].split(" ")[0])
-                offer_uc = offer_uc - int(order_uc)
-                order_uc = int(order_uc)
-            except Exception as error_message:
-                print(" -SO: no offer UC included")
-                offer_uc = 0
-                order_uc = int(order_uc)
-            else:
-                print(" -SO: old order UC style")
+            return None
         print(" -SO: order information")
         print("     |-alcaptainUnlock Order ID " + order_id)
         print("     |-required UC " + str(order_uc))
