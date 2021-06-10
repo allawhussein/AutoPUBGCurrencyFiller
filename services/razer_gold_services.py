@@ -215,7 +215,7 @@ def razer_gold_proceed_to_check_out(driver, window_handle, credentials):
     print(" -RGPTCO: clicking proceed to checkout")
 
     time_zero = time.time()
-    while time.time() - time_zero < time_of_waiting:
+    while time.time() - time_zero < time_of_waiting*5:
         try:#restarting time_zero if razer loading logo is appearing
             driver.find_element_by_class_name(razer_payment_loading_logo_class_name)
             time_zero = time.time()
