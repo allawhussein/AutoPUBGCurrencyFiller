@@ -3,8 +3,8 @@ import os.path
 
 alcaptain_login_username = "Pubg_Auto_API"
 alcaptain_login_password = "112233jj"
-alcaptain_prompt_username = "mohamad"
-alcaptain_prompt_password = "Aszx12@"
+alcaptain_prompt_username = "Fawaz"
+alcaptain_prompt_password = "Qwe123@$"
 
 country_code = "my"
 payment_method = "Razer Gold"

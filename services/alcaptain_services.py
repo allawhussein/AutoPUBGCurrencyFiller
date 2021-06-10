@@ -185,7 +185,7 @@ def select_order(driver, window_handle, order_phrase_list = target_order_list):
             for order_phrase in order_phrase_list:
                 if order_phrase in order.find_elements_by_tag_name("td")[1].text:
                     row_id = order.find_element_by_tag_name("td").text
-                    row_pubg_id = int(order.find_elements_by_tag_name("td")[4].text.split(">")[1])
+                    row_pubg_id = str(order.find_elements_by_tag_name("td")[4].text.split(">")[1])
                     if (row_id, str(row_pubg_id)) not in archive():
                         list_of_valid_orders.append(order)
                         break
@@ -198,7 +198,7 @@ def select_order(driver, window_handle, order_phrase_list = target_order_list):
                     print(" -SO: collecting first player info")
                     order_id = order.find_element_by_tag_name("td").text#i will keep it is a string to make identifying it easier using "in"
                     order_uc = order.find_elements_by_tag_name("td")[1].text.split(" ")[0]
-                    order_pubg_id = int(order.find_elements_by_tag_name("td")[4].text.split(">")[1])
+                    order_pubg_id = str(order.find_elements_by_tag_name("td")[4].text.split(">")[1])
                     country_code = country_code_list[order_phrase_list.index(order_phrase)]
                     order_chosen = 1
                     break
@@ -229,7 +229,7 @@ def select_order(driver, window_handle, order_phrase_list = target_order_list):
 
         driver.switch_to.default_content()
         print(" -SO: select_order() service is over")
-        return (order_id, order_pubg_id, order_uc, offer_uc, country_code)
+        return [order_id, order_pubg_id, order_uc, offer_uc, country_code]
     else:
         return None
 

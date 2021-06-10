@@ -2748,3 +2748,360 @@ JavaScript error: https://mohamad:Aszx12%40@alcaptainunlock.com/Chadid2020/templ
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1623355253597	geckodriver	INFO	Listening on 127.0.0.1:58894
+1623355256628	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileI3WYB4"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[Parent 14272, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1623355288854	Marionette	INFO	Listening on port 58902
+1623355289671	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 14272, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1623355478808	Marionette	INFO	Stopped listening on port 58902
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+aScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623355457484	Marionette	INFO	Listening on port 59139
+1623355457996	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623355490512	Marionette	INFO	Stopped listening on port 59139
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileMURJb2"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623355470801	Marionette	INFO	Listening on port 59187
+1623355471128	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+[Parent 15032, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1623355490558	Marionette	INFO	Stopped listening on port 59187
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623355546129	geckodriver	INFO	Listening on 127.0.0.1:59313
+1623355549170	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofile7lXSey"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623355555204	Marionette	INFO	Listening on port 59323
+1623355555479	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+[Parent 5064, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1623356186723	Marionette	INFO	Stopped listening on port 59323
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ault-search: No addons in our list are installed.
+1623356186754	Marionette	INFO	Stopped listening on port 59367
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623356200642	geckodriver	INFO	Listening on 127.0.0.1:50642
+1623356204237	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilerS8n9l"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623356211480	Marionette	INFO	Listening on port 50653
+1623356211693	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 14196, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1623356284501	Marionette	INFO	Stopped listening on port 50653
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+aScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623356220280	Marionette	INFO	Listening on port 65014
+1623356220606	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1623356284502	Marionette	INFO	Stopped listening on port 65014
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623356285034	geckodriver	INFO	Listening on 127.0.0.1:50829
+1623356288074	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileSiZFwY"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623356295232	Marionette	INFO	Listening on port 50840
+1623356295468	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is und1623356592329	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://pay.gold.razer.com/order/Qzg3RjU5dXZCcGxFa3p5NmJuOThkR1dyQitpdXIySXVWeWlabVUzaHVGbz0 line 2 > injectedScript, line 30: ReferenceError: clearCode is not defined
+JavaScript error: https://pay.gold.razer.com/order/Qzg3RjU5dXZCcGxFa3p5NmJuOThkR1dyQitpdXIySXVWeWlabVUzaHVGbz0 line 2 > injectedScript, line 30: ReferenceError: clearCode is not defined
+JavaScript error: https://pay.gold.razer.com/order/Qzg3RjU5dXZCcGxFa3p5NmJuOThkR1dyQitpdXIySXVWeWlabVUzaHVGbz0 line 2 > injectedScript, line 30: ReferenceError: clearCode is not defined
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+[Parent 896, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1623357039907	Marionette	INFO	Stopped listening on port 50884
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+plates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+1623357038082	Marionette	INFO	Stopped listening on port 50840
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623357778081	geckodriver	INFO	Listening on 127.0.0.1:52665
+1623357781111	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilefmFl8v"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623357786769	Marionette	INFO	Listening on port 52673
+1623357786929	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/jquery.min.js?v=RC7, line 2: NS_ERROR_NOT_INITIALIZED: 
+1623358090765	Marionette	INFO	Stopped listening on port 52673
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+1623358093896	Marionette	INFO	Stopped listening on port 52710
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623358097445	geckodriver	INFO	Listening on 127.0.0.1:49982
+1623358100458	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilenqHr5S"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623358106947	Marionette	INFO	Listening on port 49991
+1623358107406	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+1623358427011	Marionette	INFO	Stopped listening on port 49991
+rs\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilevJF3jV"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623358117265	Marionette	INFO	Listening on port 50089
+1623358117493	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1623358427012	Marionette	INFO	Stopped listening on port 50089
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623358436260	geckodriver	INFO	Listening on 127.0.0.1:53403
+1623358439301	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofiletLnIlR"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623358445956	Marionette	INFO	Listening on port 53413
+1623358446217	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+1623358647455	Marionette	INFO	Stopped listening on port 53413
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+dule)"))
+1623358455175	Marionette	INFO	Listening on port 53454
+1623358455674	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623358645168	Marionette	INFO	Stopped listening on port 53454
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623358671302	geckodriver	INFO	Listening on 127.0.0.1:53595
+1623358674332	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilez1oh4m"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623358679910	Marionette	INFO	Listening on port 53604
+1623358680170	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is und1623359208949	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+[Parent 6200, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1623359211628	Marionette	INFO	Stopped listening on port 58279
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1623359211504	Marionette	INFO	Stopped listening on port 53604
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623359217213	geckodriver	INFO	Listening on 127.0.0.1:54606
+1623359220260	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofile2OCPyB"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623359227004	Marionette	INFO	Listening on port 54618
+1623359227187	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+[Parent 14920, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1623359432600	Marionette	INFO	Stopped listening on port 54618
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1623359433022	Marionette	INFO	Stopped listening on port 54656
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623359449608	geckodriver	INFO	Listening on 127.0.0.1:60281
+1623359452649	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilecpq5bd"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623359457632	Marionette	INFO	Listening on port 60291
+1623359457948	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623359494359	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+1623359536355	Marionette	INFO	Stopped listening on port 60291
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+w profile?" (new Error("", "(unknown module)"))
+1623359467867	Marionette	INFO	Listening on port 60335
+1623359467961	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623359536485	Marionette	INFO	Stopped listening on port 60335
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623359643734	geckodriver	INFO	Listening on 127.0.0.1:62002
+1623359646802	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilewMaxZU"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623359653446	Marionette	INFO	Listening on port 62010
+1623359653761	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Erro1623359656883	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEIJavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/index.php, line 455: ReferenceError: $ is not defined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+[Parent 15920, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win1623359866793	Marionette	INFO	Stopped listening on port 57530
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ lost
+
+1623359866419	geckodriver	INFO	Listening on 127.0.0.1:50061
+1623359869646	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileXD3jFe"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623359874301	Marionette	INFO	Listening on port 50069
+1623359874447	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+1623359992209	Marionette	INFO	Stopped listening on port 50069
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623359882995	Marionette	INFO	Listening on port 51329
+1623359883370	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11188, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1623359992236	Marionette	INFO	Stopped listening on port 51329
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623359993658	geckodriver	INFO	Listening on 127.0.0.1:64560
+1623359998235	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileLnfDdL"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623360004751	Marionette	INFO	Listening on port 64570
+1623360005185	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623360163951	Marionette	INFO	Stopped listening on port 64570
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+72))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1623360164313	Marionette	INFO	Stopped listening on port 64391
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623360170038	geckodriver	INFO	Listening on 127.0.0.1:49872
+1623360173075	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileiy3t9I"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623360178221	Marionette	INFO	Listening on port 49883
+1623360178438	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+1623360297580	Marionette	INFO	Stopped listening on port 49883
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+dule)"))
+1623360186371	Marionette	INFO	Listening on port 49923
+1623360186508	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623360299201	Marionette	INFO	Stopped listening on port 49923
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623360301332	geckodriver	INFO	Listening on 127.0.0.1:64013
+1623360304398	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofile4A2lD1"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623360310523	Marionette	INFO	Listening on port 64022
+1623360310720	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+1623360400782	Marionette	INFO	Stopped listening on port 64022
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will b1623360403487	Marionette	INFO	Stopped listening on port 60754
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623360428690	geckodriver	INFO	Listening on 127.0.0.1:61974
+1623360431720	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileQxJz5y"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623360437171	Marionette	INFO	Listening on port 61983
+1623360437510	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is und[Parent 16024, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1623360698040	Marionette	INFO	Stopped listening on port 62219
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC7, line 6: TypeError: e is undefined
+[Parent 16008, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1623360697652	Marionette	INFO	Stopped listening on port 61983
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
