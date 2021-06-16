@@ -7,7 +7,7 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
 
 import time
-from variables import *
+from services.variables import *
 
 def refresh_xpath_midas_id_verifier(country_code):
     if country_code == "my":

@@ -137,6 +137,7 @@ while True:
                                     if (counter > len(razer_accounts)):
                                         counter = 0
                                     credentials = razer_accounts[counter]
+                                    rewrite_accounts(counter)
                                     print("Main Code: now using : " + credentials[0])
                                     razer_driver = razer_gold_services.razer_gold_sign_out(razer_driver, razer_driver.window_handles[0])
                                     print("insufficient funds, signing out, and restarting process")

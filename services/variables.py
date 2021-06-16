@@ -62,3 +62,13 @@ def archive(order_data = None):
         csv_file = open("archive.csv", "a")
         csv_file.write(str(order_data[0]) + "," + str(order_data[1]) + "\n")
         csv_file.close()
+
+def rewrite_accounts(counter):
+    with open("razer_accounts.txt", "r") as accounts_file:
+        accounts = accounts_file.readlines()
+    with open("razer_accounts.txt", "w") as accounts_file:
+        for line in accounts[counter:]:
+            accounts_file.write(line)
+        for line in accounts[:counter]:
+            accounts_file.write(line)
+    razer_accounts = []
