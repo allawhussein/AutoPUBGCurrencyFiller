@@ -232,7 +232,6 @@ def midas_bundle_and_payment_method_chooser(driver, window_handle, required_uc, 
     print(" -MBAPMC: collecting payment options")
     payment_options_list = driver.find_element_by_xpath(payment_options_list_xpath).find_elements_by_xpath("li")
     for li in payment_options_list:
-        print(li.text)
         if li.find_element_by_tag_name("p").text == payment_method:
             print(" -MBAPMC: choosen payment method: " + payment_method)
             payment_method_button = li
@@ -285,7 +284,7 @@ def midas_bundle_and_payment_method_chooser(driver, window_handle, required_uc, 
     if bundle_choosen:        
         print(" -MBAPMC: bundle chosen: "+str(bundle_card_total_uc)+" uc")
         print(" -MBAPMC: midas_bundle_and_payment_method_chooser() service is over")
-        return bundle_card_total_uc
+        return bundle_card_div_text
     else:
         print(" -MBAPMC: required bundle is not found")
         return None
@@ -380,7 +379,7 @@ def midas_razer_payment_initializer(driver, window_handle, country_code):
             driver.find_element_by_id(birthday_popup_id).find_element_by_class_name(date_of_birth_confirmation).click()
             print(" -MRPI: date is submitted")
         except Exception as error:
-            print(error)
+            pass
         if time.time() - time_zero > time_of_waiting:
             print("Razer Window didn't open in time")
             return None

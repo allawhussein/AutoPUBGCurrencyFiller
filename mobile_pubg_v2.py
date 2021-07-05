@@ -88,7 +88,7 @@ while True:
                 order_tuple[1] = int(order_tuple[1])
             except:
                 alcaptain_services.failed_order_reply(driver, driver.window_handles[0], "Your PUBG ID: " + str(order_tuple[1]) + " is invalid")
-                reply_message = "PUBG Mobile Order Rejected\nOrder ID: " + str(order_tuple[0]).split("#")[1] + "\nPUBG ID: " + str(order_tuple[1]) + "\nis invalid and rejected (ID contains letters)"
+                reply_message = "PUBG Mobile Order Rejected❌\nOrder ID: " + str(order_tuple[0]).split("#")[1] + "\nPUBG ID: " + str(order_tuple[1]) + "\nis invalid and rejected (ID contains letters)"
                 telegram_services.send_msg(reply_message)
             else:
                 order_name = midasbuy_services.midas_id_verifier(driver, driver.window_handles[1], order_tuple[1], 2, country_code)
@@ -99,19 +99,20 @@ while True:
                         elif order_name == 0:
                             print("Main Code: Replying with Invalid Code")
                             alcaptain_services.failed_order_reply(driver, driver.window_handles[0], "Your PUBG ID: " + str(order_tuple[1]) + " is invalid")
-                            reply_message = "PUBG Mobile Order Rejected\nOrder ID: " + str(order_tuple[0]).split("#")[1] + "\nPUBG ID: " + str(order_tuple[1]) + "\nis invalid and rejected (rejected by Midasbuy)"
+                            reply_message = "PUBG Mobile Order Rejected❌\nOrder ID: " + str(order_tuple[0]).split("#")[1] + "\nPUBG ID: " + str(order_tuple[1]) + "\nis invalid and rejected (rejected by Midasbuy)"
                             telegram_services.send_msg(reply_message)
                     else:
                         output = midasbuy_services.midas_bundle_and_payment_method_chooser(driver, driver.window_handles[1], order_tuple[2], order_tuple[3], "Razer Gold", country_code)
                         if output == None:
                             print("Main Code: ")
                             raise Exception
+                        print("Main Code: filling to the user :" + output)
                         razer_url = midasbuy_services.midas_razer_payment_initializer(driver, driver.window_handles[1], country_code)
                         print("Main Code: razer url:" + str(razer_url))
                         if razer_url != None:
                             login_success = razer_gold_services.razer_gold_login(razer_driver, razer_driver.window_handles[0], credentials, razer_url)
                             if login_success != None:
-                                balance = razer_gold_services.razer_gold_check_balance(razer_driver, driver.window_handles[0], 1)
+                                balance, order_price = razer_gold_services.razer_gold_check_balance(razer_driver, driver.window_handles[0], 1)
                                 if balance == "G":
                                     print("Main Code: archiving order")
                                     archive((str(order_tuple[0]), str(order_tuple[1])))
@@ -127,14 +128,14 @@ while True:
                                         print("Main Code: Bot will be Stoped")
                                         raise Exception
                                     else:
-                                        reply_message = "The PUBG ID: " + str(order_tuple[1]) + "\nof Name: " + str(order_name) + "\nThe Transaction ID: " + str(transaction_id)
+                                        reply_message = "The PUBG ID: " + str(order_tuple[1]) + "\nof Name: " + str(order_name) + "\nThe Transaction ID: " + str(transaction_id) + "\nHas filled: " + output
                                         alcaptain_services.successful_order_reply(driver, driver.window_handles[0], reply_message)
-                                        reply_message = "PUBG Mobile Order Payed\nOrder ID: " + str(order_tuple[0]).split("#")[1] + "\nPUBG ID: " + str(order_tuple[1]) + "\nPUBG Name: " + str(order_name) + "\nTransaction ID: " + str(transaction_id)
+                                        reply_message = "PUBG Mobile Order Payed✅\nOrder ID: " + str(order_tuple[0]).split("#")[1] + "\nPUBG ID: " + str(order_tuple[1]) + "\nPUBG Name: " + str(order_name) + "\nTransaction ID: " + str(transaction_id) + "\nFilled UC: " + output + "\nConsumed Razer Gold: " + str(order_price)
                                         telegram_services.send_msg(reply_message)
                                 elif balance == "C":
                                     counter += 1
                                     print("Main Code: changing account")
-                                    if (counter > len(razer_accounts)):
+                                    if (counter >= len(razer_accounts)):
                                         counter = 0
                                     credentials = razer_accounts[counter]
                                     rewrite_accounts(counter)
@@ -165,7 +166,7 @@ while True:
                 if order not in sus_orders_list:
                     sus_orders_list.append(order)
                     print(" -MainCode: sending sus order to telegram group")
-                    telegram_services.send_msg("AlCaptain ID:%20" + order[0].split("#")[1] + "%0D%0Ahis PUBG ID:+" + order[1] + "%0D%0Ais sus, error ❌")
+                    telegram_services.send_msg("❌❌❌❌❌❌\nDuplicate Order Detected\nAlCaptain ID:%20" + order[0].split("#")[1] + "\nPUBG ID:+" + order[1])
     except Exception as error_message:
         print("MainCode: sending error message to Hussein Allaw")
         print(error_message)

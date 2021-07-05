@@ -42,6 +42,13 @@ def razer_gold_login(driver, window_handle, credentials, transaction_url):
             time_zero = time.time()
         except:
             pass
+        try:#hide every dialog
+            i = 1
+            while True:
+                driver.execute_script("arguments[0].setAttribute('style','visibility:hidden;');",driver.find_element_by_id("dialogPanel"+str(i)))
+                i += 1
+        except:
+            pass
         try:#this checks if we have an invalid link
             error_header = "/html/body/div/main/section/div/div/h4"
             driver.find_element_by_xpath(error_header)
@@ -109,26 +116,27 @@ def razer_gold_check_balance(driver, window_handle, method):
     checkout_button_xpath = '//*[@id="btn99"]'
     balance_warning_xpath = "/html/body/div/main/section/div/div/div/div[5]/div/div[1]/div[2]/div/ul/li/span[1]/i"
     checkout_button_webelement = driver.find_element_by_xpath(checkout_button_xpath)
+    order_balance_number_id = "orderSummaryOrderTotal"
     time_zero = time.time()
     while time.time() - time_zero < time_of_waiting:
         try:
             assert checkout_button_webelement.is_displayed()
             assert "PROCEED TO CHECKOUT" in checkout_button_webelement.text
             print(" -RGCB: balance is sufficeint, razer_gold_check_balance service is over")
-            return "G"
+            return ("G", driver.find_element_by_id(order_balance_number_id).text)
         except:
             pass
     
         try:
             assert driver.find_element_by_xpath(balance_warning_xpath).is_displayed()
             print(" -RGCB: balance is not enough, razer_gold_check_balance() service is over")
-            return "C"
+            return ("C", 0)
         except:
             pass
     print(" -RGCB: niether checkout button is not found, insufficient funds banner is not found")
     choice = input(" -RGCB: enter (R) to repeat process with the same account or (C) to repeat it with a different account, (G) to continue")
     print(" -RGCB: razer_gold_check_balance service is over")
-    return choice
+    return (choice, 0)
 
 def razer_gold_proceed_to_check_out_legacy(driver, window_handle, credentials):
     print(" -RGPTCO: razer_gold_proceed_to_check_out service initiated")
@@ -251,3 +259,66 @@ def razer_gold_proceed_to_check_out(driver, window_handle, credentials):
     
     print(" -RGPTOC: razer site took too long to display the result of transaction")
     return None
+"""
+def razer_check_sus_orders(driver, window_handle, credentials):
+    driver.switch_to.window(window_handle)
+    if driver.current_url != "https://gold.razer.com/transactions":
+        driver.get("https://gold.razer.com/transactions")
+    
+    time_zero = time.time()
+    while time.time() - time_zero < time_of_waiting:
+        for a_link in driver.find_elements_by_tag_name("a"):
+            if a_link.text == "I AGREE":
+                a_link.click()
+                print(" -RCSO: New Policy Notification is closed")
+                time_zero = time.time()
+        for span in driver.find_elements_by_tag_name("a"):
+            if span.text == "SIGN IN":
+                print(" -RCSO: Pressing Sign In button")
+                span.click()
+                time_zero = time.time()
+        if driver.execute_script('return document.readyState;') != "complete":
+            time_zero = time.time()
+        for input_field in driver.find_elements_by_tag_name("input"):
+            try:
+                if input_field.get_attribute("placeholder") == "Email Address":
+                    if input_field.get_attribute("value") != credentials[0]:
+                        input_field.send_keys(credentials[0])
+                        print(" -RGSO: entered Email Address")
+                        time_zero = time.time()
+                elif input_field.get_attribute("placeholder") == "Password":
+                    if input_field.get_attribute("value") != credentials[1]:
+                        input_field.send_keys(credentials[1])
+                        print(" -RGSO: Entered Password")
+                        time_zero = time.time()
+        for button in driver.find_elements_by_tag_name("button"):
+            try:
+                if button.text == "LOG IN":
+                    if "disabled" not in button.get_attribute("class"):
+                        button.click()
+                        time_zero = time.time()
+                        print(" -RGSO: clicking log in")
+                if button.text == "CONNECT WITH ANOTHER ACCOUNT":
+                    button.click()
+                    time_zero = time.time()
+                    print(" -RGSO: clicked connect with another account")
+            except:
+                pass
+        try:
+            account_options_button = driver.find_element_by_id("__BVID__62")
+            if account_options_button.find_element_by_tag_name("a").get_attribute("aria-expanded") == "false":
+                driver.find_element_by_id("__BVID__62").click()
+                time_zero = time.time()
+            if account_options_button.find_element_by_tag_name("a").get_attribute("aria-expanded") == "true":
+                if credentials[0] in account_options_button.text:
+                    return 1
+                else:
+                    for a_tag in account_options_button.find_elements_by_tag_name("a"):
+                        if a_tag.text == "Sign Out":
+                            a_tag.click()
+                            driver.get("https://gold.razer.com/transactions")
+        except:
+            pass
+
+    return 2
+"""

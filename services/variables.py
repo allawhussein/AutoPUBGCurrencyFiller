@@ -1,7 +1,7 @@
 import pyotp#this library is used for the two factor authentication by razer
 import os.path
 
-alcaptain_login_username = "Pubg_Auto_API"
+alcaptain_login_username = "Auto_API"
 alcaptain_login_password = "112233jj"
 alcaptain_prompt_username = "Fawaz"
 alcaptain_prompt_password = "Qwe123@$"
@@ -42,10 +42,12 @@ def initialize_variables():
 
     assert len(razer_accounts) > 0, "NO RAZER ACCOUNTS ARE FOUND"
 
+    print(" -VS: using the follwing razer accounts")
     for i in range(len(razer_accounts)):
+        print("  " + razer_accounts[i][0])
         razer_accounts[i][2] = pyotp.TOTP(razer_accounts[i][2])
     else:
-        "-VaraiableScript: seting up is complete launching bot"
+        print(" -VS: seting up is complete launching bot")
 
 def archive(order_data = None):
     if order_data == None:
@@ -67,8 +69,10 @@ def rewrite_accounts(counter):
     with open("razer_accounts.txt", "r") as accounts_file:
         accounts = accounts_file.readlines()
     with open("razer_accounts.txt", "w") as accounts_file:
+        print(" -RA: reordring razer accounts")
         for line in accounts[counter:]:
+            print("  " + line)
             accounts_file.write(line)
         for line in accounts[:counter]:
+            print("  " + line)
             accounts_file.write(line)
-    razer_accounts = []
