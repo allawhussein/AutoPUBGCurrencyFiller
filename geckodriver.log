@@ -414,3 +414,99 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1625557988643	geckodriver	INFO	Listening on 127.0.0.1:51413
+1625557991718	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilem3beMf"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1625558001105	Marionette	INFO	Listening on port 51422
+1625558001770	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.midasbuy.com"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: resource://devtools/server/actors/inspector/event-collector.js, line 530: debuggee 'https://cdn.midasbuy.com/oversea_web/static/js/midas.runtime.js:1' would run
+JavaScript error: resource://devtools/client/framework/devtools.js, line 734: TypeError: inspector.inspectorFront is undefined
+console.error: "Error writing response to: skipBreakpoints"
+console.error: "Error while calling actor 'thread's method 'skipBreakpoints'" "Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance."
+console.error: "write@resource://devtools/shared/protocol/Response.js:55:15\nsendReturn@resource://devtools/shared/protocol/Actor.js:189:38\nenter@resource://devtools/server/actors/utils/event-loop.js:79:18\n_pushThreadPause@resource://devtools/server/actors/thread.js:334:15\n_pauseAndRespond@resource://devtools/server/actors/thread.js:956:12\nonDebuggerStatement@resource://devtools/server/actors/thread.js:1940:17\n@https://www.midasbuy.com/midasbuy/my/buy/pubgm line 1 > eval:1:1\n_0x17f16e/<@https://www.midasbuy.com/midasbuy/my/buy/pubgm:1:1039\n@https://www.midasbuy.com/midasbuy/my/buy/pubgm:1:1\n"
+console.error: "Error writing response to: skipBreakpoints"
+console.error: "Error while calling actor 'thread's method 'skipBreakpoints'" "Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance."
+console.error: "write@resource://devtools/shared/protocol/Response.js:55:15\nsendReturn@resource://devtools/shared/protocol/Actor.js:189:38\nenter@resource://devtools/server/actors/utils/event-loop.js:79:18\n_pushThreadPause@resource://devtools/server/actors/thread.js:334:15\n_pauseAndRespond@resource://devtools/server/actors/thread.js:956:12\nonDebuggerStatement@resource://devtools/server/actors/thread.js:1940:17\n@https://www.midasbuy.com/midasbuy/my/buy/pubgm line 1 > eval:1:1\n_0x17f16e/<@https://www.midasbuy.com/midasbuy/my/buy/pubgm:1:1039\n@https://www.midasbuy.com/midasbuy/my/buy/pubgm:1:1\n"
+console.log: (new Error("Protocol error (Error): Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance. from: server0.conn0.child3/thread21 (resource://devtools/shared/protocol/Response.js:55:15)", "resource://devtools/shared/protocol/Front.js", 361))
+console.log: (new Error("Protocol error (Error): Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance. from: server0.conn0.child3/thread21 (resource://devtools/shared/protocol/Response.js:55:15)", "resource://devtools/shared/protocol/Front.js", 361))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.midasbuy.com"
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:358:10
+
+1625559023961	Marionette	INFO	Stopped listening on port 51422
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625559174131	geckodriver	INFO	Listening on 127.0.0.1:52094
+1625559177194	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilerefUUH"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1625559183655	Marionette	INFO	Listening on port 52103
+1625559184147	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: resource://devtools/server/actors/inspector/event-collector.js, line 530: debuggee 'https://cdn.midasbuy.com/oversea_web/static/js/midas.runtime.js:1' would run
+JavaScript error: resource://devtools/client/framework/devtools.js, line 734: TypeError: inspector.inspectorFront is undefined
+console.error: "Error writing response to: skipBreakpoints"
+console.error: "Error while calling actor 'thread's method 'skipBreakpoints'" "Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance."
+console.error: "write@resource://devtools/shared/protocol/Response.js:55:15\nsendReturn@resource://devtools/shared/protocol/Actor.js:189:38\nenter@resource://devtools/server/actors/utils/event-loop.js:79:18\n_pushThreadPause@resource://devtools/server/actors/thread.js:334:15\n_pauseAndRespond@resource://devtools/server/actors/thread.js:956:12\nonDebuggerStatement@resource://devtools/server/actors/thread.js:1940:17\n@https://www.midasbuy.com/midasbuy/my/buy/pubgm line 1 > eval:1:1\n_0x17f16e/<@https://www.midasbuy.com/midasbuy/my/buy/pubgm:1:1039\n@https://www.midasbuy.com/midasbuy/my/buy/pubgm:1:1\n"
+console.error: "Error writing response to: skipBreakpoints"
+console.error: "Error while calling actor 'thread's method 'skipBreakpoints'" "Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance."
+console.error: "write@resource://devtools/shared/protocol/Response.js:55:15\nsendReturn@resource://devtools/shared/protocol/Actor.js:189:38\nenter@resource://devtools/server/actors/utils/event-loop.js:79:18\n_pushThreadPause@resource://devtools/server/actors/thread.js:334:15\n_pauseAndRespond@resource://devtools/server/actors/thread.js:956:12\nonDebuggerStatement@resource://devtools/server/actors/thread.js:1940:17\n@https://www.midasbuy.com/midasbuy/my/buy/pubgm line 1 > eval:1:1\n_0x17f16e/<@https://www.midasbuy.com/midasbuy/my/buy/pubgm:1:1039\n@https://www.midasbuy.com/midasbuy/my/buy/pubgm:1:1\n"
+console.log: (new Error("Protocol error (Error): Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance. from: server0.conn0.child3/thread21 (resource://devtools/shared/protocol/Response.js:55:15)", "resource://devtools/shared/protocol/Front.js", 361))
+console.log: (new Error("Protocol error (Error): Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance. from: server0.conn0.child3/thread21 (resource://devtools/shared/protocol/Response.js:55:15)", "resource://devtools/shared/protocol/Front.js", 361))
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:358:10
+
+[Parent 20252, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1625561509649	Marionette	INFO	Stopped listening on port 52103
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625561526711	geckodriver	INFO	Listening on 127.0.0.1:63853
+1625561529751	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilejyDN6v"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1625561536152	Marionette	INFO	Listening on port 63863
+1625561536670	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: resource://devtools/server/actors/inspector/event-collector.js, line 530: debuggee 'https://cdn.midasbuy.com/oversea_web/static/js/midas.runtime.js:1' would run
+JavaScript error: resource://devtools/client/framework/devtools.js, line 734: TypeError: inspector.inspectorFront is undefined
+console.error: "Error writing response to: skipBreakpoints"
+console.error: "Error while calling actor 'thread's method 'skipBreakpoints'" "Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance."
+console.error: "write@resource://devtools/shared/protocol/Response.js:55:15\nsendReturn@resource://devtools/shared/protocol/Actor.js:189:38\nenter@resource://devtools/server/actors/utils/event-loop.js:79:18\n_pushThreadPause@resource://devtools/server/actors/thread.js:334:15\n_pauseAndRespond@resource://devtools/server/actors/thread.js:956:12\nonDebuggerStatement@resource://devtools/server/actors/thread.js:1940:17\n@https://www.midasbuy.com/midasbuy/my/buy/pubgm line 1 > eval:1:1\n_0x17f16e/<@https://www.midasbuy.com/midasbuy/my/buy/pubgm:1:1039\n@https://www.midasbuy.com/midasbuy/my/buy/pubgm:1:1\n"
+console.error: "Error writing response to: skipBreakpoints"
+console.error: "Error while calling actor 'thread's method 'skipBreakpoints'" "Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance."
+console.error: "write@resource://devtools/shared/protocol/Response.js:55:15\nsendReturn@resource://devtools/shared/protocol/Actor.js:189:38\nenter@resource://devtools/server/actors/utils/event-loop.js:79:18\n_pushThreadPause@resource://devtools/server/actors/thread.js:334:15\n_pauseAndRespond@resource://devtools/server/actors/thread.js:956:12\nonDebuggerStatement@resource://devtools/server/actors/thread.js:1940:17\n@https://www.midasbuy.com/midasbuy/my/buy/pubgm line 1 > eval:1:1\n_0x17f16e/<@https://www.midasbuy.com/midasbuy/my/buy/pubgm:1:1039\n@https://www.midasbuy.com/midasbuy/my/buy/pubgm:1:1\n"
+console.log: (new Error("Protocol error (Error): Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance. from: server0.conn0.child3/thread21 (resource://devtools/shared/protocol/Response.js:55:15)", "resource://devtools/shared/protocol/Front.js", 361))
+console.log: (new Error("Protocol error (Error): Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance. from: server0.conn0.child3/thread21 (resource://devtools/shared/protocol/Response.js:55:15)", "resource://devtools/shared/protocol/Front.js", 361))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:358:10
+

@@ -108,15 +108,6 @@ def midas_id_verifier(driver, window_handle, order_pubg_id, max_verification_tra
     print(" -MIDV: midas_id_verifier() service is initiated for country: " + country_code)
     print(" -MIDV: opening midas website, site loading timeout is 120 seconds")
     midas_url = "https://www.midasbuy.com/midasbuy/" + country_code + "/buy/pubgm"
-    varaible = refresh_xpath_midas_id_verifier(country_code)
-    input_field_xpath = varaible[0]
-    payment_completed_button_xpath = varaible[1]
-    payment_completed_ok_button_xpath = varaible[2]
-    edit_button_class = varaible[3]
-    submit_button_xpath = varaible[4]
-    pubg_name_holder = varaible[5]
-    rejection_div_xpath = varaible[6]
-    payment_completed_button_2_xpath = varaible[7]
     
     driver.switch_to.window(window_handle)
     driver.set_page_load_timeout(120)
@@ -139,155 +130,97 @@ def midas_id_verifier(driver, window_handle, order_pubg_id, max_verification_tra
 
     input_field_visible = 0
     time_zero = time.time()
-    current_time = time.time()
-    print(" -MIDV: waiting for input field to appear")
-    while not input_field_visible:
-        try:#check for input filed
-            driver.find_element_by_xpath(input_field_xpath)
-        except:
-            try:               
-                driver.find_element_by_class_name(edit_button_class).click()
-                print(" -MIDV: pressing edit button") 
-            except:
-                pass
-            else:
-                pass
-            try:
-                driver.find_element_by_xpath(payment_completed_button_xpath).click()
-                print(" -MIDV: closing payment window type I")
-                current_time = time.time()
-            except:
-                pass
-            try:
-                driver.find_element_by_xpath(payment_completed_ok_button_xpath).click()
-                print(" -MIDV: closing payment window type II")
-                current_time = time.time()
-            except:
-                pass
-        else:
-            input_field_visible = 1
-            current_time = time.time()
-        try:
-            driver.find_element_by_class_name("popa").find_element_by_class_name("close-btn").click()
-            print(" -MIDV: closing opened popup window")
-            current_time = time.time()
-        except:
-            pass
-        try:
-            driver.find_element_by_class_name("pop-content").find_element_by_class_name("close-btn").click()
-            print(" -MIDV: closing opened popup window")
-            current_time = time.time()
-        except:
-            pass
-        if current_time - time_zero > time_of_waiting:
-            print(" -MIDV: the input field is not showing up, MIDV is over")
-            return -1
-
-    print(" -MIDV: entering the player PUBG ID")
-    driver.find_element_by_xpath(input_field_xpath).send_keys(Keys.CONTROL + "a")
-    driver.find_element_by_xpath(input_field_xpath).send_keys(Keys.DELETE)
-    driver.find_element_by_xpath(input_field_xpath).send_keys(order_pubg_id)
-
-    print(" -MIDV: clicking submit button")
-    webdriver.support.ui.WebDriverWait(driver, time_of_waiting).until(EC.presence_of_element_located((By.XPATH, submit_button_xpath)))
-    driver.find_element_by_xpath(submit_button_xpath).click()
-    print(" -MIDV: waiting ID verification")
-
-    time_zero = time.time()
-    print(" -MIDV: verifying player ID")
-    while True:
-        try:
-            driver.find_element_by_xpath(pubg_name_holder).text
-            print(" -MIDV: ID is verified")
-            return driver.find_element_by_xpath(pubg_name_holder).text
-        except:    
-            try:
-                driver.find_element_by_xpath(rejection_div_xpath).click()
-            except:
-                pass
-            else:
-                if max_verification_trails:
-                    print(" -MIDV: ID is rejected, re-initiating MIDV service")
-                    print(" -MIDV: verification trails remaining #" + str(max_verification_trails - 1))
-                    return midas_id_verifier(driver, window_handle, order_pubg_id, max_verification_trails - 1, country_code)
-                else:
-                    print(" -MIDV: ID is rejected, number of trails are exhausted midasbuy_id_verification() service is over")
-                    return 0
-        else:
-            pass
+    while time.time() - time_zero < 20:
+        print(" -MIDV: Main Loop, remaining time: ", str(20 - time.time() + time_zero)[:2])
         
-        current_time = time.time()
-        if current_time - time_zero > time_of_waiting:
-            print(" -MIDV: Unkown Error, Send Photo to Hussein")
-            driver.find_element_by_tag_name("body").screenshot("./MIDV_fail.png")
-            return None
+        try:#check for input field if visible
+            for input_field in driver.find_elements_by_tag_name("input"):
+                if input_field.get_attribute("placeholder") == "Please enter Player ID":
+                    print(" -MIDV: found the Player ID placeholder")
+                    if input_field.get_attribute("value") != str(order_pubg_id):
+                        input_field.send_keys(Keys.CONTROL + "a")
+                        input_field.send_keys(Keys.DELETE)
+                        input_field.send_keys(order_pubg_id)
+                        print(" -MIDV: entered the player PUBG ID")
+                    for button in driver.find_elements_by_tag_name("div"):
+                        if button.get_attribute("class") == "btn" and button.text == "OK":
+                            button.click()
+                            time_zero = time.time()
+                            print(" -MIDV: clicking submit button, waiting ID verification")
+                            #time_zero = time.time()
+        except Exception as err:
+            print(" -MIDV<DEBUG>: ", err)
+
+        try:#rest time_zero if button is loading
+            if "loading-btn" in button.get_attribute("class"):
+                time_zero = time.time()
+        except:
+            pass
+
+        try:#check if player info are visible and valid
+            for div in driver.find_elements_by_tag_name("div"):
+                if len(div.find_elements_by_tag_name("*")) < 3:
+                    for span in div.find_elements_by_tag_name("span"):
+                        if span.text == "Player ID:":
+                            print(" -MIDV<DEBUG> - PlayerID Text: ", span.text)
+                            print(" -MIDV: found in Player info card the player ID field")
+                            print(" -MIDV<DEBUG> - PlayerID: ", div.find_element_by_tag_name("p").text)
+                            if div.find_element_by_tag_name("p").text == str(order_pubg_id):
+                                print(" -MIDV: ID is successfully inputed")
+                                for div in driver.find_elements_by_tag_name("div"):
+                                    if len(div.find_elements_by_tag_name("*")) < 3:
+                                        for span in div.find_elements_by_tag_name("span"):
+                                            if span.text == "Nickname:":
+                                                print( "-MIDV<DEBUG> - Nickname Text: ", span.text)
+                                                print(" -MIDV: obtained the nickname MIDV is over")
+                                                print(" -MIDV<DEBUG> - Nickname: ", div.find_element_by_tag_name("p").text)
+                                                return div.find_element_by_tag_name("p").text
+                            else:
+                                print(" -MIDV: found in Player info card mismatch for the player ID")
+                                for a_tag in driver.find_elements_by_tag_name("a"):
+                                    if a_tag.text == "Edit":
+                                        a_tag.click()
+                                        time_zero = time.time()
+                                        print(" -MIDV: pressed Edit Button")
+        except Exception as err:
+            print(" -MIDV<DEBUG>: ", err)
+
+    print(" -MIDV: Timeout")
+    return None
 
 def midas_bundle_and_payment_method_chooser(driver, window_handle, required_uc, offer_uc, payment_method, country_code):#function will return None if supplied payment method is not found
     print(" -MBAPMC: midas_bundle_and_payemnt_method_chooser() service is initiated")
-    variable = refersh_xpath_midas_bundle_and_payment_method_chooser(country_code)
-    payment_options_list_xpath = variable[0]
-    bundle_list_xpath = variable[1]
     driver.switch_to.default_content()
 
-    print(" -MBAPMC: collecting payment options")
-    payment_options_list = driver.find_element_by_xpath(payment_options_list_xpath).find_elements_by_xpath("li")
-    for li in payment_options_list:
-        if li.find_element_by_tag_name("p").text == payment_method:
-            print(" -MBAPMC: choosen payment method: " + payment_method)
-            payment_method_button = li
+    for li in driver.find_elements_by_tag_name("li"):
+        if li.text == payment_method:
+            driver.execute_script("arguments[0].click();", li)
             break
-    else:
-        print(" -MBAPMC: payment method is not found")
-        print(" -MBAPMC: midas_bundle_and_payment_method_chooser() service is over")
-        return None
-    
-    print(" -MBAPMC: clicking the selected method")
-    webdriver.support.ui.WebDriverWait(driver, time_of_waiting).until(EC.element_to_be_clickable((By.XPATH, payment_options_list_xpath)))
-    driver.execute_script("arguments[0].click();", payment_method_button)
-    
-    print(" -MBAPMC: searching for target bundle")
-    bundles_list = driver.find_element_by_xpath(bundle_list_xpath).find_elements_by_tag_name("li")
-    bundle_card_div_text = ""
-    bundle_choosen = 0
-    for bundle in bundles_list[::-1]:
-        for element in bundle.find_elements_by_tag_name("*"):
-            bundle_card_div_text = ""
-            flag = False
-            for char in element.text:
-                if char <= "9" and char >="0":
-                    bundle_card_div_text += char
-                elif char == "+":
-                    bundle_card_div_text += char
-                else:
-                    flag = False
-                    break
-                flag=True
-            if flag:
-                break
-        if  bundle_card_div_text != "":
-            bundle_card_total_uc = 0
-            bundle_card_total_uc_list = []
-            for x in bundle_card_div_text.split("+"):
-                bundle_card_total_uc += int(x)
-                bundle_card_total_uc_list.append(int(x))
-            if bundle_card_total_uc == required_uc + offer_uc:
-                print(" -MBAPMC: total uc order match")
-                driver.execute_script("arguments[0].click();", bundle)
-                bundle_choosen = 1
-                break
-            elif bundle_card_total_uc_list[0] == required_uc:
-                print(" -MBAPMC: one time offer is not found, choosing base bundle")
-                driver.execute_script("arguments[0].click();", bundle)
-                bundle_choosen = 1
-                break
 
-    if bundle_choosen:        
-        print(" -MBAPMC: bundle chosen: "+str(bundle_card_total_uc)+" uc")
-        print(" -MBAPMC: midas_bundle_and_payment_method_chooser() service is over")
-        return bundle_card_div_text
-    else:
-        print(" -MBAPMC: required bundle is not found")
-        return None
+    bundle_choosen = False
+    for li in driver.find_elements_by_tag_name("li")[::-1]:
+        for p in li.find_elements_by_tag_name("p"):
+            for char in p.text:
+                if (char < "0" or char > "9") and char != "+":
+                    break
+            else:
+                print('"' + p.text + '"')
+                if "+" in p.text and p.text != "":
+                    print("it has a +")
+                    if str(required_uc) == p.text.split("+")[0]:
+                        print("it is the one")
+                        driver.execute_script("arguments[0].click();", li)
+                        print(" -MBAPMC: bundle chosen: "+ p.text +" uc")
+                        print(" -MBAPMC: midas_bundle_and_payment_method_chooser() service is over")
+                        return p.text
+                elif p.text != "":
+                    if str(required_uc) == p.text:
+                        driver.execute_script("arguments[0].click();", li)
+                        print(" -MBAPMC: bundle chosen: "+ p.text +" uc")
+                        print(" -MBAPMC: midas_bundle_and_payment_method_chooser() service is over")
+                        return p.text
+
+    return None
 
 def midas_razer_payment_initializer(driver, window_handle, country_code):
     print(" -MRPI: service midas_razer_payment_initializer is initiated")
