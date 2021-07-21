@@ -8,6 +8,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 import time
 from services.variables import *
+from services import telegram_services
 
 def refresh_xpath_midas_id_verifier(country_code):
     if country_code == "my":
@@ -107,6 +108,8 @@ def refresh_xpath_midas_razer_payment_initializer(country_code):
 def midas_id_verifier(driver, window_handle, order_pubg_id, max_verification_trails, country_code):#function will return None if ID is rejected
     print(" -MIDV: midas_id_verifier() service is initiated for country: " + country_code)
     print(" -MIDV: opening midas website, site loading timeout is 120 seconds")
+    if country_code == "check":
+        country_code = "ot"
     midas_url = "https://www.midasbuy.com/midasbuy/" + country_code + "/buy/pubgm"
     
     driver.switch_to.window(window_handle)
@@ -171,7 +174,7 @@ def midas_id_verifier(driver, window_handle, order_pubg_id, max_verification_tra
                                     if len(div.find_elements_by_tag_name("*")) < 3:
                                         for span in div.find_elements_by_tag_name("span"):
                                             if span.text == "Nickname:":
-                                                print( "-MIDV<DEBUG> - Nickname Text: ", span.text)
+                                                print(" -MIDV<DEBUG> - Nickname Text: ", span.text)
                                                 print(" -MIDV: obtained the nickname MIDV is over")
                                                 print(" -MIDV<DEBUG> - Nickname: ", div.find_element_by_tag_name("p").text)
                                                 return div.find_element_by_tag_name("p").text
@@ -185,6 +188,12 @@ def midas_id_verifier(driver, window_handle, order_pubg_id, max_verification_tra
         except Exception as err:
             print(" -MIDV<DEBUG>: ", err)
 
+        for p_tag in driver.find_elements_by_tag_name("p"):
+            if "invalid player id" in p_tag.text:
+                if max_verification_trails < 1:
+                    return 0
+                return midas_id_verifier(driver, window_handle, order_pubg_id, max_verification_trails - 1, country_code)
+        
     print(" -MIDV: Timeout")
     return None
 
@@ -193,9 +202,17 @@ def midas_bundle_and_payment_method_chooser(driver, window_handle, required_uc, 
     driver.switch_to.default_content()
 
     for li in driver.find_elements_by_tag_name("li"):
-        if li.text == payment_method:
-            driver.execute_script("arguments[0].click();", li)
+        if payment_method in li.text.lower():
+            for li_child in li.find_elements_by_tag_name("*"):
+                if li_child.text.lower() == payment_method:    
+                    driver.execute_script("arguments[0].click();", li)
+                    break
+            else:
+                continue
             break
+    else:
+        telegram_services.send_msg("❌❌❌❌❌❌\nMidasbuy Razer Gold is not found")
+        return None
 
     bundle_choosen = False
     for li in driver.find_elements_by_tag_name("li")[::-1]:
@@ -206,15 +223,13 @@ def midas_bundle_and_payment_method_chooser(driver, window_handle, required_uc, 
             else:
                 print('"' + p.text + '"')
                 if "+" in p.text and p.text != "":
-                    print("it has a +")
-                    if str(required_uc) == p.text.split("+")[0]:
-                        print("it is the one")
+                    if str(required_uc) == p.text.split("+")[0] or str(required_uc + offer_uc) == p.text.split("+")[0]:
                         driver.execute_script("arguments[0].click();", li)
                         print(" -MBAPMC: bundle chosen: "+ p.text +" uc")
                         print(" -MBAPMC: midas_bundle_and_payment_method_chooser() service is over")
                         return p.text
                 elif p.text != "":
-                    if str(required_uc) == p.text:
+                    if str(required_uc) == p.text or str(int(required_uc) + int(offer_uc)) == p.text:
                         driver.execute_script("arguments[0].click();", li)
                         print(" -MBAPMC: bundle chosen: "+ p.text +" uc")
                         print(" -MBAPMC: midas_bundle_and_payment_method_chooser() service is over")
@@ -224,24 +239,6 @@ def midas_bundle_and_payment_method_chooser(driver, window_handle, required_uc, 
 
 def midas_razer_payment_initializer(driver, window_handle, country_code):
     print(" -MRPI: service midas_razer_payment_initializer is initiated")
-    variable = refresh_xpath_midas_razer_payment_initializer(country_code)
-    pay_now_button_xpath = variable[0]
-    check_boxes_title_xpath = variable[1]
-    date_of_birth_window_xpath = variable[2]
-    pay_button_xpath = variable[3]
-    check_box_1_xpath = variable[4]
-    check_box_2_xpath = variable[5]
-    submit_pay_now_button_xpath = variable[6]
-    pay_button_class = variable[7]
-    check_box_class = variable[8]
-    date_of_birth_window_id = variable[9]
-    random_date_xpath = variable[10]
-    date_of_birth_confirmation = variable [11]
-    check_box_class_2 = variable[12]
-    continue_button_class = variable[13]
-    birthday_popup_id = variable[14]
-    birthday_day_div = variable[15]
-    date_of_birth_css_selector = variable[16]
     driver.switch_to.window(window_handle)
 
     initial_number_of_windows = len(driver.window_handles)
@@ -275,7 +272,7 @@ def midas_razer_payment_initializer(driver, window_handle, country_code):
         except:
             pass
         try:#clicking checkboxes
-            for check in driver.find_elements_by_class_name(check_box_class):
+            for check in driver.find_elements_by_class_name("check-box"):
                 if check.is_displayed():
                     if "checked" not in check.get_attribute("class"):
                         check.click()
@@ -285,33 +282,28 @@ def midas_razer_payment_initializer(driver, window_handle, country_code):
                         check_box_first_click = 0
         except:
             pass
-            
-        
-            
-            print(" -MRPI: clicking pay now")
-            submit_pay_now_button = driver.find_element_by_xpath(submit_pay_now_button_xpath)
-            submit_pay_now_button.click()
-        try:#clicking new checkbox
-            driver.find_element_by_class_name(check_box_class_2).click()
-            print(" -MRPI: clicked checkbox")
-            driver.find_element_by_class_name(check_box_class_2).find_element_by_xpath("..").find_element_by_class_name(continue_button_class).click()
-            print(" -MRPI: clicking continue button")
-        except:
-            pass
         try:#submitting date
-            assert driver.find_element_by_id(date_of_birth_window_id).is_displayed()
-            print(" -MRPI: choosing date of birth")
-            driver.find_element_by_id(date_of_birth_window_id).click()
-            while len(driver.find_element_by_css_selector(date_of_birth_css_selector).text) == 0:
-                pass
-            driver.find_element_by_css_selector(date_of_birth_css_selector).click()
-            #WebDriverWait(driver, time_of_waiting).until(EC.element_to_be_clickable((By.ID, birthday_day_div)))
-            print(" -MRPI: random date is selected")
-            while not len(driver.find_element_by_id(date_of_birth_window_id).text):
-                pass
-            driver.find_element_by_id(birthday_popup_id).find_element_by_class_name(date_of_birth_confirmation).click()
-            print(" -MRPI: date is submitted")
+            for p_tag in driver.find_elements_by_tag_name("p"):
+                if "Birthday" in p_tag.text:
+                    p_tag.click()
+            for div in driver.find_elements_by_tag_name("div")[::-1]:
+                if div.text.replace("\n","").isnumeric():
+                    break
+            for li in div.find_elements_by_tag_name("li"):
+                if li.text == "1":
+                    li.click()
+                    break
+            for div in driver.find_elements_by_class_name("btn")[::-1]:
+                if div.text == "OK":
+                    div.click()
+                    break
         except Exception as error:
+            pass
+        try:#clickng second pay now
+            for div in driver.find_elements_by_class_name("btn"):
+                if div.text == "Continue":
+                    div.click()
+        except:
             pass
         if time.time() - time_zero > time_of_waiting:
             print("Razer Window didn't open in time")
@@ -321,24 +313,17 @@ def midas_razer_payment_initializer(driver, window_handle, country_code):
     print(" -MRPI: counting opened tabs after midasbuy tab")
     print(" -MRPI: currently " + str(len(driver.window_handles)) + " are opened")
     counter = 0
-    for tab in driver.window_handles:
-        if tab == driver.current_window_handle:
+    
+    for i in range(0, len(driver.window_handles)):
+        if window_handle == driver.window_handles[i]:
             break
-        counter += 1
-    counter += 1
-    razer_payment_url = None
-    while not razer_payment_url:
-        for opened_tab in driver.window_handles[counter:]:
-            driver.switch_to.window(opened_tab)
-            if "razer.com" in driver.current_url:
-                razer_payment_url = driver.current_url
 
-    print(" -MRPI: closing tabs starting from" + str(counter))
-    for tab in driver.window_handles[counter:]:
-        print(" -MRPI: closing tab " + str(counter))
-        counter += 1
-        driver.switch_to.window(tab)
-        driver.close()
+    driver.switch_to.window(driver.window_handles[i + 1])
+    while "pay.gold.razer.com/order" not in driver.current_url:
+        pass
+
+    razer_payment_url = driver.current_url
+    driver.close()
     
     driver.switch_to.window(window_handle)
     print(" -MRPI: reloading midaspage without blocking")

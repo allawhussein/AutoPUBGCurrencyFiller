@@ -1,5 +1,6 @@
 import pyotp#this library is used for the two factor authentication by razer
 import os.path
+import pickle
 
 alcaptain_login_username = "Auto_API"
 alcaptain_login_password = "112233jj"
@@ -10,8 +11,9 @@ country_code = "my"
 payment_method = "Razer Gold"
 target_order = "Pubg . Mobile By ID"
 
-country_code_list = ["my", "ot"]
-target_order_list = ["Pubg . Mobile By ID", "Pubg Mobile By ID"]
+country_code_list = ["ot", "ph", "check"]
+target_order_list = ["Pubg Mobile By ID", "Pubg .. Mobile By ID", "validation test"]
+#target_order_list = ["General Points"]
 
 pubg_id_verifier_wait = 10 #number of seconds to wait for correct ID verification
 time_of_waiting = 15 #this number is based on internet speed, the lower the internet speed the higher the number
@@ -25,6 +27,8 @@ sleeping_time = 1 #number of seconds before refreshing
 razer_payment_wait = 10
 
 browser = "firefox"
+
+month_numbers = {'1': 'jan', '2':'feb', '3':'mar', '4': 'apr', '5': 'may', '6': 'jun', '7': 'jul', '8': 'aug', '9': 'sep', '10': 'oct', '11': 'nov', '12': 'dec'}
 
 account_pointer = 0
 
@@ -51,8 +55,8 @@ def initialize_variables():
 
 def archive(order_data = None):
     if order_data == None:
-        if os.path.isfile("archive.csv"):
-            csv_file = open("archive.csv", "r")
+        if os.path.isfile("sus_archive.csv"):
+            csv_file = open("sus_archive.csv", "r", encoding = "utf-8")
             list_of_data = csv_file.readlines()
             for row in list_of_data:
                 list_of_data[list_of_data.index(row)] = tuple(row.split("\n")[0].split(","))
@@ -61,8 +65,13 @@ def archive(order_data = None):
         else:
             return []
     else:
-        csv_file = open("archive.csv", "a")
-        csv_file.write(str(order_data[0]) + "," + str(order_data[1]) + "\n")
+        csv_file = open("sus_archive.csv", "a", encoding = "utf-8")
+        writeable_to_file = ""
+        for item in order_data:
+            writeable_to_file += str(item) + ","
+        writeable_to_file = writeable_to_file[:-1]
+        writeable_to_file += "\n"
+        csv_file.write(writeable_to_file)
         csv_file.close()
 
 def rewrite_accounts(counter):
@@ -76,3 +85,19 @@ def rewrite_accounts(counter):
         for line in accounts[:counter]:
             print("  " + line)
             accounts_file.write(line)
+    
+def remove_last_order():
+    with open("sus_archive.txt", "r", encoding = "utf-8") as sus_file:
+        sus_orders = sus_file.readlines()
+    sus_orders.pop()
+    with open("sus_archive.txt", "w", encoding = "utf-8") as sus_file:
+        susfile.write("".join(sus_orders))
+    
+def remove_order(order_id):
+    with open("sus_archive.txt", "r", encoding = "utf-8") as sus_file:
+        sus_orders_list = sus_file.readlines()
+    with open("sus_archive.txt", "w", encoding = "utf-8") as sus_file:
+        for order in sus_order_list:
+            if order[0] == order_id:
+                continue
+            sus_file.write(",".join(order) + "\n")

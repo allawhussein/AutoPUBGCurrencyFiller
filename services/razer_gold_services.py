@@ -259,8 +259,8 @@ def razer_gold_proceed_to_check_out(driver, window_handle, credentials):
     
     print(" -RGPTOC: razer site took too long to display the result of transaction")
     return None
-"""
-def razer_check_sus_orders(driver, window_handle, credentials):
+
+def razer_init_check_sus_order(driver, window_handle, credentials):
     driver.switch_to.window(window_handle)
     if driver.current_url != "https://gold.razer.com/transactions":
         driver.get("https://gold.razer.com/transactions")
@@ -291,6 +291,8 @@ def razer_check_sus_orders(driver, window_handle, credentials):
                         input_field.send_keys(credentials[1])
                         print(" -RGSO: Entered Password")
                         time_zero = time.time()
+            except:
+                pass
         for button in driver.find_elements_by_tag_name("button"):
             try:
                 if button.text == "LOG IN":
@@ -298,7 +300,7 @@ def razer_check_sus_orders(driver, window_handle, credentials):
                         button.click()
                         time_zero = time.time()
                         print(" -RGSO: clicking log in")
-                if button.text == "CONNECT WITH ANOTHER ACCOUNT":
+                elif button.text == "CONNECT WITH ANOTHER ACCOUNT":
                     button.click()
                     time_zero = time.time()
                     print(" -RGSO: clicked connect with another account")
@@ -321,4 +323,63 @@ def razer_check_sus_orders(driver, window_handle, credentials):
             pass
 
     return 2
-"""
+
+def razer_check_sus_order(driver, window_handle, date_time, price, list_of_successful_transaction_numbers):
+    date = date_time.split(" ")[0].split("/")
+    date[0] = month_numbers[date[0]]
+    date = date[1] + "-" + date[0] + "-" + date[2]
+    time = date_time.split(" ")[1].split(":")
+    time = time[0] * 60 + time[1]
+    passed_on_same_date = 0
+    table_searches = 0
+    list_of_possible_transactions = []
+    while not passed_on_same_date:
+        for table in driver.find_elements_by_tag_name("table"):
+            if "TRANSACTION ID" in table.text:
+                for trows in table.find_element_by_tag_name("tbody").find_elements_by_tag_name("tr"):
+                    if trows.find_element_by_tag_name("td").text.lower() in date:
+                        passed_on_same_date = 1
+                        print("-Date: ", end = "")
+                        if trows.find_elements_by_tag_name("td")[1].text == "Razer Gold Purchase":
+                            print("-Item: ", end = "")
+                            if trows.find_elements_by_tag_name("td")[3].text == price:
+                                print("-Price: ", end = "")
+                                if  trows.find_elements_by_tag_name("td")[4].text not in list_of_successful_transaction_numbers:
+                                    list_of_possible_transactions.append(trows.find_elements_by_tag_name("td")[4].text)
+                                    print(trows.text, "\nTARGET")
+                            else:
+                                print(trows.text, "\nNOT TARGET")
+                table_searches = 0
+                break
+        else:
+            table_searches += 1
+            if table_searches > 3:
+                return 0
+            continue
+        for button in driver.find_element_by_tag_name("li"):
+            if li.text == "›":
+                li.click()
+
+    if not len(list_of_possible_transactions):
+        return 1
+    list_of_highly_possible_transactions = []
+    for transaction_number in list_of_possible_transactions:
+        driver.get("https://gold.razer.com/transaction/zGold/" + transaction_number)
+        transaction_date_found = 0
+        for p_tag in driver.find_elements_by_tag_name("p"):
+            if transaction_date_found:
+                break
+            elif p_tag.text == "TRANSACTION DATE":
+                transaction_date_found = 1
+        else:
+            return 2
+        
+        transaction_time = p_tag.split(" ")[1].split(":")
+        if time == transaction_time[0] * 60 + transaction_time[1] or time + 1 == transaction_number[0] * 60 + transaction_number:
+            list_of_highly_possible_transactions.append(transaction_number)
+    if not len(list_of_highly_possible_transactions):
+        return 1
+    if len(list_of_highly_possible_transactions) == 1:
+        return list_of_highly_possible_transactions[0]
+    return list_of_highly_possible_transactions
+        

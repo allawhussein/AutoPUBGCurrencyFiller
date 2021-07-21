@@ -6,6 +6,8 @@ from selenium.webdriver.common.keys import Keys #this is used to simiulate keybo
 from selenium.common.exceptions import TimeoutException
 import os
 import time
+import pickle
+import datetime
 
 from services.variables import *
 from services import alcaptain_services
@@ -18,7 +20,8 @@ initialize_variables()
 
 if browser == "firefox":
     driver = webdriver.Firefox()
-    driver.execute_script('window.open("about:blank","_blank");')
+    driver.execute_script('window.open("https://www.midasbuy.com/midasbuy/ot/buy/pubgm","_blank");')#https://www.midasbuy.com/midasbuy/my/buy/pubgm
+    driver.execute_script('window.open("https://www.midasbuy.com/midasbuy/ph/buy/pubgm","_blank");')#https://www.midasbuy.com/midasbuy/ot/buy/pubgm
     razer_driver = webdriver.Firefox()
 elif browser == "chrome":
     options = webdriver.ChromeOptions()
@@ -57,11 +60,17 @@ while True:
                 order_tuple[1] = int(order_tuple[1])
             except:
                 alcaptain_services.failed_order_reply(driver, driver.window_handles[0], "Your PUBG ID: " + str(order_tuple[1]) + " is invalid")
-                reply_message = "PUBG Mobile Order Rejected❌\nOrder ID: " + str(order_tuple[0]).split("#")[1] + "\nPUBG ID: " + str(order_tuple[1]) + "\nis invalid and rejected (ID contains letters)"
+                reply_message = "💣PUBG Mobile Order Rejected❌\nOrder ID: " + str(order_tuple[0]).split("#")[1] + "\nPUBG ID: " + str(order_tuple[1]) + "\nis invalid and rejected (ID contains letters)"
                 telegram_services.send_msg(reply_message)
             else:
-                order_name = midasbuy_services.midas_id_verifier(driver, driver.window_handles[1], order_tuple[1], 2, country_code)
-                if order_name != None:
+                if country_code == "ph":
+                    midasbuy_window_handle = driver.window_handles[1]
+                elif country_code == "ot":
+                    midasbuy_window_handle = driver.window_handles[2]
+                elif country_code == "check":
+                    midasbuy_window_handle = driver.window_handles[2]
+                order_name = midasbuy_services.midas_id_verifier(driver, midasbuy_window_handle, order_tuple[1], 2, country_code)
+                if order_name != None and country_code != "check":
                     if type(order_name) == int:
                         if order_name == -1:
                             print("Main Code: probably buttons' xpath changed CONTACT HUSSEIN ALLAW")
@@ -71,12 +80,11 @@ while True:
                             reply_message = "PUBG Mobile Order Rejected❌\nOrder ID: " + str(order_tuple[0]).split("#")[1] + "\nPUBG ID: " + str(order_tuple[1]) + "\nis invalid and rejected (rejected by Midasbuy)"
                             telegram_services.send_msg(reply_message)
                     else:
-                        output = midasbuy_services.midas_bundle_and_payment_method_chooser(driver, driver.window_handles[1], order_tuple[2], order_tuple[3], "Razer Gold", country_code)
+                        output = midasbuy_services.midas_bundle_and_payment_method_chooser(driver, midasbuy_window_handle, order_tuple[2], order_tuple[3], "razer gold", country_code)
                         if output == None:
-                            print("Main Code: ")
-                            raise Exception
+                            telegram_services.send_msg("⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️\nPUBG MOBILE BOT ERROR:\nEither Razer Gold is not avialable or NO suitable offer is available")
                         print("Main Code: filling to the user :" + output)
-                        razer_url = midasbuy_services.midas_razer_payment_initializer(driver, driver.window_handles[1], country_code)
+                        razer_url = midasbuy_services.midas_razer_payment_initializer(driver, midasbuy_window_handle, country_code)
                         print("Main Code: razer url:" + str(razer_url))
                         if razer_url != None:
                             login_success = razer_gold_services.razer_gold_login(razer_driver, razer_driver.window_handles[0], credentials, razer_url)
@@ -84,12 +92,14 @@ while True:
                                 balance, order_price = razer_gold_services.razer_gold_check_balance(razer_driver, driver.window_handles[0], 1)
                                 if balance == "G":
                                     print("Main Code: archiving order")
-                                    archive((str(order_tuple[0]), str(order_tuple[1])))
+                                    archive((str(order_tuple[0]), str(order_tuple[1]), str(datetime.datetime.utcnow()).split(".")[0], str(order_price), credentials[0], credentials[1], str(order_name), str(output)))
+                                    #Archive orderID, #PUBGM ID, Date&Time, OrderPrice, RazerAccount, Name, Filled UCs
                                     transaction_id = razer_gold_services.razer_gold_proceed_to_check_out(razer_driver, razer_driver.window_handles[0], credentials)
+                                    with open("backup_transaction_numbers.txt", "a") as transaction_numbers_file:
+                                        transaction_numbers_file.write(transaction_id + "\n")
                                     #transaction_id = "R"
                                     if transaction_id == None:
-                                        print("Main Code: transaction id is not obtained, enter any thing to continue the bot")
-                                        x = input()
+                                        print("Main Code: transaction id is not obtained")
                                         continue
                                     elif transaction_id == "R":
                                         print("Main Code: Simply Restarting")
@@ -99,8 +109,9 @@ while True:
                                     else:
                                         reply_message = "The PUBG ID: " + str(order_tuple[1]) + "\nof Name: " + str(order_name) + "\nThe Transaction ID: " + str(transaction_id) + "\nHas filled: " + output
                                         alcaptain_services.successful_order_reply(driver, driver.window_handles[0], reply_message)
-                                        reply_message = "PUBG Mobile Order Payed✅\nOrder ID: " + str(order_tuple[0]).split("#")[1] + "\nPUBG ID: " + str(order_tuple[1]) + "\nPUBG Name: " + str(order_name) + "\nTransaction ID: " + str(transaction_id) + "\nFilled UC: " + output + "\nConsumed Razer Gold: " + str(order_price)
+                                        reply_message = "💣PUBG Mobile Order Payed✅\nOrder ID: " + str(order_tuple[0]).split("#")[1] + "\nPUBG ID: " + str(order_tuple[1]) + "\nPUBG Name: " + str(order_name) + "\nTransaction ID: " + str(transaction_id) + "\nFilled UC: " + output + "\nConsumed Razer Gold: " + str(order_price)
                                         telegram_services.send_msg(reply_message)
+                                        remove_last_order()
                                 elif balance == "C":
                                     counter += 1
                                     print("Main Code: changing account")
@@ -127,6 +138,20 @@ while True:
                             print("Main Code: Razer URL is not obtained, simply restarting")
 
                         print("MainCode: some error with Midasbuy, skipping")
+                elif order_name != None and country_code == "check":
+                    if type(order_name) == int:
+                        if order_name == -1:
+                            print("Main Code: probably buttons' xpath changed CONTACT HUSSEIN ALLAW")
+                        elif order_name == 0:
+                            print("Main Code: Replying with Invalid Code")
+                            alcaptain_services.failed_order_reply(driver, driver.window_handles[0], "The PUBG ID: " + str(order_tuple[1]) + " is invalid")
+                            reply_message = "🔍PUBG Mobile ID Check Invalid❌\nOrder ID: " + str(order_tuple[0]).split("#")[1] + "\nPUBG ID: " + str(order_tuple[1])
+                            telegram_services.send_msg(reply_message)
+                    else:
+                        reply_message = "The PUBG ID: " + str(order_tuple[1]) + "is verified\nThe PUBG Name: " + str(order_name)
+                        alcaptain_services.successful_order_reply(driver, driver.window_handles[0], reply_message)
+                        reply_message = "🔍PUBG Mobile ID Check Verified✅\nOrder ID: " + str(order_tuple[0]).split("#")[1] + "\nPUBG ID: " + str(order_tuple[1]) + "\nPUBG Name: " + str(order_name)
+                        telegram_services.send_msg(reply_message)
                 else:
                     print("Main Code: some unknown None error")
         elif order_tuple == None:
@@ -135,7 +160,38 @@ while True:
                 if order not in sus_orders_list:
                     sus_orders_list.append(order)
                     print(" -MainCode: sending sus order to telegram group")
-                    telegram_services.send_msg("❌❌❌❌❌❌\nDuplicate Order Detected\nAlCaptain ID:%20" + order[0].split("#")[1] + "\nPUBG ID:+" + order[1])
+                    telegram_services.send_msg("❌❌❌❌❌❌\n💣Duplicate Order Detected\nAlCaptain ID:%20" + order[0].split("#")[1] + "\nPUBG ID:+" + order[1] + "\nTimeAndDate: " + order[2])
+            if len(sus_orders_list):
+                sus_order = sus_order_list[0]
+                transaction_numbers_file = open("transaction_numbers.txt", "r")
+                transaction_numbers = transaction_numbers_file.readlines()
+                for i in range(0, len(transaction_numbers)):
+                    transaction_numbers[i] = transation_numbers[i].split("\n")[0]
+                print("MainCode<DEBUG-DUPLICATE_ORDERS>: ", sus_order[0], sus_order[2], sus_order[3])
+                if False:
+                    order_status = razer_gold_services.razer_check_sus_order(razer_driver, razer_driver.window_handles[0], sus_order[2], sus_order[3], transaction_numbers)
+                    print(order_status)
+                    if type(order_status) == int:
+                        if order_status == 1:
+                            remove_order(sus_order[0])
+                        else:
+                            if alcaptain_services.select_specific_order(driver, driver.window_handles[0], sus_order[0]):
+                                reply_message = "The PUBG ID: " + str(sus_order[1]) + "\nof Name: " + str(sus_order[-2]) + "\nThe Transaction ID: " + str(order_state) + "\nHas filled: " + sus_order[-1]
+                                alcaptain_services.successful_order_reply(driver, driver.window_handles[0], reply_message)
+                                reply_message = "💣PUBG Mobile Order Payed 🔁✅\nOrder ID: " + str(sus_order[0]).split("#")[1] + "\nPUBG ID: " + str(sus_order[1]) + "\nPUBG Name: " + str(sus_order[-2]) + "\nTransaction ID: " + str(order_state) + "\nFilled UC: " + sus_order[-1] + "\nConsumed Razer Gold: " + str(sus_order[3]) + "\nThis order was pulled from Razer Transaction List"
+                                telegram_services.send_msg(reply_message)
+                                remove_order(sus_order[0])
+                                with open("trasaction_numbers.txt", "a") as transaction_numbers_file:
+                                    transaction_numbers_file.append(order_status + "\n")
+                    elif type(order_status) == list:
+                        reply_message = "The PUBG ID: " + str(sus_order[1]) + "\nof Name: " + str(sus_order[-2]) + "\nThe Transaction ID: " + str(order_state[0]) + "\nHas filled: " + sus_order[-1]
+                        alcaptain_services.successful_order_reply(driver, driver.window_handles[0], reply_message)
+                        reply_message = "💣PUBG Mobile Order Payed 🔁✅\nOrder ID: " + str(sus_order[0]).split("#")[1] + "\nPUBG ID: " + str(sus_order[1]) + "\nPUBG Name: " + str(sus_order[-2]) + "\nTransaction ID: " + str(order_state[0]) + "\nFilled UC: " + sus_order[-1] + "\nConsumed Razer Gold: " + str(sus_order[3]) + "\nThis order was pulled from Razer Transaction List"
+                        telegram_services.send_msg(reply_message)
+                        with open("trasaction_numbers.txt", "a") as transaction_numbers_file:
+                            transaction_numbers_file.append(order_status + "\n")
+
+
     except Exception as error_message:
         print("MainCode: sending error message to Hussein Allaw")
         print(error_message)

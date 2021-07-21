@@ -180,13 +180,18 @@ def select_order(driver, window_handle, order_phrase_list = target_order_list):
     print(country_code_list, sep = ", ")
     if len(list_of_orders) > 0:
         counter = 0
-        print(" -SO: clearing non " + ", ".join(country_code_list) + " RAZER GOLD orders")
+        print(" -SO: clearing non RAZER GOLD orders")
+        full_archive = archive()
+        temp_archive = []
+        for line in temp_archive:
+            temp_archive.append(line[:2])
+        print(" -SO: pulled archive")
         for order in list_of_orders:
             for order_phrase in order_phrase_list:
                 if order_phrase in order.find_elements_by_tag_name("td")[1].text:
                     row_id = order.find_element_by_tag_name("td").text
                     row_pubg_id = str(order.find_elements_by_tag_name("td")[4].text.split(">")[1])
-                    if (row_id, str(row_pubg_id)) not in archive():
+                    if (row_id, str(row_pubg_id)) not in temp_archive:
                         list_of_valid_orders.append(order)
                         break
         print(" -SO: " + str(len(list_of_valid_orders)) + " valid PUBG Mobile orders are found")
@@ -197,9 +202,13 @@ def select_order(driver, window_handle, order_phrase_list = target_order_list):
                 if order_phrase in order.find_elements_by_tag_name("td")[1].text:
                     print(" -SO: collecting first player info")
                     order_id = order.find_element_by_tag_name("td").text#i will keep it is a string to make identifying it easier using "in"
-                    order_uc = order.find_elements_by_tag_name("td")[1].text.split(" ")[0]
-                    order_pubg_id = str(order.find_elements_by_tag_name("td")[4].text.split(">")[1])
                     country_code = country_code_list[order_phrase_list.index(order_phrase)]
+                    if country_code == "check":
+                        order_uc = "0"
+                    else:
+                        order_uc = order.find_elements_by_tag_name("td")[1].text.split(" ")[0]
+                    order_pubg_id = str(order.find_elements_by_tag_name("td")[4].text.split(">")[1])
+                    
                     order_chosen = 1
                     break
             if order_chosen == 1:
@@ -209,7 +218,8 @@ def select_order(driver, window_handle, order_phrase_list = target_order_list):
             offer_uc = int(order_uc.split("+")[1].split(" ")[0])
             order_uc = int(order_uc.split("+")[0])
         else:
-            return None
+            order_uc = int(order_uc)
+            offer_uc = 0
         print(" -SO: order information")
         print("     |-alcaptainUnlock Order ID " + order_id)
         print("     |-required UC " + str(order_uc))
@@ -232,6 +242,50 @@ def select_order(driver, window_handle, order_phrase_list = target_order_list):
         return [order_id, order_pubg_id, order_uc, offer_uc, country_code]
     else:
         return None
+
+def select_specific_order(driver, window_handle, order_id):
+    time_of_waiting = 60
+    print(" -SSO: select_specific_order() service is initiated")
+    print(" -SSO: opening dashboard window")
+    open_dashboard_window(driver, driver.current_window_handle)
+
+    print(" -SSO: switching to iframe")
+    driver.switch_to.frame(driver.find_element_by_tag_name("iframe"))
+
+    print(" -SSO: clicking server_orders->accepted_orders button")
+    accepted_server_order_xpath = "/html/body/div[4]/div[2]/div[2]/div/div/table/tbody/tr/td[3]/div/div[3]/a/h3"
+    orders_button = driver.find_element_by_xpath(accepted_server_order_xpath)
+    orders_button.click()
+    
+    driver.switch_to.default_content()
+
+    print(" -SSO: switching to iframe")
+    driver.switch_to.frame(driver.find_element_by_tag_name("iframe"))
+
+    print(" -SSO: waiting for table head to appear")
+    table_head_xpath = "/html/body/div[4]/div/div[2]/div/form[2]/div[1]/table/thead"
+    webdriver.support.ui.WebDriverWait(driver, time_of_waiting).until(EC.presence_of_element_located((By.XPATH, table_head_xpath)))
+
+    print(" -SSO: starting to collect table rows")
+    list_of_orders = driver.find_elements_by_tag_name("tr")
+    list_of_orders.pop(0)
+
+    for order in list_of_orders:
+        if order_id == order.find_element_by_tag_name("td").text:
+            print(" -SSO: opening order reply page")
+            driver.execute_script("arguments[0].click();", order.find_element_by_tag_name("td").find_element_by_tag_name("a"))
+            driver.switch_to.default_content()
+            while driver.execute_script("return document.readyState;") != "complete":
+                pass
+            
+            driver.switch_to.frame(driver.find_element_by_tag_name("iframe"))
+            while driver.execute_script("return document.readyState;") != "complete":
+                pass
+
+            driver.switch_to.default_content()
+            print(" -SSO: select_specific_order() service is over")
+            return 1
+    return 0
 
 def successful_order_reply(driver, window_handle, reply_message):
     print(" -SOR: successful_order_reply service initiated")
@@ -322,16 +376,20 @@ def get_list_of_active_archived_orders(driver, window_handle, order_phrase_list 
     if len(list_of_orders) > 0:
         counter = 0
         print(" -GLOAAO: clearing non " + ", ".join(country_code_list) + " RAZER GOLD orders")
+        full_archive = archive()
+        print(" -SO: pulled archive")
+
         for order in list_of_orders:
             for order_phrase in order_phrase_list:
                 if order_phrase in order.find_elements_by_tag_name("td")[1].text:
                     row_id = order.find_element_by_tag_name("td").text
                     row_pubg_id = int(order.find_elements_by_tag_name("td")[4].text.split(">")[1])
-                    if (row_id, str(row_pubg_id)) in archive():
-                        list_of_archived_orders.append((row_id, str(row_pubg_id)))
-                        break
+                    for row in full_archive:
+                        if row[0] == row_id and row[1] == str(row_pubg_id):
+                            list_of_archived_orders.append((row[0], row[1], row[2]))
+                            break
     if len(list_of_archived_orders):
-        print(" -GLOAAO: " + str(len(list_of_archived_orders)) + " archived PUBG Mobile orders are found, sending new stall order to through telegram")
+        print(" -GLOAAO: " + str(len(list_of_archived_orders)) + " archived PUBG Mobile orders are found")
     else:
         print(" -GLOAAO: no duplicate archived orders are found")
 
