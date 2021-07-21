@@ -53,10 +53,10 @@ def initialize_variables():
     else:
         print(" -VS: seting up is complete launching bot")
 
-def archive(order_data = None):
+def archive(order_data = None, file_name = "sus_archive.csv"):
     if order_data == None:
-        if os.path.isfile("sus_archive.csv"):
-            csv_file = open("sus_archive.csv", "r", encoding = "utf-8")
+        if os.path.isfile(file_name):
+            csv_file = open(file_name, "r", encoding = "utf-8")
             list_of_data = csv_file.readlines()
             for row in list_of_data:
                 list_of_data[list_of_data.index(row)] = tuple(row.split("\n")[0].split(","))
@@ -65,7 +65,7 @@ def archive(order_data = None):
         else:
             return []
     else:
-        csv_file = open("sus_archive.csv", "a", encoding = "utf-8")
+        csv_file = open(file_name, "a", encoding = "utf-8")
         writeable_to_file = ""
         for item in order_data:
             writeable_to_file += str(item) + ","

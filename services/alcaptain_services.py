@@ -183,9 +183,14 @@ def select_order(driver, window_handle, order_phrase_list = target_order_list):
         print(" -SO: clearing non RAZER GOLD orders")
         full_archive = archive()
         temp_archive = []
-        for line in temp_archive:
+        second_archive = archive(file_name = "stuck_archive.csv")
+        for line in full_archive:
             temp_archive.append(line[:2])
+        for line in second_archive:
+            temp_archive.append(line)
         print(" -SO: pulled archive")
+        for line in temp_archive:
+            print(line, "---archive debug in AS.SO")
         for order in list_of_orders:
             for order_phrase in order_phrase_list:
                 if order_phrase in order.find_elements_by_tag_name("td")[1].text:

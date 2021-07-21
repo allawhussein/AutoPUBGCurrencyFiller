@@ -20,6 +20,8 @@ initialize_variables()
 
 if browser == "firefox":
     driver = webdriver.Firefox()
+    for country in coutnry_code_list:
+        pass
     driver.execute_script('window.open("https://www.midasbuy.com/midasbuy/ot/buy/pubgm","_blank");')#https://www.midasbuy.com/midasbuy/my/buy/pubgm
     driver.execute_script('window.open("https://www.midasbuy.com/midasbuy/ph/buy/pubgm","_blank");')#https://www.midasbuy.com/midasbuy/ot/buy/pubgm
     razer_driver = webdriver.Firefox()
@@ -45,6 +47,7 @@ elif browser == "chrome":
 credentials = razer_accounts[0]
 counter = 0
 print("MainCode: using razer account: " + credentials[0])
+last_order_tuple = [None, 0]
 while True:
     try:
         order_tuple = None
@@ -191,6 +194,13 @@ while True:
                         with open("trasaction_numbers.txt", "a") as transaction_numbers_file:
                             transaction_numbers_file.append(order_status + "\n")
 
+        if last_order_tuple == order_tuple:
+            last_order_tuple[1] += 1
+        else:
+            last_order_tuple[0] = order_tuple
+        if last_order_tuple[1] > 1:
+            archive((str(order_tuple[0]), str(order_tuple[1]), "stuck_archive.csv")
+            telegram_services.send_msg("❌❌❌❌❌❌\n💣Stuck Order Detected, and will be skipped\nAlCaptain ID: " + order_tuple[0].split("#")[1] + "\nPUBG ID:+" + order_tuple[1])
 
     except Exception as error_message:
         print("MainCode: sending error message to Hussein Allaw")
