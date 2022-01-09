@@ -4,6 +4,7 @@ from selenium.webdriver.support import expected_conditions as EC #this is used t
 from selenium.webdriver.common.by import By #this used for element finding method
 from selenium.webdriver.common.keys import Keys #this is used to simiulate keyboard keys
 from selenium.common.exceptions import TimeoutException
+from selenium.common.exceptions import ElementClickInterceptedException
 import os
 import time
 import pickle
@@ -20,11 +21,13 @@ initialize_variables()
 
 if browser == "firefox":
     driver = webdriver.Firefox()
-    for country in coutnry_code_list:
+    for country in country_code_list:
         pass
     driver.execute_script('window.open("https://www.midasbuy.com/midasbuy/ot/buy/pubgm","_blank");')#https://www.midasbuy.com/midasbuy/my/buy/pubgm
-    driver.execute_script('window.open("https://www.midasbuy.com/midasbuy/ph/buy/pubgm","_blank");')#https://www.midasbuy.com/midasbuy/ot/buy/pubgm
+    driver.execute_script('window.open("https://www.midasbuy.com/midasbuy/sg/buy/pubgm","_blank");')#https://www.midasbuy.com/midasbuy/ot/buy/pubgm
     razer_driver = webdriver.Firefox()
+    ot_window_handle = driver.window_handles[2]
+    un_window_handle = driver.window_handles[1]
 elif browser == "chrome":
     options = webdriver.ChromeOptions()
     prefs = {'profile.default_content_setting_values': {'cookies': 2, 'images': 2, 'javascript': 2, 
@@ -66,12 +69,10 @@ while True:
                 reply_message = "💣PUBG Mobile Order Rejected❌\nOrder ID: " + str(order_tuple[0]).split("#")[1] + "\nPUBG ID: " + str(order_tuple[1]) + "\nis invalid and rejected (ID contains letters)"
                 telegram_services.send_msg(reply_message)
             else:
-                if country_code == "ph":
-                    midasbuy_window_handle = driver.window_handles[1]
-                elif country_code == "ot":
-                    midasbuy_window_handle = driver.window_handles[2]
-                elif country_code == "check":
-                    midasbuy_window_handle = driver.window_handles[2]
+                if country_code == "ot" or country_code == "check":
+                    midasbuy_window_handle = ot_window_handle
+                else:
+                    midasbuy_window_handle = un_window_handle
                 order_name = midasbuy_services.midas_id_verifier(driver, midasbuy_window_handle, order_tuple[1], 2, country_code)
                 if order_name != None and country_code != "check":
                     if type(order_name) == int:
@@ -86,7 +87,8 @@ while True:
                         output = midasbuy_services.midas_bundle_and_payment_method_chooser(driver, midasbuy_window_handle, order_tuple[2], order_tuple[3], "razer gold", country_code)
                         if output == None:
                             telegram_services.send_msg("⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️\nPUBG MOBILE BOT ERROR:\nEither Razer Gold is not avialable or NO suitable offer is available")
-                        print("Main Code: filling to the user :" + output)
+                            continue
+                        print("Main Code: filling to the user :" + str(output))
                         razer_url = midasbuy_services.midas_razer_payment_initializer(driver, midasbuy_window_handle, country_code)
                         print("Main Code: razer url:" + str(razer_url))
                         if razer_url != None:
@@ -95,9 +97,10 @@ while True:
                                 balance, order_price = razer_gold_services.razer_gold_check_balance(razer_driver, driver.window_handles[0], 1)
                                 if balance == "G":
                                     print("Main Code: archiving order")
-                                    archive((str(order_tuple[0]), str(order_tuple[1]), str(datetime.datetime.utcnow()).split(".")[0], str(order_price), credentials[0], credentials[1], str(order_name), str(output)))
+                                    archive(str(order_tuple[0]))
                                     #Archive orderID, #PUBGM ID, Date&Time, OrderPrice, RazerAccount, Name, Filled UCs
-                                    transaction_id = razer_gold_services.razer_gold_proceed_to_check_out(razer_driver, razer_driver.window_handles[0], credentials)
+                                    #transaction_id = razer_gold_services.razer_gold_proceed_to_check_out(razer_driver, razer_driver.window_handles[0], credentials)
+                                    transaction_id = "None - Test Case by Hussein Allaw"
                                     with open("backup_transaction_numbers.txt", "a") as transaction_numbers_file:
                                         transaction_numbers_file.write(transaction_id + "\n")
                                     #transaction_id = "R"
@@ -199,8 +202,9 @@ while True:
         else:
             last_order_tuple[0] = order_tuple
         if last_order_tuple[1] > 1:
-            archive((str(order_tuple[0]), str(order_tuple[1]), "stuck_archive.csv")
-            telegram_services.send_msg("❌❌❌❌❌❌\n💣Stuck Order Detected, and will be skipped\nAlCaptain ID: " + order_tuple[0].split("#")[1] + "\nPUBG ID:+" + order_tuple[1])
+            archive(str(order_tuple[0]), "stuck_archive.csv")
+            reply_message = "❌❌❌❌❌❌\n💣Stuck Order Detected, and will be skipped\nAlCaptain ID: " + str(order_tuple[0]).split("#")[1] + "\nPUBG ID:+" + order_tuple[1]
+            telegram_services.send_msg(reply_message)
 
     except Exception as error_message:
         print("MainCode: sending error message to Hussein Allaw")

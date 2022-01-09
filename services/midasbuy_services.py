@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By #this used for element finding metho
 from selenium.webdriver.common.keys import Keys #this is used to simiulate keyboard keys
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
-
+from selenium.common.exceptions import ElementClickInterceptedException
 import time
 from services.variables import *
 from services import telegram_services
@@ -135,30 +135,69 @@ def midas_id_verifier(driver, window_handle, order_pubg_id, max_verification_tra
     time_zero = time.time()
     while time.time() - time_zero < 20:
         print(" -MIDV: Main Loop, remaining time: ", str(20 - time.time() + time_zero)[:2])
-        
+        try:#check for payment portal from previous payments
+            for div in driver.find_elements_by_class_name("btn"):
+                if div.text.lower() == "back":
+                    div.click()
+        except ElementClickInterceptedException as err_message:
+            err_message = str(err_message)
+            tag = err_message.split("another element ")[1].split(" obscures it")[0]
+            html_tag = tag[1:].split(" ")[0]
+            css_class = tag.split('class="')[1].split('"')[0]
+            for target_tag in driver.find_elements_by_tag_name(html_tag):
+                if target_tag.get_attribute("class") == css_class:
+                    #driver.execute_script("arguments[0].setAttribute('style','display:none;');", target_tag)
+                    #driver.execute_script("arguments[0].setAttribute("hidden", true);", target_tag)
+                    driver.execute_script("arguments[0].className = '';", target_tag)
+                    driver.execute_script("arguments[0].style.display = 'none';", target_tag)
+                    print(" -MIV-DEBUG: element of tag name: ", html_tag, " and class name: ", css_class, " is hidden by bot")
+                    time_zero = time.time()
+                    break
+        except:
+            pass
+
         try:#check for input field if visible
             for input_field in driver.find_elements_by_tag_name("input"):
                 if input_field.get_attribute("placeholder") == "Please enter Player ID":
-                    print(" -MIDV: found the Player ID placeholder")
                     if input_field.get_attribute("value") != str(order_pubg_id):
                         input_field.send_keys(Keys.CONTROL + "a")
                         input_field.send_keys(Keys.DELETE)
                         input_field.send_keys(order_pubg_id)
                         print(" -MIDV: entered the player PUBG ID")
-                    for button in driver.find_elements_by_tag_name("div"):
-                        if button.get_attribute("class") == "btn" and button.text == "OK":
-                            button.click()
-                            time_zero = time.time()
-                            print(" -MIDV: clicking submit button, waiting ID verification")
-                            #time_zero = time.time()
+                    
+                    confirm_player_btn = driver.execute_script("return arguments[0].parentElement.nextElementSibling", input_field)
+                    print(" -MIDV-DEBUG: confirm_player_btn text: ", confirm_player_btn.text, "confirm_player_btn class: ", confirm_player_btn.get_attribute("class"))
+                    if "loading" not in confirm_player_btn.get_attribute("class"):
+                        print(" -MIDV: clicking submit button, waiting ID verification")
+                        confirm_player_btn.click()
+                        while "loading" not in confirm_player_btn.get_attribute("class"):
+                            if time.time() - time_zero > 20:
+                                time_zero = time.time()
+                                break
+                        while "loading" in confirm_player_btn.get_attribute("class"):
+                            pass
+                        error = driver.execute_script("return arguments[0].parentElement.nextElementSibling", confirm_player_btn)
+                        if error.text != "":
+                            if max_verification_trails < 1:
+                                return 0
+                            return midas_id_verifier(driver, window_handle, order_pubg_id, max_verification_trails - 1, country_code)
+                    break
+        except ElementClickInterceptedException as err_message:
+            err_message = str(err_message)
+            tag = err_message.split("another element ")[1].split(" obscures it")[0]
+            html_tag = tag[1:].split(" ")[0]
+            css_class = tag.split('class="')[1].split('"')[0]
+            for target_tag in driver.find_elements_by_tag_name(html_tag):
+                if target_tag.get_attribute("class") == css_class:
+                    #driver.execute_script("arguments[0].setAttribute('style','display:none;');", target_tag)
+                    #driver.execute_script("arguments[0].setAttribute("hidden", true);", target_tag)
+                    driver.execute_script("arguments[0].className = '';", target_tag)
+                    driver.execute_script("arguments[0].style.display = 'none';", target_tag)
+                    print(" -MIV-DEBUG: element of tag name: ", html_tag, " and class name: ", css_class, " is hidden by bot")
+                    time_zero = time.time()
+                    break
         except Exception as err:
             print(" -MIDV<DEBUG>: ", err)
-
-        try:#rest time_zero if button is loading
-            if "loading-btn" in button.get_attribute("class"):
-                time_zero = time.time()
-        except:
-            pass
 
         try:#check if player info are visible and valid
             for div in driver.find_elements_by_tag_name("div"):
@@ -185,15 +224,23 @@ def midas_id_verifier(driver, window_handle, order_pubg_id, max_verification_tra
                                         a_tag.click()
                                         time_zero = time.time()
                                         print(" -MIDV: pressed Edit Button")
+        except ElementClickInterceptedException as err_message:
+            err_message = str(err_message)
+            tag = err_message.split("another element ")[1].split(" obscures it")[0]
+            html_tag = tag[1:].split(" ")[0]
+            css_class = tag.split('class="')[1].split('"')[0]
+            for target_tag in driver.find_elements_by_tag_name(html_tag):
+                if target_tag.get_attribute("class") == css_class:
+                    #driver.execute_script("arguments[0].setAttribute('style','display:none;');", target_tag)
+                    #driver.execute_script("arguments[0].setAttribute("hidden", true);", target_tag)
+                    driver.execute_script("arguments[0].className = '';", target_tag)
+                    driver.execute_script("arguments[0].style.display = 'none';", target_tag)
+                    print(" -MIV-DEBUG: element of tag name: ", html_tag, " and class name: ", css_class, " is hidden by bot")
+                    time_zero = time.time()
+                    break
         except Exception as err:
             print(" -MIDV<DEBUG>: ", err)
 
-        for p_tag in driver.find_elements_by_tag_name("p"):
-            if "invalid player id" in p_tag.text:
-                if max_verification_trails < 1:
-                    return 0
-                return midas_id_verifier(driver, window_handle, order_pubg_id, max_verification_trails - 1, country_code)
-        
     print(" -MIDV: Timeout")
     return None
 
@@ -202,16 +249,15 @@ def midas_bundle_and_payment_method_chooser(driver, window_handle, required_uc, 
     driver.switch_to.default_content()
 
     for li in driver.find_elements_by_tag_name("li"):
-        if payment_method in li.text.lower():
-            for li_child in li.find_elements_by_tag_name("*"):
-                if li_child.text.lower() == payment_method:    
-                    driver.execute_script("arguments[0].click();", li)
-                    break
-            else:
-                continue
-            break
+        for li_child in li.find_elements_by_tag_name("*"):
+            if li_child.text.lower() == payment_method:    
+                driver.execute_script("arguments[0].click();", li)
+                break
+        else:
+            continue
+        break
     else:
-        telegram_services.send_msg("❌❌❌❌❌❌\nMidasbuy Razer Gold is not found")
+        #telegram_services.send_msg("❌❌❌❌❌❌\nMidasbuy Razer Gold is not found")
         return None
 
     bundle_choosen = False
@@ -221,9 +267,9 @@ def midas_bundle_and_payment_method_chooser(driver, window_handle, required_uc, 
                 if (char < "0" or char > "9") and char != "+":
                     break
             else:
-                print('"' + p.text + '"')
+                print(' -MBAPMC-DEBUG: "' + p.text + '"               ', end = "\r")
                 if "+" in p.text and p.text != "":
-                    if str(required_uc) == p.text.split("+")[0] or str(required_uc + offer_uc) == p.text.split("+")[0]:
+                    if str(required_uc) == p.text.split("+")[0] or str(required_uc + offer_uc) == p.text.split("+")[0] or str(required_uc + offer_uc) == str(int(p.text.split("+")[0]) + int(p.text.split("+")[1])) or str(required_uc) == str(int(p.text.split("+")[0]) + int(p.text.split("+")[1])):
                         driver.execute_script("arguments[0].click();", li)
                         print(" -MBAPMC: bundle chosen: "+ p.text +" uc")
                         print(" -MBAPMC: midas_bundle_and_payment_method_chooser() service is over")
@@ -249,6 +295,7 @@ def midas_razer_payment_initializer(driver, window_handle, country_code):
     pay_button_detected_first_time = 0
     pay_button_pressed = 0
     time_zero = time.time()
+    counter = 0
     while len(driver.window_handles) <= initial_number_of_windows:
         try:#locating pay-now button
             for element in driver.find_elements_by_class_name("pay-btn"):
@@ -260,17 +307,47 @@ def midas_razer_payment_initializer(driver, window_handle, country_code):
                     print(" -MRPI: pay now button detected")
                     time_zero = time.time()
                     pay_button_detected_first_time = 1
+        except ElementClickInterceptedException as err_message:
+            err_message = str(err_message)
+            tag = err_message.split("another element ")[1].split(" obscures it")[0]
+            html_tag = tag[1:].split(" ")[0]
+            css_class = tag.split('class="')[1].split('"')[0]
+            for target_tag in driver.find_elements_by_tag_name(html_tag):
+                if target_tag.get_attribute("class") == css_class:
+                    #driver.execute_script("arguments[0].setAttribute('style','display:none;');", target_tag)
+                    #driver.execute_script("arguments[0].setAttribute("hidden", true);", target_tag)
+                    driver.execute_script("arguments[0].className = '';", target_tag)
+                    driver.execute_script("arguments[0].style.display = 'none';", target_tag)
+                    print(" -MRPI-DEBUG: locating pay-now button - element of tag name: ", html_tag, " and class name: ", css_class, " is hidden by bot")
+                    time_zero = time.time()
+                    break
         except:
             pass
+        
         try:#pressing pay now button
             assert pay_now_button.is_enabled()
-            pay_now_button.click()
             if not pay_button_pressed:
+                pay_now_button.click()
                 print(" -MRPI: clicked pay now")
                 time_zero = time.time()
                 pay_button_pressed = 1
+        except ElementClickInterceptedException as err_message:
+            err_message = str(err_message)
+            tag = err_message.split("another element ")[1].split(" obscures it")[0]
+            html_tag = tag[1:].split(" ")[0]
+            css_class = tag.split('class="')[1].split('"')[0]
+            for target_tag in driver.find_elements_by_tag_name(html_tag):
+                if target_tag.get_attribute("class") == css_class:
+                    #driver.execute_script("arguments[0].setAttribute('style','display:none;');", target_tag)
+                    #driver.execute_script("arguments[0].setAttribute("hidden", true);", target_tag)
+                    driver.execute_script("arguments[0].className = '';", target_tag)
+                    driver.execute_script("arguments[0].style.display = 'none';", target_tag)
+                    print(" -MRPI-DEBUG: pressing pay now button - element of tag name: ", html_tag, " and class name: ", css_class, " is hidden by bot")
+                    time_zero = time.time()
+                    break
         except:
             pass
+        
         try:#clicking checkboxes
             for check in driver.find_elements_by_class_name("check-box"):
                 if check.is_displayed():
@@ -280,8 +357,23 @@ def midas_razer_payment_initializer(driver, window_handle, country_code):
                             print(" -MRPI: checked all check boxes")
                             time_zero = time.time()
                         check_box_first_click = 0
+        except ElementClickInterceptedException as err_message:
+            err_message = str(err_message)
+            tag = err_message.split("another element ")[1].split(" obscures it")[0]
+            html_tag = tag[1:].split(" ")[0]
+            css_class = tag.split('class="')[1].split('"')[0]
+            for target_tag in driver.find_elements_by_tag_name(html_tag):
+                if target_tag.get_attribute("class") == css_class:
+                    #driver.execute_script("arguments[0].setAttribute('style','display:none;');", target_tag)
+                    #driver.execute_script("arguments[0].setAttribute("hidden", true);", target_tag)
+                    driver.execute_script("arguments[0].className = '';", target_tag)
+                    driver.execute_script("arguments[0].style.display = 'none';", target_tag)
+                    print(" -MRPI-DEBUG: clicking checkboxes - element of tag name: ", html_tag, " and class name: ", css_class, " is hidden by bot")
+                    time_zero = time.time()
+                    break
         except:
             pass
+        
         try:#submitting date
             for p_tag in driver.find_elements_by_tag_name("p"):
                 if "Birthday" in p_tag.text:
@@ -297,14 +389,46 @@ def midas_razer_payment_initializer(driver, window_handle, country_code):
                 if div.text == "OK":
                     div.click()
                     break
+        except ElementClickInterceptedException as err_message:
+            err_message = str(err_message)
+            tag = err_message.split("another element ")[1].split(" obscures it")[0]
+            html_tag = tag[1:].split(" ")[0]
+            css_class = tag.split('class="')[1].split('"')[0]
+            for target_tag in driver.find_elements_by_tag_name(html_tag):
+                if target_tag.get_attribute("class") == css_class:
+                    #driver.execute_script("arguments[0].setAttribute('style','display:none;');", target_tag)
+                    #driver.execute_script("arguments[0].setAttribute("hidden", true);", target_tag)
+                    driver.execute_script("arguments[0].className = '';", target_tag)
+                    driver.execute_script("arguments[0].style.display = 'none';", target_tag)
+                    print(" -MRPI-DEBUG: submitting date - element of tag name: ", html_tag, " and class name: ", css_class, " is hidden by bot")
+                    time_zero = time.time()
+                    break
         except Exception as error:
             pass
+        
         try:#clickng second pay now
             for div in driver.find_elements_by_class_name("btn"):
                 if div.text == "Continue":
                     div.click()
+        except ElementClickInterceptedException as err_message:
+            err_message = str(err_message)
+            tag = err_message.split("another element ")[1].split(" obscures it")[0]
+            html_tag = tag[1:].split(" ")[0]
+            css_class = tag.split('class="')[1].split('"')[0]
+            for target_tag in driver.find_elements_by_tag_name(html_tag):
+                if target_tag.get_attribute("class") == css_class:
+                    #driver.execute_script("arguments[0].setAttribute('style','display:none;');", target_tag)
+                    #driver.execute_script("arguments[0].setAttribute("hidden", true);", target_tag)
+                    driver.execute_script("arguments[0].className = '';", target_tag)
+                    driver.execute_script("arguments[0].style.display = 'none';", target_tag)
+                    print(" -MRPI-DEBUG: clicking second pay now - element of tag name: ", html_tag, " and class name: ", css_class, " is hidden by bot")
+                    time_zero = time.time()
+                    break
         except:
             pass
+        
+        print(" -MRPI-DEBUG: #windows: ", len(driver.window_handles), "LN", counter, end = "\r")
+        counter += 1
         if time.time() - time_zero > time_of_waiting:
             print("Razer Window didn't open in time")
             return None
@@ -319,8 +443,13 @@ def midas_razer_payment_initializer(driver, window_handle, country_code):
             break
 
     driver.switch_to.window(driver.window_handles[i + 1])
+    time_zero = time.time()
     while "pay.gold.razer.com/order" not in driver.current_url:
-        pass
+        if time.time() - time_zero > time_of_waiting:
+            print(" -MRPI: timeout")
+            return None
+        if driver.execute_script("return document.readyState;") != "complete":
+            time_zero = time.time()
 
     razer_payment_url = driver.current_url
     driver.close()
@@ -330,6 +459,11 @@ def midas_razer_payment_initializer(driver, window_handle, country_code):
     driver.execute_script("location.reload();")
     print(" -MRPI: service midas_razer_payment_initializer is over")
     return razer_payment_url
+
+def midas_test(driver, window_handle, order_pubg_id, max_verification_trails, country_code, required_uc, offer_uc, payment_method):
+    print(midas_id_verifier(driver, window_handle, order_pubg_id, max_verification_trails, country_code))
+    print(midas_bundle_and_payment_method_chooser(driver, window_handle, required_uc, offer_uc, payment_method, country_code))
+    print(midas_razer_payment_initializer(driver, window_handle, country_code))
 
 if __name__ == "__main__":
 

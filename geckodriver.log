@@ -2636,3 +2636,1373 @@ JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includ
 JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
 JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
 1626842563919	Marionette	INFO	Stopped listening on port 62025
+1626860268766	geckodriver	INFO	Listening on 127.0.0.1:57304
+1626860271831	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileRBnHcR"
+1626860274118	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofileRBnHcR\\search.json.mozlz4", (void 0)))
+1626860290547	Marionette	INFO	Listening on port 57314
+1626860291198	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626860947998	Marionette	INFO	Stopped listening on port 57314
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofileivHqIp\\search.json.mozlz4", (void 0)))
+1626860366741	Marionette	INFO	Listening on port 56796
+1626860367275	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1626860416858	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626860948061	Marionette	INFO	Stopped listening on port 62008
+ript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+1626860454808	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: resource://devtools/server/actors/inspector/event-collector.js, line 530: debuggee 'https://cdn.midasbuy.com/oversea_web/static/js/midas.runtime.js:1' would run
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://cdn.midasbuy.com/oversea_web/static/css/vendor.40715031.css?max_age=864000 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://cdn.midasbuy.com/oversea_web/static/css/buypage.4ef96633.css?max_age=864000 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://cdn.midasbuy.com/oversea_web/static/css/media.4280ca39.css?max_age=864000 without a browsingContextID set
+JavaScript error: resource://devtools/client/framework/devtools.js, line 757: TypeError: inspector.inspectorFront is undefined
+console.error: "Error writing response to: skipBreakpoints"
+console.error: "Error while calling actor 'thread's method 'skipBreakpoints'" "Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance."
+console.error: (new Error("Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance.", "resource://devtools/shared/protocol/Response.js", 55))
+console.error: "Error writing response to: skipBreakpoints"
+console.error: "Error while calling actor 'thread's method 'skipBreakpoints'" "Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance."
+console.error: (new Error("Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance.", "resource://devtools/shared/protocol/Response.js", 55))
+console.log: (new Error("Protocol error (Error): Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance. from: server0.conn0.child4/thread21 (resource://devtools/shared/protocol/Response.js:55:15)", "resource://devtools/shared/protocol/Front.js", 365))
+console.log: (new Error("Protocol error (Error): Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance. from: server0.conn0.child4/thread21 (resource://devtools/shared/protocol/Response.js:55:15)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://cdn.midasbuy.com/oversea_web/static/css/vendor.40715031.css?max_age=864000 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://cdn.midasbuy.com/oversea_web/static/css/buypage.4ef96633.css?max_age=864000 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://cdn.midasbuy.com/oversea_web/static/css/media.4280ca39.css?max_age=864000 without a browsingContextID set
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+1626860551339	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://cdn.midasbuy.com/oversea_web/static/css/vendor.40715031.css?max_age=864000 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://cdn.midasbuy.com/oversea_web/static/css/buypage.4ef96633.css?max_age=864000 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://cdn.midasbuy.com/oversea_web/static/css/media.4280ca39.css?max_age=864000 without a browsingContextID set
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1626860944271	Marionette	INFO	Stopped listening on port 56796
+1626934797132	geckodriver	INFO	Listening on 127.0.0.1:60382
+1626934800179	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileWBcCjY"
+1626934802012	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofileWBcCjY\\search.json.mozlz4", (void 0)))
+1626934807532	Marionette	INFO	Listening on port 60393
+1626934807685	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626934840121	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modu1626934933742	Marionette	INFO	Stopped listening on port 60456
+ unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+1626934933792	Marionette	INFO	Stopped listening on port 60393
+1626940186785	geckodriver	INFO	Listening on 127.0.0.1:59616
+1626940189880	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileh09Npr"
+1626940191319	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofileh09Npr\\search.json.mozlz4", (void 0)))
+1626940197969	Marionette	INFO	Listening on port 59627
+1626940198528	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe1console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626940964942	Marionette	INFO	Stopped listening on port 59692
+party/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+1626940441373	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+[Parent 2844, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1626940964572	Marionette	INFO	Stopped listening on port 59627
+1626941038298	geckodriver	INFO	Listening on 127.0.0.1:60861
+1626941041448	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilejL9YmN"
+1626941043366	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofilejL9YmN\\search.json.mozlz4", (void 0)))
+[Parent 18788, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1626941051401	Marionette	INFO	Listening on port 60325
+1626941052231	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe1console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626941935526	Marionette	INFO	Stopped listening on port 51923
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+grid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+1626941368343	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626941921023	Marionette	INFO	Stopped listening on port 60325
+1626945874084	geckodriver	INFO	Listening on 127.0.0.1:62171
+1626945877068	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilehnpGWR"
+1626945886762	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofilehnpGWR\\search.json.mozlz4", (void 0)))
+[Parent 15104, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 15104, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1626945913877	Marionette	INFO	Listening on port 62180
+1626945914666	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe1
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 7908, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1626946069587	Marionette	INFO	Stopped listening on port 62269
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+nexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+1626946020211	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+1626946221734	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1626956370069	Marionette	INFO	Stopped listening on port 62180
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626956372712	geckodriver	INFO	Listening on 127.0.0.1:58172
+1626956375741	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileFuzI7s"
+1626956376920	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofileFuzI7s\\search.json.mozlz4", (void 0)))
+1626956382024	Marionette	INFO	Listening on port 58188
+1626956382054	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Erro1626956385227	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI1626956397355	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.midasbuy.com/midasbuy/sg/buy/pubgm, line 49: ReferenceError: Aegis is not defined
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/the1626956771694	Marionette	INFO	Stopped listening on port 58253
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+es/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: https://www.midasbuy.com/midasbuy/sg/buy/pubgm, line 166: ReferenceError: jQuery is not defined
+JavaScript error: https://www.midasbuy.com/midasbuy/sg/buy/pubgm, line 216: ReferenceError: $ is not defined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/jquery.min.js?v=RC8, line 2: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+  Stack:
+    timedFetch/<@resource://services-common/kinto-http-client.js:549:22
+timedFetch@resource://services-common/kinto-http-client.js:527:20
+request@resource://services-common/kinto-http-client.js:613:41
+execute@resource://services-common/kinto-http-client.js:2400:44
+_fetchChangeset@resource://services-settings/RemoteSettingsClient.jsm:1038:22
+_importChanges@resource://services-settings/RemoteSettingsClient.jsm:890:20
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:595:35
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
+1626956770379	Marionette	INFO	Stopped listening on port 58188
+1626956772299	geckodriver	INFO	Listening on 127.0.0.1:64756
+1626956775358	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilefHlJ7b"
+1626956777168	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofilefHlJ7b\\search.json.mozlz4", (void 0)))
+1626956783945	Marionette	INFO	Listening on port 64765
+1626956784419	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe1JavaScript error: https://pay.gold.razer.com/order/SW14WjIxNXBHNFpVTXIxOEJjQmVvbDJYOU5zZ3h0U000NnNwaVZFN2pXdz0 line 2 > injectedScript, line 30: ReferenceError: clearCode is not defined
+JavaScript error: https://pay.gold.razer.com/order/SW14WjIxNXBHNFpVTXIxOEJjQmVvbDJYOU5zZ3h0U000NnNwaVZFN2pXdz0 line 2 > injectedScript, line 30: ReferenceError: clearCode is not defined
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626957399847	Marionette	INFO	Stopped listening on port 64828
+cludes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+1626956876828	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: resource://devtools/server/actors/inspector/event-collector.js, line 530: debuggee 'https://cdn.midasbuy.com/oversea_web/static/js/midas.runtime.js:1' would run
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://cdn.midasbuy.com/oversea_web/static/css/vendor.40715031.css?max_age=864000 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://cdn.midasbuy.com/oversea_web/static/css/buypage.4ef96633.css?max_age=864000 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://cdn.midasbuy.com/oversea_web/static/css/media.4280ca39.css?max_age=864000 without a browsingContextID set
+JavaScript error: resource://devtools/client/framework/devtools.js, line 757: TypeError: inspector.inspectorFront is undefined
+console.error: "Error writing response to: skipBreakpoints"
+console.error: "Error while calling actor 'thread's method 'skipBreakpoints'" "Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance."
+console.error: (new Error("Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance.", "resource://devtools/shared/protocol/Response.js", 55))
+console.error: "Error writing response to: skipBreakpoints"
+console.log: (new Error("Protocol error (Error): Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance. from: server0.conn0.child4/thread21 (resource://devtools/shared/protocol/Response.js:55:15)", "resource://devtools/shared/protocol/Front.js", 365))
+console.error: "Error while calling actor 'thread's method 'skipBreakpoints'" "Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance."
+console.error: (new Error("Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance.", "resource://devtools/shared/protocol/Response.js", 55))
+console.log: (new Error("Protocol error (Error): Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance. from: server0.conn0.child4/thread21 (resource://devtools/shared/protocol/Response.js:55:15)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+1626957110085	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 8: SyntaxError: unexpected token: '{'
+1626957398915	Marionette	INFO	Stopped listening on port 64765
+1629656635059	geckodriver	INFO	Listening on 127.0.0.1:54867
+1629656638309	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileTtP3o4"
+1629656650865	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofileTtP3o4\\search.json.mozlz4", (void 0)))
+[Parent 15220, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1629656694870	Marionette	INFO	Listening on port 54875
+1629656695459	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Cha1629656941017	Marionette	INFO	Stopped listening on port 54998
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+1629656939887	Marionette	INFO	Stopped listening on port 54875
+1629657033966	geckodriver	INFO	Listening on 127.0.0.1:63243
+1629657037401	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilesgzrJa"
+1629657038629	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofilesgzrJa\\search.json.mozlz4", (void 0)))
+1629657044149	Marionette	INFO	Listening on port 63251
+1629657044389	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Erro1629657047772	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEIJavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+1629657129900	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modu1629657529015	Marionette	INFO	Stopped listening on port 63290
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+plates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+1629657527975	Marionette	INFO	Stopped listening on port 63251
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629657534827	geckodriver	INFO	Listening on 127.0.0.1:63631
+1629657538181	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileyeszen"
+1629657539610	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofileyeszen\\search.json.mozlz4", (void 0)))
+1629657546796	Marionette	INFO	Listening on port 63640
+1629657547495	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.midasbuy.com/midasbuy/sg/buy/pubgm, line 49: ReferenceError: Aegis is not defined
+JavaScript error: https://www.midasbuy.com/midasbuy/ot/buy/pubgm, line 43: ReferenceError: Aegis is not defined
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://www.midasbuy.com/serviceWorker for scope https://www.midasbuy.com/ threw an exception during script evaluation.
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://www.midasbuy.com/serviceWorker for scope https://www.midasbuy.com/ threw an exception during script evaluation.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0016,name=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0016,name=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost[Parent 13492, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1629657779781	Marionette	INFO	Stopped listening on port 63698
+opped listening on port 63640
+1629657776310	geckodriver	INFO	Listening on 127.0.0.1:63183
+1629657779447	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileXrCID7"
+1629657780695	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofileXrCID7\\search.json.mozlz4", (void 0)))
+1629657786748	Marionette	INFO	Listening on port 63199
+1629657786930	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Erro1629657790117	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEIJavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe1console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-WLBG4NH, line 227: unreachable code after return statement
+1629659810231	Marionette	INFO	Stopped listening on port 63243
+/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1629658489122	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+1629658640008	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+1629658805075	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+1629659228169	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/jquery.min.js?v=RC8, line 2: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+1629659291337	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/jquery.min.js?v=RC8, line 2: NS_ERROR_NOT_INITIALIZED: 
+1629659508148	Marionette	INFO	Stopped listening on port 63199
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1630126685998	geckodriver	INFO	Listening on 127.0.0.1:63976
+1630126689037	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofile9MInLP"
+1630126694942	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofile9MInLP\\search.json.mozlz4", (void 0)))
+1630126704618	Marionette	INFO	Listening on port 63985
+1630126704978	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Erro1630126709698	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEIJavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe11630127141272	Marionette	INFO	Stopped listening on port 64055
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+1630127136451	Marionette	INFO	Stopped listening on port 63985
+1630127159128	geckodriver	INFO	Listening on 127.0.0.1:62219
+1630127162465	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileSy4sjs"
+1630127164836	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofileSy4sjs\\search.json.mozlz4", (void 0)))
+1630127170965	Marionette	INFO	Listening on port 62229
+1630127171797	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.midasbuy.com"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: resource://devtools/server/actors/inspector/event-collector.js, line 530: debuggee 'https://cdn.midasbuy.com/oversea_web/static/js/midas.runtime.js:1' would run
+console.error: "Error writing response to: skipBreakpoints"
+console.error: "Error while calling actor 'thread's method 'skipBreakpoints'" "Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance."
+console.error: (new Error("Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance.", "resource://devtools/shared/protocol/Response.js", 55))
+console.error: "Error writing response to: skipBreakpoints"
+console.error: "Error while calling actor 'thread's method 'skipBreakpoints'" "Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance."
+console.error: (new Error("Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance.", "resource://devtools/shared/protocol/Response.js", 55))
+console.log: (new Error("Protocol error (Error): Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance. from: server0.conn0.child4/thread21 (resource://devtools/shared/protocol/Response.js:55:15)", "resource://devtools/shared/protocol/Front.js", 365))
+console.log: (new Error("Protocol error (Error): Response can only be a `RetVal` instance or an object with one property being a `RetVal` instance. from: server0.conn0.child4/thread21 (resource://devtools/shared/protocol/Response.js:55:15)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: resource://devtools/client/framework/devtools.js, line 757: TypeError: inspector.inspectorFront is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.midasbuy.com"
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://cdn.midasbuy.com/oversea_web/static/css/vendor.bae26df9.css?max_age=864000 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://cdn.midasbuy.com/oversea_web/static/css/buypage.8721804b.css?max_age=864000 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://cdn.midasbuy.com/oversea_web/static/css/media.4264d618.css?max_age=864000 without a browsingContextID set
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.midasbuy.com"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1001))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:358:10
+
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child4/pagestyle33 (resource://devtools/server/actors/page-style.js:1001:5)", "resource://devtools/shared/protocol/Front.js", 365))
+1630129301528	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1630129304479	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1630130125684	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1630130140278	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://cdn.midasbuy.com/oversea_web/static/css/vendor.bae26df9.css?max_age=864000 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://cdn.midasbuy.com/oversea_web/static/css/buypage.8721804b.css?max_age=864000 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://cdn.midasbuy.com/oversea_web/static/css/media.4264d618.css?max_age=864000 without a browsingContextID set
+1630131250877	Marionette	INFO	Stopped listening on port 62229
+0131249958	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilenEPS0w"
+1630131252398	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofilenEPS0w\\search.json.mozlz4", (void 0)))
+1630131261500	Marionette	INFO	Listening on port 60589
+1630131261731	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1630131625343	Marionette	INFO	Stopped listening on port 60589
+1630150327317	geckodriver	INFO	Listening on 127.0.0.1:57012
+1630150330330	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileEBgcE6"
+1630150332797	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofileEBgcE6\\search.json.mozlz4", (void 0)))
+1630150339031	Marionette	INFO	Listening on port 57020
+1630150339573	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/1630150444074	Marionette	INFO	Stopped listening on port 57070
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+s/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+1630150443555	Marionette	INFO	Stopped listening on port 57020
+1630150445958	geckodriver	INFO	Listening on 127.0.0.1:57177
+1630150449009	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileniqtf7"
+1630150452163	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofileniqtf7\\search.json.mozlz4", (void 0)))
+1630150459247	Marionette	INFO	Listening on port 57188
+1630150459623	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe1JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-WLBG4NH, line 228: unreachable code after return statement
+1630150970831	Marionette	INFO	Stopped listening on port 51985
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+or: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC8, line 6: TypeError: e is undefined
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+1630150559637	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://Fawaz:Qwe123%40$@alcaptainunlock.com/Chadid2020/includes/3rdparty/datagrid/modules/jscalendar/skins/aqua/theme.css?v=RC8, line 1: SyntaxError: unexpected token: '{'
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1716: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1716: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1716: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1716: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1716: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1716: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1716: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+[Parent 13836, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1575: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1630150968756	Marionette	INFO	Stopped listening on port 57188
+1637768064420	geckodriver	INFO	Listening on 127.0.0.1:50717
+1637768067497	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilexnDmZI"
+1637768075697	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofilexnDmZI\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+[Parent 16348, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1637768103571	Marionette	INFO	Listening on port 50725
+1637768104162	Marionette	WARN	TLS certificate errors will be ignored for this session
+1637768373784	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+Marionette threw an error: TypeError: this.currentSession is null
+GeckoDriver.prototype.getBrowsingContext@chrome://marionette/content/driver.js:292:5
+GeckoDriver.prototype.getActor/<@chrome://marionette/content/driver.js:264:10
+getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:327:29
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+[Parent 16348, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1637768650457	Marionette	INFO	Stopped listening on port 50725
+WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1637768661568	Marionette	INFO	Stopped listening on port 50803
+1637768685635	geckodriver	INFO	Listening on 127.0.0.1:51147
+1637768688720	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileIt0YF8"
+1637768690215	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofileIt0YF8\\search.json.mozlz4", (void 0)))
+1637768695771	Marionette	INFO	Listening on port 51156
+1637768696904	Marionette	WARN	TLS certificate errors will be ignored for this session
+1637768939016	Marionette	INFO	Stopped listening on port 51156
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileOVtdqN"
+1637768701055	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofileOVtdqN\\search.json.mozlz4", (void 0)))
+1637768708302	Marionette	INFO	Listening on port 51204
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1637768710524	Marionette	WARN	TLS certificate errors will be ignored for this session
+1637768941525	Marionette	INFO	Stopped listening on port 51204
+1641753029316	geckodriver	INFO	Listening on 127.0.0.1:51738
+1641753032383	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilemgfXYT"
+1641753038595	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofilemgfXYT\\search.json.mozlz4", (void 0)))
+[Parent 3292, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1641753057862	Marionette	INFO	Listening on port 51746
+1641753058556	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://kepler.captcha.qcloud.com/tencent-kepler.js?appId=9865970, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://kepler.captcha.qcloud.com/tencent-kepler.js?appId=9865970, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641753147916	Marionette	INFO	Stopped listening on port 51746
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+[Parent 3292, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+3148656	Marionette	INFO	Stopped listening on port 51817
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+[Parent 6948, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1641756416649	geckodriver	INFO	Listening on 127.0.0.1:53015
+1641756421188	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileKaGDTM"
+1641756422339	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofileKaGDTM\\search.json.mozlz4", (void 0)))
+1641756427303	Marionette	INFO	Listening on port 53025
+1641756429495	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://kepler.captcha.qcloud.com/tencent-kepler.js?appId=9865970, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://jamal:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC11, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC11, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC11, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC11,1641756710194	Marionette	INFO	Stopped listening on port 53077
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 2956, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1641756721910	geckodriver	INFO	Listening on 127.0.0.1:53199
+1641756724963	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileTOlqgD"
+1641756727241	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofileTOlqgD\\search.json.mozlz4", (void 0)))
+1641756731891	Marionette	INFO	Listening on port 53207
+1641756732339	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://kepler.captcha.qcloud.com/tencent-kepler.js?appId=9865970, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://kepler.captcha.qcloud.com/tencent-kepler.js?appId=9865970, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://jamal:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC11, line 6: TypeError: e is undefined
+1641756870848	Marionette	INFO	Stopped listening on port 53207
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAll1641756872811	Marionette	INFO	Stopped listening on port 53253
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1641757273788	geckodriver	INFO	Listening on 127.0.0.1:53455
+1641757276910	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileLw28An"
+1641757277440	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofileLw28An\\search.json.mozlz4", (void 0)))
+1641757283198	Marionette	INFO	Listening on port 53463
+1641757283227	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://kepler.captcha.qcloud.com/tencent-kepler.js?appId=9865970, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://jamal:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC11, line 6: TypeError: e is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alcaptainunlock.com"
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:load_fromsubpage('edituser.editimeiorder&id=227168','SERVER #227168')'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThr1641757600881	Marionette	INFO	Stopped listening on port 53516
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+watch@resource://devtools/server/actors/resources/sources.js:52:17
+watchResources@resource://devtools/server/actors/resources/index.js:242:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:175:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:52:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:582:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:496:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:load_fromsubpage('edituser.editimeiorder&id=227168','SERVER #227168')'
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alcaptainunlock.com"
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 192: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 192: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 192: TypeError: rule is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alcaptainunlock.com"
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2314))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2314))
+console.error: "Error sending event: overflow-change"
+console.error: (new TypeError("can't access dead object", "resource://devtools/server/actors/inspector/utils.js", 132))
+TypeError: can't access dead object: standardTreeWalkerFilter@resource://devtools/server/actors/inspector/utils.js:132:5
+isSkippedNode@resource://devtools/server/actors/inspector/document-walker.js:217:17
+getStartingNode@resource://devtools/server/actors/inspector/document-walker.js:172:27
+DocumentWalker@resource://devtools/server/actors/inspector/document-walker.js:79:34
+getNonAnonymousDocumentWalker@resource://devtools/server/actors/inspector/walker.js:352:12
+rawParentNode@resource://devtools/server/actors/inspector/walker.js:706:27
+parentNode@resource://devtools/server/actors/inspector/walker.js:685:25
+form@resource://devtools/server/actors/inspector/node.js:161:36
+write@resource://devtools/shared/protocol/types.js:363:32
+types.addArrayType/write/<@resource://devtools/shared/protocol/types.js:215:33
+write@resource://devtools/shared/protocol/types.js:215:16
+write@resource://devtools/shared/protocol/Request.js:109:22
+write@resource://devtools/shared/protocol/Request.js:39:26
+_sendEvent@resource://devtools/shared/protocol/Actor.js:66:24
+initialize/<@resource://devtools/shared/protocol/Actor.js:46:16
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+_onReflows@resource://devtools/server/actors/inspector/walker.js:592:12
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+_startEventLoop@resource://devtools/server/actors/reflow.js:314:12
+notify@resource://gre/modules/Timer.jsm:62:17
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2314))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2314))
+console.error: "Error sending event: overflow-change"
+console.error: (new TypeError("can't access dead object", "resource://devtools/server/actors/inspector/utils.js", 132))
+TypeError: can't access dead object: standardTreeWalkerFilter@resource://devtools/server/actors/inspector/utils.js:132:5
+isSkippedNode@resource://devtools/server/actors/inspector/document-walker.js:217:17
+getStartingNode@resource://devtools/server/actors/inspector/document-walker.js:172:27
+DocumentWalker@resource://devtools/server/actors/inspector/document-walker.js:79:34
+getNonAnonymousDocumentWalker@resource://devtools/server/actors/inspector/walker.js:352:12
+rawParentNode@resource://devtools/server/actors/inspector/walker.js:706:27
+parentNode@resource://devtools/server/actors/inspector/walker.js:685:25
+form@resource://devtools/server/actors/inspector/node.js:161:36
+write@resource://devtools/shared/protocol/types.js:363:32
+types.addArrayType/write/<@resource://devtools/shared/protocol/types.js:215:33
+write@resource://devtools/shared/protocol/types.js:215:16
+write@resource://devtools/shared/protocol/Request.js:109:22
+write@resource://devtools/shared/protocol/Request.js:39:26
+_sendEvent@resource://devtools/shared/protocol/Actor.js:66:24
+initialize/<@resource://devtools/shared/protocol/Actor.js:46:16
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+_onReflows@resource://devtools/server/actors/inspector/walker.js:592:12
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+_startEventLoop@resource://devtools/server/actors/reflow.js:314:12
+notify@resource://gre/modules/Timer.jsm:62:17
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alcaptainunlock.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alcaptainunlock.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alcaptainunlock.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alcaptainunlock.com"
+1641757599519	Marionette	INFO	Stopped listening on port 53463
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1641757616265	geckodriver	INFO	Listening on 127.0.0.1:53657
+1641757619312	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofile0ACAnp"
+1641757620210	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofile0ACAnp\\search.json.mozlz4", (void 0)))
+1641757624817	Marionette	INFO	Listening on port 53666
+1641757625550	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://kepler.captcha.qcloud.com/tencent-kepler.js?appId=9865970, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://jamal:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC11, line 6: TypeError: e is undefined
+1641757689827	Marionette	INFO	Stopped listening on port 53666
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590004,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590004,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x591641757690522	Marionette	INFO	Stopped listening on port 53717
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1641757692803	geckodriver	INFO	Listening on 127.0.0.1:53823
+1641757695869	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileOQE8et"
+1641757696842	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofileOQE8et\\search.json.mozlz4", (void 0)))
+1641757701836	Marionette	INFO	Listening on port 53833
+1641757702402	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://kepler.captcha.qcloud.com/tencent-kepler.js?appId=9865970, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://jamal:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC11, line 6: TypeError: e is undefined
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0023,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: resource://devtools/server/actors/inspector/event-collector.js, lin1641758803331	Marionette	INFO	Stopped listening on port 53886
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+enter@resource://devtools/server/actors/utils/event-loop.js:83:18
+_pauseAndRespond@resource://devtools/server/actors/thread.js:932:29
+onDebuggerStatement@resource://devtools/server/actors/thread.js:1875:17
+@https://www.midasbuy.com/midasbuy/sg/login-sdk?hidePop=1#login line 137 > eval:1:1
+_0x17f16e/<@https://www.midasbuy.com/midasbuy/sg/login-sdk?hidePop=1#login:137:1969
+@https://www.midasbuy.com/midasbuy/sg/login-sdk?hidePop=1#login:137:1
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/client/framework/devtools.js, line 767: TypeError: inspector.inspectorFront is undefined
+JavaScript error: resource://devtools/client/shared/inplace-editor.js, line 1542: TypeError: query.match(...) is null
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1641758802048	Marionette	INFO	Stopped listening on port 53833
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390116,name=PContent::Msg_AccumulateChildHistograms) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39011B,name=PContent::Msg_RecordDiscardedData) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641758814255	geckodriver	INFO	Listening on 127.0.0.1:56225
+1641758817708	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofilekNLk4v"
+1641758819667	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofilekNLk4v\\search.json.mozlz4", (void 0)))
+1641758828323	Marionette	INFO	Listening on port 56234
+1641758828390	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Erro1641758832210	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEIJavaScript warning: https://kepler.captcha.qcloud.com/tencent-kepler.js?appId=9865970, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://jamal:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC11, line 6: TypeError: e is undefined
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteCommands'
+1641758918040	Marionette	INFO	Stopped listening on port 56234
+Agent	WARN	TLS certificate errors will be ignored for this session
+1641758918738	Marionette	INFO	Stopped listening on port 56291
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1641758972657	geckodriver	INFO	Listening on 127.0.0.1:56525
+1641758975720	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileOWo9lO"
+1641758976686	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofileOWo9lO\\search.json.mozlz4", (void 0)))
+1641758981199	Marionette	INFO	Listening on port 56534
+1641758981525	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://kepler.captcha.qcloud.com/tencent-kepler.js?appId=9865970, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://jamal:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC11, line 6: TypeError: e is undefined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: resource://devtools/server/actors/inspector/event-collector.js, line 530: debuggee 'https://cdn.midasbuy.com/oversea_web/static/js/midas.runtime.js:1' would run
+SourceActor threw an exception: [Exception... "Component returned f1641759112431	Marionette	INFO	Stopped listening on port 56590
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+sUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+enter@resource://devtools/server/actors/utils/event-loop.js:83:18
+_pauseAndRespond@resource://devtools/server/actors/thread.js:932:29
+onDebuggerStatement@resource://devtools/server/actors/thread.js:1875:17
+@https://www.midasbuy.com/midasbuy/sg/buy/pubgm line 135 > eval:1:1
+_0x17f16e/<@https://www.midasbuy.com/midasbuy/sg/buy/pubgm:135:1969
+@https://www.midasbuy.com/midasbuy/sg/buy/pubgm:135:1
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/client/framework/devtools.js, line 767: TypeError: inspector.inspectorFront is undefined
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1641759111089	Marionette	INFO	Stopped listening on port 56534
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590004,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+1641759130505	geckodriver	INFO	Listening on 127.0.0.1:56752
+1641759134098	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileS5P9xP"
+1641759134788	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofileS5P9xP\\search.json.mozlz4", (void 0)))
+1641759139326	Marionette	INFO	Listening on port 56761
+1641759139398	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://kepler.captcha.qcloud.com/tencent-kepler.js?appId=9865970, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://jamal:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC11, line 6: TypeError: e is undefined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: resource://devtools/server/actors/inspector/event-collector.js, line 530: debuggee 'https://cdn.midasbuy.com/oversea_web/static/js/midas.runtime.js:1' would run
+JavaScript error: resource://devtools/client/framework/devtools.js,1641759571499	Marionette	INFO	Stopped listening on port 56820
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+nStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+enter@resource://devtools/server/actors/utils/event-loop.js:83:18
+_pauseAndRespond@resource://devtools/server/actors/thread.js:932:29
+onDebuggerStatement@resource://devtools/server/actors/thread.js:1875:17
+@https://www.midasbuy.com/midasbuy/sg/buy/pubgm line 135 > eval:1:1
+_0x17f16e/<@https://www.midasbuy.com/midasbuy/sg/buy/pubgm:135:1969
+@https://www.midasbuy.com/midasbuy/sg/buy/pubgm:135:1
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1641759570314	Marionette	INFO	Stopped listening on port 56761
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1641759581256	geckodriver	INFO	Listening on 127.0.0.1:57190
+1641759584348	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEI~1\\AppData\\Local\\Temp\\rust_mozprofileUNeIGJ"
+1641759585601	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HUSSEIN ALLAW\\AppData\\Local\\Temp\\rust_mozprofileUNeIGJ\\search.json.mozlz4", (void 0)))
+1641759591135	Marionette	INFO	Listening on port 57199
+1641759593439	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Erro1641759596670	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\HUSSEIJavaScript warning: https://kepler.captcha.qcloud.com/tencent-kepler.js?appId=9865970, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://jamal:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC11, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Qwe123%40$@alcaptainunlock.com/Chadid2020/templates/default2/js/bootstrap.bundle.min.js?v=RC11, line 6: TypeError: e is undefined
+JavaScript error: https://jamal:Qwe123%40$@alcaptainunl1641759838657	Marionette	INFO	Stopped listening on port 57253
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/CrashMonitor.jsm, line 201: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+ port 57199
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]

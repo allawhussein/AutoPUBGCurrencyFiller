@@ -4,15 +4,15 @@ import pickle
 
 alcaptain_login_username = "Auto_API"
 alcaptain_login_password = "112233jj"
-alcaptain_prompt_username = "Fawaz"
+alcaptain_prompt_username = "jamal"
 alcaptain_prompt_password = "Qwe123@$"
 
 country_code = "my"
 payment_method = "Razer Gold"
 target_order = "Pubg . Mobile By ID"
 
-country_code_list = ["ot", "ph", "check"]
-target_order_list = ["Pubg Mobile By ID", "Pubg .. Mobile By ID", "validation test"]
+country_code_list = ["ot", "sg", "check"]
+target_order_list = ["Pubg Mobile By ID", "Pubg-Mobile By ID", "validation test"]
 #target_order_list = ["General Points"]
 
 pubg_id_verifier_wait = 10 #number of seconds to wait for correct ID verification
@@ -59,19 +59,14 @@ def archive(order_data = None, file_name = "sus_archive.csv"):
             csv_file = open(file_name, "r", encoding = "utf-8")
             list_of_data = csv_file.readlines()
             for row in list_of_data:
-                list_of_data[list_of_data.index(row)] = tuple(row.split("\n")[0].split(","))
+                list_of_data[list_of_data.index(row)] = tuple(row.split("\n")[0])
             csv_file.close()
             return list_of_data
         else:
             return []
     else:
         csv_file = open(file_name, "a", encoding = "utf-8")
-        writeable_to_file = ""
-        for item in order_data:
-            writeable_to_file += str(item) + ","
-        writeable_to_file = writeable_to_file[:-1]
-        writeable_to_file += "\n"
-        csv_file.write(writeable_to_file)
+        csv_file.write(order_data + "\n")
         csv_file.close()
 
 def rewrite_accounts(counter):
@@ -94,9 +89,9 @@ def remove_last_order():
         susfile.write("".join(sus_orders))
     
 def remove_order(order_id):
-    with open("sus_archive.txt", "r", encoding = "utf-8") as sus_file:
+    with open("sus_archive.csc", "r", encoding = "utf-8") as sus_file:
         sus_orders_list = sus_file.readlines()
-    with open("sus_archive.txt", "w", encoding = "utf-8") as sus_file:
+    with open("sus_archive.csv", "w", encoding = "utf-8") as sus_file:
         for order in sus_order_list:
             if order[0] == order_id:
                 continue
